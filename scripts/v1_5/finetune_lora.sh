@@ -1,4 +1,20 @@
+#SBATCH -J vidllava_cvqa_ft
+#SBATCH -p standard
+#SBATCH -N 1
+#SBATCH -n 1              
+#SBATCH --gres=gpu:1
+#SBATCH --cpus-per-task=1
+#SBATCH -t 0:15:0
+#SBATCH --job-name=videollava_cvqa_ft
+#SBATCH --error=videollava_cvqa_ft_%j.err
+#SBATCH --output=videollava_cvqa_ft_%j.out
+#SBATCH --mem=32G
+module load conda
+module load compiler/cuda/11.8
+source activate videollava
+ulimit -s unlimited
 
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 
 JSON_FOLDER="data/causalvidqa/annotations"
 # IMAGE_FOLDER="llava_all_image_video"
@@ -21,8 +37,8 @@ HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 deepspeed videollava/train/train_me
     --bf16 True \
     --output_dir ./checkpoints/videollava-7b-lora \
     --num_train_epochs 1 \
-    --per_device_train_batch_size 4 \
-    --per_device_eval_batch_size 4 \
+    --per_device_train_batch_size 2 \
+    --per_device_eval_batch_size 2 \
     --gradient_accumulation_steps 1 \
     --evaluation_strategy "no" \
     --save_strategy "steps" \
@@ -34,7 +50,7 @@ HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 deepspeed videollava/train/train_me
     --lr_scheduler_type "cosine" \
     --logging_steps 1 \
     --tf32 True \
-    --model_max_length 2048  --tokenizer_model_max_length 3072 \
+    --model_max_length 1024  --tokenizer_model_max_length 2048 \
     --gradient_checkpointing True \
     --dataloader_num_workers 4 \
     --lazy_preprocess True \

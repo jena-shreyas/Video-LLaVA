@@ -9,12 +9,12 @@
 #SBATCH --error=videollava_cvqa_ft_%j.err
 #SBATCH --output=videollava_cvqa_ft_%j.out
 #SBATCH --mem=32G
-module load conda
-module load compiler/cuda/11.8
-source activate videollava
-ulimit -s unlimited
+# module load conda
+# module load compiler/cuda/11.8
+# source activate videollava
+# ulimit -s unlimited
 
-export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+# export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 
 JSON_FOLDER="data/causalvidqa/annotations"
 # IMAGE_FOLDER="llava_all_image_video"
@@ -25,7 +25,7 @@ HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 deepspeed videollava/train/train_me
     --deepspeed ./scripts/zero2_offload.json \
     --model_name_or_path lmsys/vicuna-7b-v1.5 \
     --version v1 \
-    --data_path ${JSON_FOLDER}/train.json \
+    --data_path ${JSON_FOLDER}/data_orig_sample.json \
     --video_folder ${VIDEO_FOLDER} \
     --video_tower LanguageBind/LanguageBind_Video_merge \
     --mm_projector_type mlp2x_gelu \
@@ -37,8 +37,8 @@ HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 deepspeed videollava/train/train_me
     --bf16 True \
     --output_dir ./checkpoints/videollava-7b-lora \
     --num_train_epochs 1 \
-    --per_device_train_batch_size 2 \
-    --per_device_eval_batch_size 2 \
+    --per_device_train_batch_size 4 \
+    --per_device_eval_batch_size 4 \
     --gradient_accumulation_steps 1 \
     --evaluation_strategy "no" \
     --save_strategy "steps" \

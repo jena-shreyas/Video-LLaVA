@@ -1,0 +1,1502 @@
+[
+    {
+        "answer": "Option D",
+        "type": 0,
+        "question_id": "gLvfaI8FEr8_000001_000011_descriptive"
+    },
+    {
+        "answer": "Option D",
+        "type": 3,
+        "question_id": "3CWxCLr3Xbk_000011_000021_counterfactual"
+    },
+    {
+        "answer": "Option D",
+        "type": 1,
+        "question_id": "HgCKPN3Y9Cg_000705_000715_explanatory"
+    },
+    {
+        "answer": "Option E",
+        "type": 1,
+        "question_id": "zO-6g1r5fKQ_000001_000011_explanatory"
+    },
+    {
+        "answer": "Option C",
+        "type": 3,
+        "question_id": "UW1mNVsTdCs_000000_000010_counterfactual"
+    },
+    {
+        "answer": "Option D",
+        "type": 0,
+        "question_id": "pywHytueU1s_000031_000041_descriptive"
+    },
+    {
+        "answer": "Option C",
+        "type": 0,
+        "question_id": "b4FIQL0xioQ_000347_000357_descriptive"
+    },
+    {
+        "answer": "Option B",
+        "type": 2,
+        "question_id": "FA4yAEBX74w_000008_000018_predictive"
+    },
+    {
+        "answer": "Option E",
+        "type": 0,
+        "question_id": "8KZJ1qHNBXE_000003_000013_descriptive"
+    },
+    {
+        "answer": "Option D",
+        "type": 3,
+        "question_id": "0NIzLI3uk-A_000142_000152_counterfactual"
+    },
+    {
+        "answer": "Option A",
+        "type": 2,
+        "question_id": "a3rCWEs8VIY_000210_000220_predictive"
+    },
+    {
+        "answer": "Option D",
+        "type": 0,
+        "question_id": "kg2fptiN68s_000049_000059_descriptive"
+    },
+    {
+        "answer": "Option C",
+        "type": 2,
+        "question_id": "HgCKPN3Y9Cg_000705_000715_predictive"
+    },
+    {
+        "answer": "Option D",
+        "type": 2,
+        "question_id": "cmRK2QaIy_k_000152_000162_predictive"
+    },
+    {
+        "answer": "Option B",
+        "type": 2,
+        "question_id": "mW-i0QS9aBk_000002_000012_predictive"
+    },
+    {
+        "answer": "Option D",
+        "type": 3,
+        "question_id": "pywHytueU1s_000031_000041_counterfactual"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "ZQezF8sgljg_000073_000083_explanatory"
+    },
+    {
+        "answer": "Option C",
+        "type": 3,
+        "question_id": "2HcmuER9nmQ_000001_000011_counterfactual"
+    },
+    {
+        "answer": "Option D",
+        "type": 1,
+        "question_id": "WVPXUlLk8wM_000020_000030_explanatory"
+    },
+    {
+        "answer": "Option D",
+        "type": 1,
+        "question_id": "Qw4l-tlk-ro_000059_000069_explanatory"
+    },
+    {
+        "answer": "Option C",
+        "type": 0,
+        "question_id": "YIwbUpzWsT4_000010_000020_descriptive"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "3CWxCLr3Xbk_000011_000021_explanatory"
+    },
+    {
+        "answer": "Option D",
+        "type": 3,
+        "question_id": "mW-i0QS9aBk_000002_000012_counterfactual"
+    },
+    {
+        "answer": "Option A",
+        "type": 3,
+        "question_id": "cmRK2QaIy_k_000152_000162_counterfactual"
+    },
+    {
+        "answer": "Option B",
+        "type": 1,
+        "question_id": "Nw6vib7zHpA_000007_000017_explanatory"
+    },
+    {
+        "answer": "Option C",
+        "type": 3,
+        "question_id": "b4FIQL0xioQ_000347_000357_counterfactual"
+    },
+    {
+        "answer": "Option E",
+        "type": 1,
+        "question_id": "0NIzLI3uk-A_000142_000152_explanatory"
+    },
+    {
+        "answer": "Option E",
+        "type": 3,
+        "question_id": "7ME6b0f3iL0_000026_000036_counterfactual"
+    },
+    {
+        "answer": "Option D",
+        "type": 1,
+        "question_id": "We2rldGllrg_000100_000110_explanatory"
+    },
+    {
+        "answer": "Option E",
+        "type": 0,
+        "question_id": "UW1mNVsTdCs_000000_000010_descriptive"
+    },
+    {
+        "answer": "Option D",
+        "type": 1,
+        "question_id": "8KZJ1qHNBXE_000003_000013_explanatory"
+    },
+    {
+        "answer": "Option E",
+        "type": 2,
+        "question_id": "b4FIQL0xioQ_000347_000357_predictive"
+    },
+    {
+        "answer": "Option E",
+        "type": 2,
+        "question_id": "7ME6b0f3iL0_000026_000036_predictive"
+    },
+    {
+        "answer": "Option D",
+        "type": 2,
+        "question_id": "xZ9zmoP07Ek_000013_000023_predictive"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "a3rCWEs8VIY_000210_000220_explanatory"
+    },
+    {
+        "answer": "Option A",
+        "type": 3,
+        "question_id": "xZ9zmoP07Ek_000013_000023_counterfactual"
+    },
+    {
+        "answer": "Option C",
+        "type": 2,
+        "question_id": "2HcmuER9nmQ_000001_000011_predictive"
+    },
+    {
+        "answer": "Option B",
+        "type": 3,
+        "question_id": "We2rldGllrg_000100_000110_counterfactual"
+    },
+    {
+        "answer": "Option D",
+        "type": 0,
+        "question_id": "mW-i0QS9aBk_000002_000012_descriptive"
+    },
+    {
+        "answer": "Option D",
+        "type": 1,
+        "question_id": "9TWYfNKfCDs_000071_000081_explanatory"
+    },
+    {
+        "answer": "Option E",
+        "type": 1,
+        "question_id": "pywHytueU1s_000031_000041_explanatory"
+    },
+    {
+        "answer": "Option A",
+        "type": 1,
+        "question_id": "kg2fptiN68s_000049_000059_explanatory"
+    },
+    {
+        "answer": "Option D",
+        "type": 0,
+        "question_id": "kKOykgWaHj0_000158_000168_descriptive"
+    },
+    {
+        "answer": "Option B",
+        "type": 2,
+        "question_id": "fUNxGGTiVCM_000018_000028_predictive"
+    },
+    {
+        "answer": "Option C",
+        "type": 2,
+        "question_id": "We2rldGllrg_000100_000110_predictive"
+    },
+    {
+        "answer": "Option B",
+        "type": 2,
+        "question_id": "3CWxCLr3Xbk_000011_000021_predictive"
+    },
+    {
+        "answer": "Option E",
+        "type": 0,
+        "question_id": "fUNxGGTiVCM_000018_000028_descriptive"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "Ky9azX5WHDs_000376_000386_explanatory"
+    },
+    {
+        "answer": "Option D",
+        "type": 3,
+        "question_id": "Yhu2Lm1Z0Zg_000029_000039_counterfactual"
+    },
+    {
+        "answer": "Option B",
+        "type": 1,
+        "question_id": "Yhu2Lm1Z0Zg_000029_000039_explanatory"
+    },
+    {
+        "answer": "Option B",
+        "type": 0,
+        "question_id": "3CWxCLr3Xbk_000011_000021_descriptive"
+    },
+    {
+        "answer": "Option A",
+        "type": 2,
+        "question_id": "U3Ed4pBIbbk_000040_000050_predictive"
+    },
+    {
+        "answer": "Option D",
+        "type": 0,
+        "question_id": "ZQezF8sgljg_000073_000083_descriptive"
+    },
+    {
+        "answer": "Option D",
+        "type": 1,
+        "question_id": "fUNxGGTiVCM_000018_000028_explanatory"
+    },
+    {
+        "answer": "Option D",
+        "type": 2,
+        "question_id": "Qw4l-tlk-ro_000059_000069_predictive"
+    },
+    {
+        "answer": "Option C",
+        "type": 2,
+        "question_id": "pywHytueU1s_000031_000041_predictive"
+    },
+    {
+        "answer": "Option A",
+        "type": 0,
+        "question_id": "46BJgiKGl_c_000000_000010_descriptive"
+    },
+    {
+        "answer": "Option D",
+        "type": 2,
+        "question_id": "Ky9azX5WHDs_000376_000386_predictive"
+    },
+    {
+        "answer": "Option D",
+        "type": 0,
+        "question_id": "o3BJ2JmWLTc_000044_000054_descriptive"
+    },
+    {
+        "answer": "Option E",
+        "type": 0,
+        "question_id": "9TWYfNKfCDs_000071_000081_descriptive"
+    },
+    {
+        "answer": "Option B",
+        "type": 0,
+        "question_id": "WVPXUlLk8wM_000020_000030_descriptive"
+    },
+    {
+        "answer": "Option C",
+        "type": 2,
+        "question_id": "UW1mNVsTdCs_000000_000010_predictive"
+    },
+    {
+        "answer": "Option C",
+        "type": 3,
+        "question_id": "Qw4l-tlk-ro_000059_000069_counterfactual"
+    },
+    {
+        "answer": "Option E",
+        "type": 0,
+        "question_id": "xx4npVGdGB4_000123_000133_descriptive"
+    },
+    {
+        "answer": "Option B",
+        "type": 3,
+        "question_id": "HgCKPN3Y9Cg_000705_000715_counterfactual"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "mW-i0QS9aBk_000002_000012_explanatory"
+    },
+    {
+        "answer": "Option A",
+        "type": 3,
+        "question_id": "fUNxGGTiVCM_000018_000028_counterfactual"
+    },
+    {
+        "answer": "Option B",
+        "type": 0,
+        "question_id": "lVM6-d0zQhE_000022_000032_descriptive"
+    },
+    {
+        "answer": "Option C",
+        "type": 0,
+        "question_id": "Qw4l-tlk-ro_000059_000069_descriptive"
+    },
+    {
+        "answer": "Option E",
+        "type": 3,
+        "question_id": "zO-6g1r5fKQ_000001_000011_counterfactual"
+    },
+    {
+        "answer": "Option C",
+        "type": 2,
+        "question_id": "9t_37F60-Y4_000007_000017_predictive"
+    },
+    {
+        "answer": "Option A",
+        "type": 3,
+        "question_id": "kg2fptiN68s_000049_000059_counterfactual"
+    },
+    {
+        "answer": "Option B",
+        "type": 2,
+        "question_id": "PMx6U_9nmb4_000067_000077_predictive"
+    },
+    {
+        "answer": "Option C",
+        "type": 2,
+        "question_id": "zO-6g1r5fKQ_000001_000011_predictive"
+    },
+    {
+        "answer": "Option E",
+        "type": 3,
+        "question_id": "WVPXUlLk8wM_000020_000030_counterfactual"
+    },
+    {
+        "answer": "Option E",
+        "type": 1,
+        "question_id": "PMx6U_9nmb4_000067_000077_explanatory"
+    },
+    {
+        "answer": "Option D",
+        "type": 3,
+        "question_id": "PMx6U_9nmb4_000067_000077_counterfactual"
+    },
+    {
+        "answer": "Option B",
+        "type": 2,
+        "question_id": "9TWYfNKfCDs_000071_000081_predictive"
+    },
+    {
+        "answer": "Option E",
+        "type": 1,
+        "question_id": "9t_37F60-Y4_000007_000017_explanatory"
+    },
+    {
+        "answer": "Option B",
+        "type": 3,
+        "question_id": "9TWYfNKfCDs_000071_000081_counterfactual"
+    },
+    {
+        "answer": "Option D",
+        "type": 3,
+        "question_id": "U3Ed4pBIbbk_000040_000050_counterfactual"
+    },
+    {
+        "answer": "Option A",
+        "type": 2,
+        "question_id": "g85OdlEOBb0_000003_000013_predictive"
+    },
+    {
+        "answer": "Option B",
+        "type": 0,
+        "question_id": "FA4yAEBX74w_000008_000018_descriptive"
+    },
+    {
+        "answer": "Option C",
+        "type": 2,
+        "question_id": "kg2fptiN68s_000049_000059_predictive"
+    },
+    {
+        "answer": "Option E",
+        "type": 3,
+        "question_id": "Ky9azX5WHDs_000376_000386_counterfactual"
+    },
+    {
+        "answer": "Option A",
+        "type": 0,
+        "question_id": "xZ9zmoP07Ek_000013_000023_descriptive"
+    },
+    {
+        "answer": "Option B",
+        "type": 0,
+        "question_id": "Nw6vib7zHpA_000007_000017_descriptive"
+    },
+    {
+        "answer": "Option D",
+        "type": 1,
+        "question_id": "cmRK2QaIy_k_000152_000162_explanatory"
+    },
+    {
+        "answer": "Option B",
+        "type": 1,
+        "question_id": "b4FIQL0xioQ_000347_000357_explanatory"
+    },
+    {
+        "answer": "Option D",
+        "type": 1,
+        "question_id": "7ME6b0f3iL0_000026_000036_explanatory"
+    },
+    {
+        "answer": "Option A",
+        "type": 0,
+        "question_id": "We2rldGllrg_000100_000110_descriptive"
+    },
+    {
+        "answer": "Option D",
+        "type": 0,
+        "question_id": "Yhu2Lm1Z0Zg_000029_000039_descriptive"
+    },
+    {
+        "answer": "Option C",
+        "type": 3,
+        "question_id": "FA4yAEBX74w_000008_000018_counterfactual"
+    },
+    {
+        "answer": "Option D",
+        "type": 3,
+        "question_id": "9t_37F60-Y4_000007_000017_counterfactual"
+    },
+    {
+        "answer": "Option D",
+        "type": 1,
+        "question_id": "FA4yAEBX74w_000008_000018_explanatory"
+    },
+    {
+        "answer": "Option E",
+        "type": 2,
+        "question_id": "WVPXUlLk8wM_000020_000030_predictive"
+    },
+    {
+        "answer": "Option A",
+        "type": 1,
+        "question_id": "xZ9zmoP07Ek_000013_000023_explanatory"
+    },
+    {
+        "answer": "Option D",
+        "type": 3,
+        "question_id": "a3rCWEs8VIY_000210_000220_counterfactual"
+    },
+    {
+        "answer": "Option A",
+        "type": 0,
+        "question_id": "Ky9azX5WHDs_000376_000386_descriptive"
+    },
+    {
+        "answer": "Option B",
+        "type": 2,
+        "question_id": "0NIzLI3uk-A_000142_000152_predictive"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "HFgIXxJyGmg_000021_000031_explanatory"
+    },
+    {
+        "answer": "Option D",
+        "type": 1,
+        "question_id": "TRofgnYBv4A_000205_000215_explanatory"
+    },
+    {
+        "answer": "Option C",
+        "type": 3,
+        "question_id": "qoOntNwuUo8_000109_000119_counterfactual"
+    },
+    {
+        "answer": "Option B",
+        "type": 0,
+        "question_id": "ooYCWmfzq4U_000034_000044_descriptive"
+    },
+    {
+        "answer": "Option E",
+        "type": 2,
+        "question_id": "HHQFsFD_Cgk_000126_000136_predictive"
+    },
+    {
+        "answer": "Option B",
+        "type": 2,
+        "question_id": "Yhu2Lm1Z0Zg_000029_000039_predictive"
+    },
+    {
+        "answer": "Option D",
+        "type": 0,
+        "question_id": "FAXjXcxEhL8_000026_000036_descriptive"
+    },
+    {
+        "answer": "Option B",
+        "type": 2,
+        "question_id": "HFgIXxJyGmg_000021_000031_predictive"
+    },
+    {
+        "answer": "Option A",
+        "type": 0,
+        "question_id": "8v3f5nuWE1s_000056_000066_descriptive"
+    },
+    {
+        "answer": "Option C",
+        "type": 3,
+        "question_id": "kKOykgWaHj0_000158_000168_counterfactual"
+    },
+    {
+        "answer": "Option C",
+        "type": 2,
+        "question_id": "6AMERQyeg0U_000015_000025_predictive"
+    },
+    {
+        "answer": "Option C",
+        "type": 0,
+        "question_id": "6AMERQyeg0U_000015_000025_descriptive"
+    },
+    {
+        "answer": "Option E",
+        "type": 2,
+        "question_id": "kKOykgWaHj0_000158_000168_predictive"
+    },
+    {
+        "answer": "Option B",
+        "type": 2,
+        "question_id": "xx4npVGdGB4_000123_000133_predictive"
+    },
+    {
+        "answer": "Option E",
+        "type": 2,
+        "question_id": "2E0sg8vzZdU_000111_000121_predictive"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "6AMERQyeg0U_000015_000025_explanatory"
+    },
+    {
+        "answer": "Option E",
+        "type": 1,
+        "question_id": "EAhWa4Vr2X4_000026_000036_explanatory"
+    },
+    {
+        "answer": "Option B",
+        "type": 3,
+        "question_id": "TRofgnYBv4A_000205_000215_counterfactual"
+    },
+    {
+        "answer": "Option D",
+        "type": 3,
+        "question_id": "Nw6vib7zHpA_000007_000017_counterfactual"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "HHQFsFD_Cgk_000126_000136_explanatory"
+    },
+    {
+        "answer": "Option A",
+        "type": 1,
+        "question_id": "46BJgiKGl_c_000000_000010_explanatory"
+    },
+    {
+        "answer": "Option B",
+        "type": 0,
+        "question_id": "nvvq_-RuSWs_000005_000015_descriptive"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "o3BJ2JmWLTc_000044_000054_explanatory"
+    },
+    {
+        "answer": "Option C",
+        "type": 3,
+        "question_id": "VKnGnbkVNhA_000071_000081_counterfactual"
+    },
+    {
+        "answer": "Option C",
+        "type": 3,
+        "question_id": "lVM6-d0zQhE_000022_000032_counterfactual"
+    },
+    {
+        "answer": "Option B",
+        "type": 1,
+        "question_id": "9j56a25X0KI_000016_000026_explanatory"
+    },
+    {
+        "answer": "Option C",
+        "type": 3,
+        "question_id": "gLvfaI8FEr8_000001_000011_counterfactual"
+    },
+    {
+        "answer": "Option D",
+        "type": 1,
+        "question_id": "kKOykgWaHj0_000158_000168_explanatory"
+    },
+    {
+        "answer": "Option C",
+        "type": 3,
+        "question_id": "oN75gAHeygg_000011_000021_counterfactual"
+    },
+    {
+        "answer": "Option D",
+        "type": 1,
+        "question_id": "_6VB0neu50w_000363_000373_explanatory"
+    },
+    {
+        "answer": "Option B",
+        "type": 0,
+        "question_id": "HFgIXxJyGmg_000021_000031_descriptive"
+    },
+    {
+        "answer": "Option B",
+        "type": 1,
+        "question_id": "EiEsXaRebXU_000027_000037_explanatory"
+    },
+    {
+        "answer": "Option C",
+        "type": 2,
+        "question_id": "46BJgiKGl_c_000000_000010_predictive"
+    },
+    {
+        "answer": "Option B",
+        "type": 2,
+        "question_id": "FAXjXcxEhL8_000026_000036_predictive"
+    },
+    {
+        "answer": "Option E",
+        "type": 2,
+        "question_id": "VKnGnbkVNhA_000071_000081_predictive"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "2E0sg8vzZdU_000111_000121_explanatory"
+    },
+    {
+        "answer": "Option B",
+        "type": 3,
+        "question_id": "sXaNQYrb_Gc_000001_000011_counterfactual"
+    },
+    {
+        "answer": "Option B",
+        "type": 2,
+        "question_id": "ZQezF8sgljg_000073_000083_predictive"
+    },
+    {
+        "answer": "Option E",
+        "type": 3,
+        "question_id": "_6VB0neu50w_000363_000373_counterfactual"
+    },
+    {
+        "answer": "Option B",
+        "type": 0,
+        "question_id": "EiEsXaRebXU_000027_000037_descriptive"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "h9jIdgjU_mM_000012_000022_explanatory"
+    },
+    {
+        "answer": "Option D",
+        "type": 0,
+        "question_id": "8k5LbCk1Yi8_000033_000043_descriptive"
+    },
+    {
+        "answer": "Option D",
+        "type": 1,
+        "question_id": "qoOntNwuUo8_000109_000119_explanatory"
+    },
+    {
+        "answer": "Option B",
+        "type": 1,
+        "question_id": "F9GU1RptBK4_000058_000068_explanatory"
+    },
+    {
+        "answer": "Option B",
+        "type": 0,
+        "question_id": "zE7PSjOoErs_000010_000020_descriptive"
+    },
+    {
+        "answer": "Option A",
+        "type": 2,
+        "question_id": "HsfRQ3o1SaA_000011_000021_predictive"
+    },
+    {
+        "answer": "Option D",
+        "type": 2,
+        "question_id": "o3BJ2JmWLTc_000044_000054_predictive"
+    },
+    {
+        "answer": "Option B",
+        "type": 2,
+        "question_id": "gLvfaI8FEr8_000001_000011_predictive"
+    },
+    {
+        "answer": "Option E",
+        "type": 0,
+        "question_id": "TRofgnYBv4A_000205_000215_descriptive"
+    },
+    {
+        "answer": "Option A",
+        "type": 1,
+        "question_id": "FAXjXcxEhL8_000026_000036_explanatory"
+    },
+    {
+        "answer": "Option D",
+        "type": 3,
+        "question_id": "EAhWa4Vr2X4_000026_000036_counterfactual"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "VKnGnbkVNhA_000071_000081_explanatory"
+    },
+    {
+        "answer": "Option C",
+        "type": 0,
+        "question_id": "oN75gAHeygg_000011_000021_descriptive"
+    },
+    {
+        "answer": "Option C",
+        "type": 2,
+        "question_id": "8KZJ1qHNBXE_000003_000013_predictive"
+    },
+    {
+        "answer": "Option A",
+        "type": 0,
+        "question_id": "9j56a25X0KI_000016_000026_descriptive"
+    },
+    {
+        "answer": "Option A",
+        "type": 1,
+        "question_id": "HsfRQ3o1SaA_000011_000021_explanatory"
+    },
+    {
+        "answer": "Option C",
+        "type": 2,
+        "question_id": "YIwbUpzWsT4_000010_000020_predictive"
+    },
+    {
+        "answer": "Option D",
+        "type": 2,
+        "question_id": "F9GU1RptBK4_000058_000068_predictive"
+    },
+    {
+        "answer": "Option B",
+        "type": 0,
+        "question_id": "Ng0-FcUQm-w_000033_000043_descriptive"
+    },
+    {
+        "answer": "Option A",
+        "type": 2,
+        "question_id": "_6VB0neu50w_000363_000373_predictive"
+    },
+    {
+        "answer": "Option E",
+        "type": 0,
+        "question_id": "RjlyiwCwplo_000022_000032_descriptive"
+    },
+    {
+        "answer": "Option C",
+        "type": 0,
+        "question_id": "qoOntNwuUo8_000109_000119_descriptive"
+    },
+    {
+        "answer": "Option D",
+        "type": 0,
+        "question_id": "F9GU1RptBK4_000058_000068_descriptive"
+    },
+    {
+        "answer": "Option D",
+        "type": 2,
+        "question_id": "qoOntNwuUo8_000109_000119_predictive"
+    },
+    {
+        "answer": "Option A",
+        "type": 3,
+        "question_id": "46BJgiKGl_c_000000_000010_counterfactual"
+    },
+    {
+        "answer": "Option B",
+        "type": 0,
+        "question_id": "2ZtWcoG8fmQ_000218_000228_descriptive"
+    },
+    {
+        "answer": "Option D",
+        "type": 3,
+        "question_id": "xx4npVGdGB4_000123_000133_counterfactual"
+    },
+    {
+        "answer": "Option B",
+        "type": 1,
+        "question_id": "ooYCWmfzq4U_000034_000044_explanatory"
+    },
+    {
+        "answer": "Option D",
+        "type": 3,
+        "question_id": "HsfRQ3o1SaA_000011_000021_counterfactual"
+    },
+    {
+        "answer": "Option D",
+        "type": 0,
+        "question_id": "FdWj9zTGeGk_000205_000215_descriptive"
+    },
+    {
+        "answer": "Option C",
+        "type": 0,
+        "question_id": "_6VB0neu50w_000363_000373_descriptive"
+    },
+    {
+        "answer": "Option C",
+        "type": 3,
+        "question_id": "6AMERQyeg0U_000015_000025_counterfactual"
+    },
+    {
+        "answer": "Option B",
+        "type": 2,
+        "question_id": "lVM6-d0zQhE_000022_000032_predictive"
+    },
+    {
+        "answer": "Option C",
+        "type": 3,
+        "question_id": "HFgIXxJyGmg_000021_000031_counterfactual"
+    },
+    {
+        "answer": "Option A",
+        "type": 2,
+        "question_id": "Nw6vib7zHpA_000007_000017_predictive"
+    },
+    {
+        "answer": "Option C",
+        "type": 3,
+        "question_id": "HHQFsFD_Cgk_000126_000136_counterfactual"
+    },
+    {
+        "answer": "Option A",
+        "type": 1,
+        "question_id": "RPLYy1Xbwt4_000043_000053_explanatory"
+    },
+    {
+        "answer": "Option D",
+        "type": 2,
+        "question_id": "ooYCWmfzq4U_000034_000044_predictive"
+    },
+    {
+        "answer": "Option D",
+        "type": 3,
+        "question_id": "o3BJ2JmWLTc_000044_000054_counterfactual"
+    },
+    {
+        "answer": "Option A",
+        "type": 3,
+        "question_id": "RPLYy1Xbwt4_000043_000053_counterfactual"
+    },
+    {
+        "answer": "Option E",
+        "type": 2,
+        "question_id": "h9jIdgjU_mM_000012_000022_predictive"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "YIwbUpzWsT4_000010_000020_explanatory"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "xx4npVGdGB4_000123_000133_explanatory"
+    },
+    {
+        "answer": "Option B",
+        "type": 3,
+        "question_id": "h9jIdgjU_mM_000012_000022_counterfactual"
+    },
+    {
+        "answer": "Option C",
+        "type": 3,
+        "question_id": "EiEsXaRebXU_000027_000037_counterfactual"
+    },
+    {
+        "answer": "Option B",
+        "type": 0,
+        "question_id": "HsfRQ3o1SaA_000011_000021_descriptive"
+    },
+    {
+        "answer": "Option E",
+        "type": 2,
+        "question_id": "RPLYy1Xbwt4_000043_000053_predictive"
+    },
+    {
+        "answer": "Option C",
+        "type": 3,
+        "question_id": "8KZJ1qHNBXE_000003_000013_counterfactual"
+    },
+    {
+        "answer": "Option D",
+        "type": 0,
+        "question_id": "VKnGnbkVNhA_000071_000081_descriptive"
+    },
+    {
+        "answer": "Option B",
+        "type": 2,
+        "question_id": "TRofgnYBv4A_000205_000215_predictive"
+    },
+    {
+        "answer": "Option D",
+        "type": 3,
+        "question_id": "FAXjXcxEhL8_000026_000036_counterfactual"
+    },
+    {
+        "answer": "Option D",
+        "type": 0,
+        "question_id": "sXaNQYrb_Gc_000001_000011_descriptive"
+    },
+    {
+        "answer": "Option A",
+        "type": 0,
+        "question_id": "HcXa4jmvWvQ_000022_000032_descriptive"
+    },
+    {
+        "answer": "Option E",
+        "type": 1,
+        "question_id": "lVM6-d0zQhE_000022_000032_explanatory"
+    },
+    {
+        "answer": "Option A",
+        "type": 1,
+        "question_id": "gLvfaI8FEr8_000001_000011_explanatory"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "oN75gAHeygg_000011_000021_explanatory"
+    },
+    {
+        "answer": "Option E",
+        "type": 3,
+        "question_id": "2E0sg8vzZdU_000111_000121_counterfactual"
+    },
+    {
+        "answer": "Option B",
+        "type": 0,
+        "question_id": "h9jIdgjU_mM_000012_000022_descriptive"
+    },
+    {
+        "answer": "Option E",
+        "type": 0,
+        "question_id": "EAhWa4Vr2X4_000026_000036_descriptive"
+    },
+    {
+        "answer": "Option B",
+        "type": 3,
+        "question_id": "YIwbUpzWsT4_000010_000020_counterfactual"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "TQtOo5x5ACI_000001_000011_explanatory"
+    },
+    {
+        "answer": "Option B",
+        "type": 1,
+        "question_id": "yJcbvIfv4LM_000035_000045_explanatory"
+    },
+    {
+        "answer": "Option E",
+        "type": 3,
+        "question_id": "XmZi7m6AtG8_000004_000014_counterfactual"
+    },
+    {
+        "answer": "Option C",
+        "type": 0,
+        "question_id": "tQJRkysthik_000036_000046_descriptive"
+    },
+    {
+        "answer": "Option C",
+        "type": 2,
+        "question_id": "egckvMAQxoU_000060_000070_predictive"
+    },
+    {
+        "answer": "Option D",
+        "type": 2,
+        "question_id": "EiEsXaRebXU_000027_000037_predictive"
+    },
+    {
+        "answer": "Option B",
+        "type": 0,
+        "question_id": "Bi7qPU_Kq3I_000068_000078_descriptive"
+    },
+    {
+        "answer": "Option D",
+        "type": 2,
+        "question_id": "XmZi7m6AtG8_000004_000014_predictive"
+    },
+    {
+        "answer": "Option A",
+        "type": 0,
+        "question_id": "FCoLuObTjf0_000287_000297_descriptive"
+    },
+    {
+        "answer": "Option E",
+        "type": 3,
+        "question_id": "zE7PSjOoErs_000010_000020_counterfactual"
+    },
+    {
+        "answer": "Option C",
+        "type": 2,
+        "question_id": "x-T7V-sNlTU_000000_000010_predictive"
+    },
+    {
+        "answer": "Option A",
+        "type": 0,
+        "question_id": "SydLL78CPuM_000016_000026_descriptive"
+    },
+    {
+        "answer": "Option B",
+        "type": 2,
+        "question_id": "HcXa4jmvWvQ_000022_000032_predictive"
+    },
+    {
+        "answer": "Option D",
+        "type": 2,
+        "question_id": "zE7PSjOoErs_000010_000020_predictive"
+    },
+    {
+        "answer": "Option A",
+        "type": 2,
+        "question_id": "TQtOo5x5ACI_000001_000011_predictive"
+    },
+    {
+        "answer": "Option E",
+        "type": 1,
+        "question_id": "SydLL78CPuM_000016_000026_explanatory"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "1bBSBLB40FU_000002_000012_explanatory"
+    },
+    {
+        "answer": "Option A",
+        "type": 3,
+        "question_id": "yJcbvIfv4LM_000035_000045_counterfactual"
+    },
+    {
+        "answer": "Option A",
+        "type": 3,
+        "question_id": "9j56a25X0KI_000016_000026_counterfactual"
+    },
+    {
+        "answer": "Option A",
+        "type": 1,
+        "question_id": "UQP8kz5kAKg_000021_000031_explanatory"
+    },
+    {
+        "answer": "Option D",
+        "type": 1,
+        "question_id": "Ng0-FcUQm-w_000033_000043_explanatory"
+    },
+    {
+        "answer": "Option B",
+        "type": 0,
+        "question_id": "cOktW9SKRBM_000003_000013_descriptive"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "RjlyiwCwplo_000022_000032_explanatory"
+    },
+    {
+        "answer": "Option A",
+        "type": 3,
+        "question_id": "1bBSBLB40FU_000002_000012_counterfactual"
+    },
+    {
+        "answer": "Option A",
+        "type": 3,
+        "question_id": "FdWj9zTGeGk_000205_000215_counterfactual"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "zkfYvD1xDJA_000445_000455_explanatory"
+    },
+    {
+        "answer": "Option E",
+        "type": 3,
+        "question_id": "8k5LbCk1Yi8_000033_000043_counterfactual"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "zE7PSjOoErs_000010_000020_explanatory"
+    },
+    {
+        "answer": "Option E",
+        "type": 3,
+        "question_id": "egckvMAQxoU_000060_000070_counterfactual"
+    },
+    {
+        "answer": "Option D",
+        "type": 1,
+        "question_id": "7rSrkagRE00_000183_000193_explanatory"
+    },
+    {
+        "answer": "Option D",
+        "type": 0,
+        "question_id": "TQtOo5x5ACI_000001_000011_descriptive"
+    },
+    {
+        "answer": "Option A",
+        "type": 1,
+        "question_id": "RwVIfdDV14o_000003_000013_explanatory"
+    },
+    {
+        "answer": "Option B",
+        "type": 2,
+        "question_id": "nvvq_-RuSWs_000005_000015_predictive"
+    },
+    {
+        "answer": "Option C",
+        "type": 2,
+        "question_id": "7rSrkagRE00_000183_000193_predictive"
+    },
+    {
+        "answer": "Option E",
+        "type": 2,
+        "question_id": "tQJRkysthik_000036_000046_predictive"
+    },
+    {
+        "answer": "Option E",
+        "type": 1,
+        "question_id": "tQJRkysthik_000036_000046_explanatory"
+    },
+    {
+        "answer": "Option B",
+        "type": 3,
+        "question_id": "FCoLuObTjf0_000287_000297_counterfactual"
+    },
+    {
+        "answer": "Option E",
+        "type": 2,
+        "question_id": "EAhWa4Vr2X4_000026_000036_predictive"
+    },
+    {
+        "answer": "Option D",
+        "type": 3,
+        "question_id": "7rSrkagRE00_000183_000193_counterfactual"
+    },
+    {
+        "answer": "Option A",
+        "type": 0,
+        "question_id": "RwVIfdDV14o_000003_000013_descriptive"
+    },
+    {
+        "answer": "Option B",
+        "type": 1,
+        "question_id": "-6rd6BQQM_g_000024_000034_explanatory"
+    },
+    {
+        "answer": "Option D",
+        "type": 0,
+        "question_id": "9zWYCExzFrk_000071_000081_descriptive"
+    },
+    {
+        "answer": "Option B",
+        "type": 1,
+        "question_id": "6jpdD8dIYR8_000084_000094_explanatory"
+    },
+    {
+        "answer": "Option D",
+        "type": 1,
+        "question_id": "XmZi7m6AtG8_000004_000014_explanatory"
+    },
+    {
+        "answer": "Option C",
+        "type": 0,
+        "question_id": "8RTeThLNnxQ_000014_000024_descriptive"
+    },
+    {
+        "answer": "Option E",
+        "type": 2,
+        "question_id": "-6rd6BQQM_g_000024_000034_predictive"
+    },
+    {
+        "answer": "Option D",
+        "type": 2,
+        "question_id": "8k5LbCk1Yi8_000033_000043_predictive"
+    },
+    {
+        "answer": "Option A",
+        "type": 2,
+        "question_id": "Ng0-FcUQm-w_000033_000043_predictive"
+    },
+    {
+        "answer": "Option D",
+        "type": 0,
+        "question_id": "yJcbvIfv4LM_000035_000045_descriptive"
+    },
+    {
+        "answer": "Option D",
+        "type": 1,
+        "question_id": "Bi7qPU_Kq3I_000068_000078_explanatory"
+    },
+    {
+        "answer": "Option B",
+        "type": 3,
+        "question_id": "BKG7phjghco_000110_000120_counterfactual"
+    },
+    {
+        "answer": "Option C",
+        "type": 1,
+        "question_id": "AsDCU8KO9lk_000004_000014_explanatory"
+    },
+    {
+        "answer": "Option E",
+        "type": 0,
+        "question_id": "egckvMAQxoU_000060_000070_descriptive"
+    },
+    {
+        "answer": "Option E",
+        "type": 2,
+        "question_id": "sXaNQYrb_Gc_000001_000011_predictive"
+    },
+    {
+        "answer": "Option C",
+        "type": 0,
+        "question_id": "BKG7phjghco_000110_000120_descriptive"
+    },
+    {
+        "answer": "Option A",
+        "type": 1,
+        "question_id": "GcYTZ38_uek_000053_000063_explanatory"
+    },
+    {
+        "answer": "Option C",
+        "type": 2,
+        "question_id": "FdWj9zTGeGk_000205_000215_predictive"
+    },
+    {
+        "answer": "Option E",
+        "type": 2,
+        "question_id": "GcYTZ38_uek_000053_000063_predictive"
+    },
+    {
+        "answer": "Option A",
+        "type": 0,
+        "question_id": "1vs7I_Fp_48_000008_000018_descriptive"
+    },
+    {
+        "answer": "Option C",
+        "type": 2,
+        "question_id": "RjlyiwCwplo_000022_000032_predictive"
+    },
+    {
+        "answer": "Option E",
+        "type": 0,
+        "question_id": "oAY942mvyDo_000016_000026_descriptive"
+    },
+    {
+        "answer": "Option A",
+        "type": 0,
+        "question_id": "6jpdD8dIYR8_000084_000094_descriptive"
+    },
+    {
+        "answer": "Option C",
+        "type": 0,
+        "question_id": "XmZi7m6AtG8_000004_000014_descriptive"
+    },
+    {
+        "answer": "Option E",
+        "type": 2,
+        "question_id": "UQP8kz5kAKg_000021_000031_predictive"
+    },
+    {
+        "answer": "Option A",
+        "type": 3,
+        "question_id": "Ng0-FcUQm-w_000033_000043_counterfactual"
+    },
+    {
+        "answer": "Option E",
+        "type": 0,
+        "question_id": "4J-JjLC9IO4_000100_000110_descriptive"
+    },
+    {
+        "answer": "Option E",
+        "type": 3,
+        "question_id": "2ZtWcoG8fmQ_000218_000228_counterfactual"
+    },
+    {
+        "answer": "Option E",
+        "type": 1,
+        "question_id": "x-T7V-sNlTU_000000_000010_explanatory"
+    },
+    {
+        "answer": "Option C",
+        "type": 3,
+        "question_id": "6jpdD8dIYR8_000084_000094_counterfactual"
+    },
+    {
+        "answer": "Option C",
+        "type": 0,
+        "question_id": "ryGm1Sb2ff8_000079_000089_descriptive"
+    },
+    {
+        "answer": "Option B",
+        "type": 0,
+        "question_id": "7rSrkagRE00_000183_000193_descriptive"
+    },
+    {
+        "answer": "Option B",
+        "type": 3,
+        "question_id": "RwVIfdDV14o_000003_000013_counterfactual"
+    },
+    {
+        "answer": "Option D",
+        "type": 2,
+        "question_id": "2ZtWcoG8fmQ_000218_000228_predictive"
+    },
+    {
+        "answer": "Option D",
+        "type": 3,
+        "question_id": "x-T7V-sNlTU_000000_000010_counterfactual"
+    },
+    {
+        "answer": "Option C",
+        "type": 2,
+        "question_id": "8v3f5nuWE1s_000056_000066_predictive"
+    },
+    {
+        "answer": "Option B",
+        "type": 3,
+        "question_id": "GcYTZ38_uek_000053_000063_counterfactual"
+    },
+    {
+        "answer": "Option B",
+        "type": 1,
+        "question_id": "HcXa4jmvWvQ_000022_000032_explanatory"
+    },
+    {
+        "answer": "Option D",
+        "type": 2,
+        "question_id": "yJcbvIfv4LM_000035_000045_predictive"
+    },
+    {
+        "answer": "Option A",
+        "type": 3,
+        "question_id": "HcXa4jmvWvQ_000022_000032_counterfactual"
+    },
+    {
+        "answer": "Option D",
+        "type": 2,
+        "question_id": "Bi7qPU_Kq3I_000068_000078_predictive"
+    },
+    {
+        "answer": "Option A",
+        "type": 1,
+        "question_id": "nvvq_-RuSWs_000005_000015_explanatory"
+    },
+    {
+        "answer": "Option E",
+        "type": 1,
+        "question_id": "2ZtWcoG8fmQ_000218_000228_explanatory"
+    },
+    {
+        "answer": "Option A",
+        "type": 3,
+        "question_id": "-6rd6BQQM_g_000024_000034_counterfactual"
+    },
+    {
+        "answer": "Option C",
+        "type": 3,
+        "question_id": "zkfYvD1xDJA_000445_000455_counterfactual"
+    },
+    {
+        "answer": "Option E",
+        "type": 0,
+        "question_id": "UQP8kz5kAKg_000021_000031_descriptive"
+    },
+    {
+        "answer": "Option B",
+        "type": 2,
+        "question_id": "9j56a25X0KI_000016_000026_predictive"
+    },
+    {
+        "answer": "Option D",
+        "type": 3,
+        "question_id": "8v3f5nuWE1s_000056_000066_counterfactual"
+    },
+    {
+        "answer": "Option D",
+        "type": 0,
+        "question_id": "AsDCU8KO9lk_000004_000014_descriptive"
+    },
+    {
+        "answer": "Option E",
+        "type": 2,
+        "question_id": "6jpdD8dIYR8_000084_000094_predictive"
+    },
+    {
+        "answer": "Option C",
+        "type": 3,
+        "question_id": "Bi7qPU_Kq3I_000068_000078_counterfactual"
+    },
+    {
+        "answer": "Option B",
+        "type": 0,
+        "question_id": "1bBSBLB40FU_000002_000012_descriptive"
+    },
+    {
+        "answer": "Option D",
+        "type": 0,
+        "question_id": "SAnpnkZj724_000000_000010_descriptive"
+    },
+    {
+        "answer": "Option E",
+        "type": 1,
+        "question_id": "FdWj9zTGeGk_000205_000215_explanatory"
+    },
+    {
+        "answer": "Option E",
+        "type": 1,
+        "question_id": "8k5LbCk1Yi8_000033_000043_explanatory"
+    },
+    {
+        "answer": "Option E",
+        "type": 1,
+        "question_id": "egckvMAQxoU_000060_000070_explanatory"
+    },
+    {
+        "answer": "Option B",
+        "type": 3,
+        "question_id": "SydLL78CPuM_000016_000026_counterfactual"
+    },
+    {
+        "answer": "Option B",
+        "type": 0,
+        "question_id": "-6rd6BQQM_g_000024_000034_descriptive"
+    },
+    {
+        "answer": "Option C",
+        "type": 0,
+        "question_id": "zkfYvD1xDJA_000445_000455_descriptive"
+    },
+    {
+        "answer": "Option D",
+        "type": 3,
+        "question_id": "nvvq_-RuSWs_000005_000015_counterfactual"
+    },
+    {
+        "answer": "Option D",
+        "type": 3,
+        "question_id": "RjlyiwCwplo_000022_000032_counterfactual"
+    }
+]

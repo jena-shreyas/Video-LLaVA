@@ -1,0 +1,913 @@
+nohup: ignoring input
+[2024-03-30 05:58:20,269] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+/home/shreyasjena/anaconda3/envs/videollava/lib/python3.10/site-packages/torchvision/transforms/_functional_video.py:6: UserWarning: The 'torchvision.transforms._functional_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms.functional' module instead.
+  warnings.warn(
+/home/shreyasjena/anaconda3/envs/videollava/lib/python3.10/site-packages/torchvision/transforms/_transforms_video.py:22: UserWarning: The 'torchvision.transforms._transforms_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms' module instead.
+  warnings.warn(
+/home/shreyasjena/anaconda3/envs/videollava/lib/python3.10/site-packages/torchvision/transforms/functional_tensor.py:5: UserWarning: The torchvision.transforms.functional_tensor module is deprecated in 0.15 and will be **removed in 0.17**. Please don't rely on it. You probably just need to use APIs in torchvision.transforms.functional or in torchvision.transforms.v2.functional.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:10<00:10, 10.12s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:14<00:00,  6.93s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:14<00:00,  7.41s/it]
+Some weights of the model checkpoint at LanguageBind/Video-LLaVA-7B were not used when initializing LlavaLlamaForCausalLM: ['model.image_tower.image_tower.encoder.layers.21.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.8.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.11.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.21.temporal_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.2.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.2.temporal_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.10.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.17.temporal_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.17.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.19.temporal_embedding', 'model.video_tower.video_tower.encoder.layers.20.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.21.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.17.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.4.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.17.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.23.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.9.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.1.temporal_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.15.self_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.16.self_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.20.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.0.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.14.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.7.temporal_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.6.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.12.mlp.fc2.weight', 'model.image_tower.image_tower.encoder.layers.11.mlp.fc2.bias', 'model.image_tower.image_tower.encoder.layers.13.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.17.temporal_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.4.temporal_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.4.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.8.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.17.temporal_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.20.temporal_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.13.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.23.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.10.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.13.temporal_layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.16.mlp.fc2.weight', 'model.image_tower.image_tower.encoder.layers.10.mlp.fc2.weight', 'model.image_tower.image_tower.encoder.layers.13.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.3.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.0.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.14.temporal_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.7.temporal_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.3.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.0.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.19.mlp.fc2.weight', 'model.image_tower.image_tower.encoder.layers.4.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.3.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.2.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.6.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.8.temporal_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.8.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.21.temporal_attn.out_proj.weight', 'model.image_tower.image_tower.encoder.layers.16.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.19.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.21.temporal_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.14.mlp.fc2.bias', 'model.image_tower.image_tower.encoder.layers.1.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.14.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.15.temporal_layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.9.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.11.temporal_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.11.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.10.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.14.layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.4.self_attn.out_proj.weight', 'model.image_tower.image_tower.encoder.layers.5.self_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.5.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.5.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.10.temporal_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.22.temporal_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.6.temporal_embedding', 'model.image_tower.image_tower.encoder.layers.7.mlp.fc2.weight', 'model.image_tower.image_tower.encoder.layers.14.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.22.temporal_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.15.mlp.fc2.weight', 'model.image_tower.image_tower.encoder.layers.17.mlp.fc2.weight', 'model.image_tower.image_tower.encoder.layers.4.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.20.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.12.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.1.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.2.temporal_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.20.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.17.temporal_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.22.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.9.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.8.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.20.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.20.temporal_layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.8.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.20.temporal_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.6.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.10.temporal_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.1.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.17.temporal_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.1.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.4.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.8.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.20.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.9.temporal_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.20.self_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.0.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.9.self_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.10.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.6.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.14.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.18.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.5.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.13.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.2.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.3.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.21.mlp.fc2.weight', 'model.image_tower.image_tower.encoder.layers.3.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.12.temporal_embedding', 'model.image_tower.image_tower.encoder.layers.6.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.9.temporal_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.18.temporal_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.1.self_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.13.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.11.temporal_layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.21.self_attn.out_proj.weight', 'model.image_tower.image_tower.encoder.layers.21.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.6.layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.16.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.22.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.13.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.4.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.6.temporal_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.3.temporal_layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.19.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.20.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.5.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.14.temporal_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.9.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.23.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.12.temporal_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.2.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.3.temporal_attn.out_proj.weight', 'model.image_tower.image_tower.encoder.layers.23.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.5.self_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.11.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.16.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.8.temporal_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.23.temporal_layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.11.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.12.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.2.temporal_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.9.temporal_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.20.temporal_layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.2.temporal_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.5.temporal_layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.19.temporal_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.17.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.10.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.13.temporal_attn.out_proj.weight', 'model.image_tower.image_tower.encoder.layers.4.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.9.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.9.self_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.9.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.13.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.7.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.19.self_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.23.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.6.mlp.fc2.weight', 'model.image_tower.image_tower.encoder.layers.19.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.9.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.7.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.22.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.1.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.14.temporal_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.22.self_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.23.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.0.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.0.temporal_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.1.temporal_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.11.temporal_embedding', 'model.video_tower.video_tower.encoder.layers.2.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.2.temporal_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.5.mlp.fc2.bias', 'model.image_tower.image_tower.encoder.layers.0.mlp.fc2.bias', 'model.image_tower.image_tower.encoder.layers.8.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.13.self_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.7.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.16.temporal_embedding', 'model.video_tower.video_tower.encoder.layers.4.temporal_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.21.temporal_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.18.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.20.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.16.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.12.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.2.temporal_layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.11.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.8.mlp.fc2.bias', 'model.image_tower.image_tower.encoder.layers.2.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.7.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.0.temporal_embedding', 'model.video_tower.video_tower.encoder.layers.21.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.21.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.22.layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.16.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.0.temporal_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.0.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.8.self_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.2.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.4.temporal_attn.q_proj.bias', 'model.video_tower.video_tower.post_layernorm.weight', 'model.video_tower.video_tower.encoder.layers.0.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.5.mlp.fc2.weight', 'model.image_tower.image_tower.encoder.layers.12.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.5.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.3.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.1.layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.4.mlp.fc2.bias', 'model.image_tower.image_tower.encoder.layers.6.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.1.temporal_embedding', 'model.video_tower.video_tower.encoder.layers.23.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.18.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.21.temporal_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.4.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.18.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.6.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.15.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.3.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.5.self_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.7.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.11.temporal_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.14.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.7.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.9.self_attn.out_proj.weight', 'model.image_tower.image_tower.encoder.layers.15.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.22.mlp.fc2.bias', 'model.image_tower.image_tower.encoder.layers.18.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.16.temporal_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.1.temporal_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.17.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.6.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.17.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.21.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.8.temporal_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.23.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.23.temporal_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.20.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.14.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.13.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.10.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.10.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.3.temporal_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.4.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.22.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.15.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.15.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.19.temporal_layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.12.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.2.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.15.temporal_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.17.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.19.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.2.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.23.temporal_layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.13.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.1.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.10.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.22.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.1.temporal_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.13.temporal_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.22.temporal_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.5.temporal_attn.q_proj.weight', 'model.image_tower.image_tower.post_layernorm.weight', 'model.video_tower.video_tower.encoder.layers.3.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.22.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.5.temporal_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.7.self_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.18.self_attn.out_proj.weight', 'model.image_tower.image_tower.encoder.layers.4.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.0.temporal_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.10.self_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.17.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.19.temporal_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.15.temporal_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.7.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.16.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.8.self_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.4.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.13.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.23.temporal_embedding', 'model.image_tower.image_tower.encoder.layers.4.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.7.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.12.temporal_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.14.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.21.temporal_embedding', 'model.video_tower.video_tower.encoder.layers.23.temporal_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.6.temporal_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.9.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.15.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.17.mlp.fc2.weight', 'model.image_tower.image_tower.encoder.layers.9.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.3.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.18.layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.6.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.23.temporal_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.10.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.20.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.4.temporal_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.16.temporal_layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.14.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.0.temporal_layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.11.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.15.temporal_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.5.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.21.temporal_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.8.temporal_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.7.temporal_layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.17.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.11.layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.4.self_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.18.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.13.self_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.4.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.14.self_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.21.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.18.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.15.layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.21.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.6.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.11.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.10.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.3.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.4.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.0.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.11.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.10.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.0.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.2.mlp.fc2.bias', 'model.image_tower.image_tower.encoder.layers.0.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.10.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.13.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.14.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.22.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.17.temporal_layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.7.temporal_attn.out_proj.weight', 'model.image_tower.image_tower.encoder.layers.7.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.19.temporal_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.15.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.16.mlp.fc2.bias', 'model.image_tower.image_tower.encoder.layers.19.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.4.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.20.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.5.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.17.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.14.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.20.temporal_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.3.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.4.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.0.temporal_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.11.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.9.temporal_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.19.self_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.8.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.15.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.1.temporal_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.21.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.14.self_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.6.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.11.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.8.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.0.self_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.19.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.15.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.5.temporal_layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.7.temporal_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.7.temporal_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.17.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.16.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.12.temporal_layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.12.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.2.self_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.15.layer_norm2.weight', 'model.image_tower.image_tower.encoder.layers.16.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.15.temporal_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.10.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.23.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.16.temporal_layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.18.mlp.fc2.weight', 'model.image_tower.image_tower.encoder.layers.23.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.17.layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.14.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.22.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.18.temporal_layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.12.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.12.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.12.temporal_layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.14.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.19.temporal_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.9.temporal_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.1.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.13.temporal_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.3.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.5.temporal_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.5.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.21.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.16.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.15.temporal_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.3.temporal_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.13.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.19.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.13.layer_norm2.weight', 'model.image_tower.image_tower.encoder.layers.9.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.3.temporal_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.21.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.13.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.6.temporal_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.15.self_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.2.layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.11.mlp.fc2.weight', 'model.video_tower.video_tower.pre_layrnorm.weight', 'model.video_tower.video_tower.encoder.layers.21.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.1.temporal_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.8.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.3.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.11.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.8.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.9.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.1.self_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.5.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.22.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.14.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.21.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.4.temporal_embedding', 'model.video_tower.video_tower.encoder.layers.18.temporal_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.13.temporal_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.20.mlp.fc2.weight', 'model.image_tower.image_tower.encoder.layers.17.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.23.mlp.fc2.bias', 'model.image_tower.image_tower.encoder.layers.18.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.10.self_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.23.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.4.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.3.self_attn.k_proj.weight', 'model.image_tower.image_tower.embeddings.position_embedding.weight', 'model.video_tower.video_tower.encoder.layers.9.temporal_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.17.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.23.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.7.mlp.fc2.weight', 'model.image_tower.image_tower.encoder.layers.0.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.4.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.16.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.6.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.1.temporal_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.20.temporal_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.1.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.15.temporal_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.16.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.13.temporal_attn.v_proj.bias', 'model.video_tower.video_tower.embeddings.position_embedding.weight', 'model.video_tower.video_tower.encoder.layers.5.temporal_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.2.temporal_layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.16.mlp.fc1.bias', 'model.video_tower.video_tower.embeddings.class_embedding', 'model.video_tower.video_tower.encoder.layers.15.layer_norm2.weight', 'model.image_tower.image_tower.encoder.layers.3.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.19.temporal_layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.12.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.6.mlp.fc2.bias', 'model.image_tower.image_tower.encoder.layers.7.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.9.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.18.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.16.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.13.temporal_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.7.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.14.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.20.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.14.self_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.10.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.22.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.20.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.11.temporal_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.22.temporal_layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.19.self_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.20.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.5.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.9.self_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.4.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.5.temporal_embedding', 'model.video_tower.video_tower.encoder.layers.20.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.10.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.5.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.15.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.21.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.18.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.12.temporal_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.10.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.12.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.22.mlp.fc2.weight', 'model.image_tower.image_tower.encoder.layers.8.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.17.layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.13.layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.13.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.21.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.7.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.1.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.6.self_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.0.layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.4.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.9.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.1.mlp.fc2.bias', 'model.image_tower.image_tower.encoder.layers.6.self_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.1.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.15.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.8.temporal_layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.15.self_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.20.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.21.temporal_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.18.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.23.temporal_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.12.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.3.temporal_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.16.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.10.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.3.temporal_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.0.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.3.self_attn.out_proj.weight', 'model.image_tower.image_tower.encoder.layers.23.layer_norm2.weight', 'model.image_tower.image_tower.encoder.layers.16.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.19.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.19.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.5.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.2.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.16.temporal_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.3.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.4.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.22.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.22.temporal_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.12.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.3.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.8.layer_norm2.weight', 'model.image_tower.image_tower.encoder.layers.20.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.23.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.12.temporal_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.12.temporal_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.6.layer_norm2.weight', 'model.image_tower.image_tower.encoder.layers.6.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.16.temporal_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.20.self_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.14.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.1.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.17.mlp.fc2.bias', 'model.image_tower.image_tower.encoder.layers.8.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.0.temporal_layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.3.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.8.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.23.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.20.self_attn.v_proj.bias', 'model.video_tower.video_tower.post_layernorm.bias', 'model.image_tower.image_tower.encoder.layers.22.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.23.self_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.12.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.22.temporal_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.7.layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.23.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.21.self_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.20.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.5.temporal_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.3.self_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.22.mlp.fc2.bias', 'model.image_tower.image_tower.encoder.layers.10.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.17.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.1.temporal_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.19.layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.17.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.20.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.6.temporal_layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.20.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.18.layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.11.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.0.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.7.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.13.temporal_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.21.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.17.temporal_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.22.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.9.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.15.self_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.10.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.18.self_attn.k_proj.weight', 'model.image_tower.image_tower.embeddings.class_embedding', 'model.image_tower.image_tower.encoder.layers.18.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.1.self_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.0.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.22.temporal_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.9.temporal_layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.18.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.7.self_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.8.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.19.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.22.self_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.9.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.5.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.8.mlp.fc2.bias', 'model.image_tower.image_tower.encoder.layers.1.self_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.16.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.20.temporal_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.14.self_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.2.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.15.temporal_layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.11.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.19.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.4.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.2.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.22.self_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.13.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.14.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.7.self_attn.out_proj.weight', 'model.image_tower.image_tower.encoder.layers.22.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.3.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.16.layer_norm2.weight', 'model.image_tower.image_tower.encoder.layers.1.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.17.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.12.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.11.self_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.15.self_attn.out_proj.weight', 'model.image_tower.image_tower.encoder.layers.3.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.13.self_attn.out_proj.weight', 'model.image_tower.image_tower.encoder.layers.2.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.6.temporal_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.18.temporal_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.10.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.6.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.14.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.21.temporal_layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.18.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.2.temporal_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.11.temporal_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.7.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.15.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.7.self_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.16.layer_norm2.weight', 'model.image_tower.image_tower.encoder.layers.17.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.2.temporal_embedding', 'model.image_tower.image_tower.encoder.layers.3.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.0.layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.0.self_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.23.self_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.8.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.13.temporal_embedding', 'model.video_tower.video_tower.encoder.layers.21.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.18.self_attn.out_proj.weight', 'model.image_tower.image_tower.encoder.layers.19.layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.13.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.19.temporal_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.22.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.19.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.13.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.10.layer_norm2.weight', 'model.image_tower.image_tower.encoder.layers.12.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.11.temporal_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.14.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.18.temporal_embedding', 'model.image_tower.image_tower.encoder.layers.3.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.3.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.1.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.20.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.12.temporal_attn.out_proj.weight', 'model.image_tower.image_tower.encoder.layers.21.mlp.fc2.bias', 'model.image_tower.image_tower.encoder.layers.5.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.6.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.10.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.9.temporal_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.11.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.21.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.7.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.21.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.18.self_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.19.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.23.layer_norm2.weight', 'model.image_tower.image_tower.encoder.layers.7.self_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.18.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.7.temporal_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.23.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.11.temporal_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.5.temporal_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.19.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.10.temporal_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.17.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.16.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.0.temporal_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.8.layer_norm2.weight', 'model.image_tower.image_tower.encoder.layers.16.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.6.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.15.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.16.temporal_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.11.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.6.self_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.8.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.19.temporal_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.18.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.13.temporal_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.18.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.10.temporal_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.12.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.10.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.3.layer_norm2.weight', 'model.image_tower.image_tower.encoder.layers.13.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.1.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.2.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.6.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.7.self_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.6.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.11.temporal_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.7.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.7.temporal_layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.10.mlp.fc2.bias', 'model.image_tower.image_tower.encoder.layers.19.self_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.19.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.1.mlp.fc2.weight', 'model.image_tower.image_tower.encoder.layers.17.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.4.layer_norm2.weight', 'model.image_tower.image_tower.encoder.layers.15.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.8.temporal_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.3.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.3.temporal_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.17.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.15.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.6.self_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.7.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.0.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.11.layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.9.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.12.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.20.layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.19.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.10.temporal_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.6.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.9.temporal_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.12.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.23.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.9.temporal_layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.14.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.17.self_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.0.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.11.temporal_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.0.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.2.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.11.self_attn.k_proj.bias', 'model.video_tower.video_tower.embeddings.patch_embedding.weight', 'model.video_tower.video_tower.encoder.layers.11.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.10.temporal_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.12.temporal_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.19.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.12.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.11.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.19.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.14.temporal_embedding', 'model.video_tower.video_tower.encoder.layers.18.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.17.temporal_layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.16.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.12.self_attn.out_proj.weight', 'model.image_tower.image_tower.encoder.layers.23.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.3.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.18.temporal_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.8.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.0.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.12.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.0.temporal_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.17.temporal_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.13.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.5.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.6.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.9.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.5.self_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.11.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.1.temporal_layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.23.temporal_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.3.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.2.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.8.temporal_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.15.temporal_embedding', 'model.video_tower.video_tower.encoder.layers.4.temporal_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.13.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.9.temporal_embedding', 'model.video_tower.video_tower.encoder.layers.14.temporal_layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.20.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.23.temporal_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.10.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.18.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.12.self_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.10.layer_norm2.weight', 'model.image_tower.image_tower.encoder.layers.23.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.8.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.22.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.8.temporal_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.11.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.1.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.0.temporal_attn.q_proj.weight', 'model.video_tower.video_tower.pre_layrnorm.bias', 'model.video_tower.video_tower.encoder.layers.11.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.5.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.10.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.2.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.5.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.11.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.12.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.8.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.2.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.6.temporal_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.12.temporal_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.9.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.14.temporal_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.11.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.9.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.4.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.13.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.12.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.1.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.15.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.22.temporal_embedding', 'model.video_tower.video_tower.encoder.layers.15.temporal_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.22.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.7.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.10.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.1.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.6.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.18.temporal_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.19.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.18.self_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.21.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.8.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.18.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.7.temporal_embedding', 'model.image_tower.image_tower.encoder.layers.1.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.7.temporal_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.5.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.15.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.14.self_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.16.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.2.temporal_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.0.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.6.temporal_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.12.self_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.18.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.19.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.14.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.2.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.7.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.0.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.9.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.18.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.13.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.8.self_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.0.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.10.temporal_layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.9.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.19.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.15.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.16.temporal_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.15.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.17.temporal_embedding', 'model.video_tower.video_tower.encoder.layers.21.temporal_layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.15.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.3.temporal_layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.8.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.13.temporal_layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.18.temporal_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.14.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.9.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.0.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.2.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.2.temporal_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.22.temporal_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.12.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.9.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.13.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.19.temporal_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.7.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.4.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.10.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.0.self_attn.out_proj.weight', 'model.image_tower.image_tower.encoder.layers.14.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.17.temporal_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.5.temporal_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.3.self_attn.out_proj.weight', 'model.image_tower.image_tower.encoder.layers.9.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.6.temporal_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.6.self_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.21.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.11.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.20.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.4.temporal_layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.4.temporal_layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.3.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.21.layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.15.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.0.temporal_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.18.temporal_layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.5.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.21.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.1.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.3.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.2.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.18.layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.15.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.2.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.20.temporal_embedding', 'model.image_tower.image_tower.post_layernorm.bias', 'model.video_tower.video_tower.encoder.layers.1.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.0.layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.9.self_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.1.self_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.21.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.20.self_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.12.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.2.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.16.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.19.temporal_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.14.temporal_layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.22.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.23.layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.17.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.2.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.8.temporal_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.7.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.14.temporal_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.8.temporal_layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.18.temporal_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.9.self_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.21.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.11.temporal_layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.17.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.1.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.14.temporal_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.23.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.1.temporal_layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.9.mlp.fc1.bias', 'model.video_tower.video_tower.encoder.layers.15.temporal_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.23.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.16.layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.21.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.11.mlp.fc2.bias', 'model.image_tower.image_tower.encoder.layers.20.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.5.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.6.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.13.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.19.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.10.temporal_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.8.layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.22.layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.17.layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.13.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.2.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.6.temporal_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.18.self_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.16.temporal_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.8.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.16.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.15.mlp.fc1.bias', 'model.image_tower.image_tower.encoder.layers.16.layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.23.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.16.temporal_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.23.self_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.21.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.14.temporal_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.20.layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.4.self_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.1.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.23.temporal_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.9.mlp.fc2.bias', 'model.video_tower.video_tower.encoder.layers.4.layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.5.self_attn.out_proj.bias', 'model.image_tower.image_tower.pre_layrnorm.weight', 'model.video_tower.video_tower.encoder.layers.18.temporal_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.22.mlp.fc1.bias', 'model.image_tower.image_tower.embeddings.patch_embedding.weight', 'model.video_tower.video_tower.encoder.layers.10.temporal_attn.q_proj.weight', 'model.image_tower.image_tower.encoder.layers.12.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.10.temporal_layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.14.layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.12.layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.4.self_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.2.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.23.mlp.fc1.weight', 'model.image_tower.image_tower.encoder.layers.21.self_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.2.mlp.fc2.bias', 'model.image_tower.image_tower.encoder.layers.16.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.20.temporal_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.11.layer_norm1.weight', 'model.video_tower.video_tower.encoder.layers.12.layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.16.self_attn.k_proj.weight', 'model.image_tower.image_tower.encoder.layers.17.self_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.22.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.20.temporal_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.13.layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.22.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.4.temporal_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.16.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.6.temporal_layer_norm1.weight', 'model.image_tower.image_tower.encoder.layers.0.self_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.11.self_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.7.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.4.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.10.temporal_embedding', 'model.video_tower.video_tower.encoder.layers.8.temporal_embedding', 'model.video_tower.video_tower.encoder.layers.2.self_attn.q_proj.bias', 'model.image_tower.image_tower.pre_layrnorm.bias', 'model.video_tower.video_tower.encoder.layers.15.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.22.temporal_layer_norm1.bias', 'model.image_tower.image_tower.encoder.layers.6.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.4.temporal_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.17.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.1.self_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.14.layer_norm1.bias', 'model.video_tower.video_tower.encoder.layers.19.self_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.22.mlp.fc2.weight', 'model.image_tower.image_tower.encoder.layers.17.layer_norm2.bias', 'model.image_tower.image_tower.encoder.layers.5.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.23.temporal_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.2.layer_norm2.weight', 'model.image_tower.image_tower.encoder.layers.5.self_attn.k_proj.bias', 'model.image_tower.image_tower.encoder.layers.5.layer_norm2.bias', 'model.video_tower.video_tower.encoder.layers.14.temporal_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.5.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.14.self_attn.q_proj.bias', 'model.video_tower.video_tower.encoder.layers.23.self_attn.v_proj.weight', 'model.video_tower.video_tower.encoder.layers.16.temporal_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.1.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.19.self_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.3.temporal_embedding', 'model.image_tower.image_tower.encoder.layers.22.self_attn.out_proj.bias', 'model.image_tower.image_tower.encoder.layers.7.self_attn.out_proj.weight', 'model.video_tower.video_tower.encoder.layers.20.temporal_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.0.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.19.mlp.fc1.weight', 'model.video_tower.video_tower.encoder.layers.13.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.7.temporal_attn.v_proj.bias', 'model.image_tower.image_tower.encoder.layers.20.self_attn.q_proj.bias', 'model.image_tower.image_tower.encoder.layers.22.layer_norm2.weight', 'model.video_tower.video_tower.encoder.layers.23.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.21.temporal_attn.out_proj.bias', 'model.video_tower.video_tower.encoder.layers.12.mlp.fc2.weight', 'model.video_tower.video_tower.encoder.layers.4.temporal_attn.k_proj.bias', 'model.video_tower.video_tower.encoder.layers.22.temporal_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.5.temporal_attn.v_proj.weight', 'model.image_tower.image_tower.encoder.layers.8.self_attn.v_proj.bias', 'model.video_tower.video_tower.encoder.layers.0.self_attn.k_proj.weight', 'model.video_tower.video_tower.encoder.layers.3.temporal_attn.q_proj.weight', 'model.video_tower.video_tower.encoder.layers.5.self_attn.q_proj.bias']
+- This IS expected if you are initializing LlavaLlamaForCausalLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing LlavaLlamaForCausalLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+  0%|          | 0/300 [00:00<?, ?it/s]
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:04<?, ?it/s]
+  0%|          | 1/300 [00:04<22:17,  4.47s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  1%|          | 2/300 [00:06<13:59,  2.82s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  1%|          | 3/300 [00:07<11:13,  2.27s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:02<?, ?it/s]
+  1%|▏         | 4/300 [00:09<10:45,  2.18s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  2%|▏         | 5/300 [00:11<09:49,  2.00s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  2%|▏         | 6/300 [00:13<09:02,  1.85s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  2%|▏         | 7/300 [00:14<08:20,  1.71s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  3%|▎         | 8/300 [00:15<07:45,  1.59s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  3%|▎         | 9/300 [00:17<07:26,  1.53s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  3%|▎         | 10/300 [00:18<07:15,  1.50s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  4%|▎         | 11/300 [00:20<07:10,  1.49s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  4%|▍         | 12/300 [00:21<07:28,  1.56s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  4%|▍         | 13/300 [00:23<07:28,  1.56s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  5%|▍         | 14/300 [00:24<07:31,  1.58s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  5%|▌         | 15/300 [00:26<07:30,  1.58s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  5%|▌         | 16/300 [00:28<07:25,  1.57s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  6%|▌         | 17/300 [00:29<07:15,  1.54s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  6%|▌         | 18/300 [00:31<07:14,  1.54s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  6%|▋         | 19/300 [00:32<07:15,  1.55s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  7%|▋         | 20/300 [00:34<07:14,  1.55s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  7%|▋         | 21/300 [00:35<07:27,  1.60s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  7%|▋         | 22/300 [00:37<07:14,  1.56s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  8%|▊         | 23/300 [00:38<07:11,  1.56s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  8%|▊         | 24/300 [00:40<07:10,  1.56s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  8%|▊         | 25/300 [00:42<07:20,  1.60s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  9%|▊         | 26/300 [00:43<07:17,  1.60s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  9%|▉         | 27/300 [00:45<07:02,  1.55s/it]A
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+  9%|▉         | 28/300 [00:46<06:54,  1.52s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 10%|▉         | 29/300 [00:48<06:42,  1.48s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 10%|█         | 30/300 [00:49<06:56,  1.54s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 10%|█         | 31/300 [00:51<06:52,  1.53s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 11%|█         | 32/300 [00:52<06:50,  1.53s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 11%|█         | 33/300 [00:54<06:52,  1.54s/it]e
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 11%|█▏        | 34/300 [00:55<06:42,  1.51s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 12%|█▏        | 35/300 [00:57<06:40,  1.51s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 12%|█▏        | 36/300 [00:58<06:45,  1.54s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 12%|█▏        | 37/300 [01:00<06:46,  1.54s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 13%|█▎        | 38/300 [01:02<06:49,  1.56s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 13%|█▎        | 39/300 [01:03<06:50,  1.57s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 13%|█▎        | 40/300 [01:05<07:13,  1.67s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 14%|█▎        | 41/300 [01:07<06:57,  1.61s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 14%|█▍        | 42/300 [01:08<06:51,  1.59s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 14%|█▍        | 43/300 [01:10<06:45,  1.58s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 15%|█▍        | 44/300 [01:11<06:44,  1.58s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 15%|█▌        | 45/300 [01:13<06:28,  1.52s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 15%|█▌        | 46/300 [01:14<06:11,  1.46s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 16%|█▌        | 47/300 [01:15<06:07,  1.45s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 16%|█▌        | 48/300 [01:17<06:01,  1.43s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 16%|█▋        | 49/300 [01:18<06:00,  1.43s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 17%|█▋        | 50/300 [01:20<06:07,  1.47s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 17%|█▋        | 51/300 [01:21<06:22,  1.54s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 17%|█▋        | 52/300 [01:23<06:26,  1.56s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 18%|█▊        | 53/300 [01:25<06:30,  1.58s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 18%|█▊        | 54/300 [01:26<06:29,  1.58s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 18%|█▊        | 55/300 [01:28<06:32,  1.60s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 19%|█▊        | 56/300 [01:30<06:30,  1.60s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 19%|█▉        | 57/300 [01:31<06:31,  1.61s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 19%|█▉        | 58/300 [01:33<06:27,  1.60s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 20%|█▉        | 59/300 [01:34<06:30,  1.62s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 20%|██        | 60/300 [01:36<06:53,  1.72s/it]e
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 20%|██        | 61/300 [01:38<06:40,  1.67s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 21%|██        | 62/300 [01:40<06:36,  1.67s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 21%|██        | 63/300 [01:41<06:31,  1.65s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 21%|██▏       | 64/300 [01:43<06:28,  1.65s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 22%|██▏       | 65/300 [01:44<06:20,  1.62s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 22%|██▏       | 66/300 [01:46<06:13,  1.60s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 22%|██▏       | 67/300 [01:48<06:09,  1.59s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 23%|██▎       | 68/300 [01:49<06:06,  1.58s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 23%|██▎       | 69/300 [01:51<06:08,  1.59s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 23%|██▎       | 70/300 [01:53<06:28,  1.69s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 24%|██▎       | 71/300 [01:54<06:26,  1.69s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 24%|██▍       | 72/300 [01:56<06:26,  1.69s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 24%|██▍       | 73/300 [01:58<06:18,  1.67s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 25%|██▍       | 74/300 [01:59<06:29,  1.72s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 25%|██▌       | 75/300 [02:01<06:16,  1.68s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 25%|██▌       | 76/300 [02:03<06:07,  1.64s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 26%|██▌       | 77/300 [02:04<06:02,  1.63s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 26%|██▌       | 78/300 [02:06<06:09,  1.66s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 26%|██▋       | 79/300 [02:08<06:00,  1.63s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 27%|██▋       | 80/300 [02:09<06:08,  1.68s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 27%|██▋       | 81/300 [02:11<05:40,  1.55s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 27%|██▋       | 82/300 [02:12<05:29,  1.51s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 28%|██▊       | 83/300 [02:13<05:25,  1.50s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 28%|██▊       | 84/300 [02:15<05:37,  1.56s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 28%|██▊       | 85/300 [02:17<05:39,  1.58s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 29%|██▊       | 86/300 [02:18<05:37,  1.58s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 29%|██▉       | 87/300 [02:20<05:44,  1.62s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 29%|██▉       | 88/300 [02:22<05:34,  1.58s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 30%|██▉       | 89/300 [02:23<05:27,  1.55s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 30%|███       | 90/300 [02:25<05:24,  1.54s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 30%|███       | 91/300 [02:26<05:11,  1.49s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 31%|███       | 92/300 [02:27<05:06,  1.47s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 31%|███       | 93/300 [02:29<05:12,  1.51s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 31%|███▏      | 94/300 [02:31<05:24,  1.58s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 32%|███▏      | 95/300 [02:32<05:14,  1.54s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 32%|███▏      | 96/300 [02:34<05:12,  1.53s/it]e
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 32%|███▏      | 97/300 [02:35<05:17,  1.56s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 33%|███▎      | 98/300 [02:37<05:19,  1.58s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 33%|███▎      | 99/300 [02:38<05:10,  1.55s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 33%|███▎      | 100/300 [02:40<04:59,  1.50s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 34%|███▎      | 101/300 [02:41<04:50,  1.46s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 34%|███▍      | 102/300 [02:43<04:46,  1.45s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 34%|███▍      | 103/300 [02:44<04:52,  1.49s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 35%|███▍      | 104/300 [02:46<05:04,  1.55s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 35%|███▌      | 105/300 [02:47<04:57,  1.52s/it]e
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 35%|███▌      | 106/300 [02:49<04:57,  1.53s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 36%|███▌      | 107/300 [02:50<05:02,  1.57s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 36%|███▌      | 108/300 [02:52<05:00,  1.57s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 36%|███▋      | 109/300 [02:54<04:56,  1.55s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 37%|███▋      | 110/300 [02:55<05:03,  1.60s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 37%|███▋      | 111/300 [02:57<04:57,  1.57s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 37%|███▋      | 112/300 [02:58<04:49,  1.54s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 38%|███▊      | 113/300 [03:00<04:39,  1.49s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 38%|███▊      | 114/300 [03:01<04:34,  1.47s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 38%|███▊      | 115/300 [03:03<04:42,  1.53s/it]e
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 39%|███▊      | 116/300 [03:04<04:33,  1.49s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 39%|███▉      | 117/300 [03:06<04:41,  1.54s/it]e
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 39%|███▉      | 118/300 [03:07<04:44,  1.57s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 40%|███▉      | 119/300 [03:09<04:47,  1.59s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 40%|████      | 120/300 [03:11<04:48,  1.60s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 40%|████      | 121/300 [03:12<04:47,  1.60s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 41%|████      | 122/300 [03:14<04:42,  1.58s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 41%|████      | 123/300 [03:15<04:38,  1.57s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 41%|████▏     | 124/300 [03:17<04:33,  1.55s/it]A
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 42%|████▏     | 125/300 [03:18<04:26,  1.52s/it]C
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 42%|████▏     | 126/300 [03:20<04:19,  1.49s/it]B
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 42%|████▏     | 127/300 [03:21<04:23,  1.53s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 43%|████▎     | 128/300 [03:23<04:15,  1.49s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 43%|████▎     | 129/300 [03:24<04:20,  1.52s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 43%|████▎     | 130/300 [03:26<04:30,  1.59s/it]B
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 44%|████▎     | 131/300 [03:28<04:27,  1.58s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 44%|████▍     | 132/300 [03:29<04:34,  1.63s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 44%|████▍     | 133/300 [03:31<04:32,  1.63s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 45%|████▍     | 134/300 [03:33<04:28,  1.62s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 45%|████▌     | 135/300 [03:34<04:25,  1.61s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 45%|████▌     | 136/300 [03:36<04:36,  1.69s/it]C
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 46%|████▌     | 137/300 [03:38<04:27,  1.64s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 46%|████▌     | 138/300 [03:39<04:21,  1.61s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 46%|████▋     | 139/300 [03:41<04:22,  1.63s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 47%|████▋     | 140/300 [03:42<04:19,  1.62s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 47%|████▋     | 141/300 [03:44<04:14,  1.60s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 47%|████▋     | 142/300 [03:45<04:03,  1.54s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 48%|████▊     | 143/300 [03:47<03:56,  1.51s/it]A
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 48%|████▊     | 144/300 [03:48<03:51,  1.48s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 48%|████▊     | 145/300 [03:50<03:52,  1.50s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 49%|████▊     | 146/300 [03:51<03:47,  1.48s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 49%|████▉     | 147/300 [03:53<03:56,  1.55s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 49%|████▉     | 148/300 [03:55<04:00,  1.58s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 50%|████▉     | 149/300 [03:56<03:58,  1.58s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 50%|█████     | 150/300 [03:58<04:13,  1.69s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 50%|█████     | 151/300 [04:00<04:11,  1.69s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 51%|█████     | 152/300 [04:01<04:01,  1.63s/it]B
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 51%|█████     | 153/300 [04:03<03:57,  1.62s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 51%|█████▏    | 154/300 [04:04<03:53,  1.60s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 52%|█████▏    | 155/300 [04:06<03:50,  1.59s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 52%|█████▏    | 156/300 [04:08<03:49,  1.59s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 52%|█████▏    | 157/300 [04:09<03:49,  1.60s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 53%|█████▎    | 158/300 [04:11<03:47,  1.60s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 53%|█████▎    | 159/300 [04:12<03:30,  1.49s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 53%|█████▎    | 160/300 [04:14<03:30,  1.50s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 54%|█████▎    | 161/300 [04:15<03:25,  1.48s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 54%|█████▍    | 162/300 [04:17<03:25,  1.49s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 54%|█████▍    | 163/300 [04:18<03:27,  1.51s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 55%|█████▍    | 164/300 [04:20<03:29,  1.54s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 55%|█████▌    | 165/300 [04:21<03:34,  1.59s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 55%|█████▌    | 166/300 [04:23<03:31,  1.58s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 56%|█████▌    | 167/300 [04:25<03:32,  1.60s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 56%|█████▌    | 168/300 [04:26<03:32,  1.61s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 56%|█████▋    | 169/300 [04:28<03:29,  1.60s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 57%|█████▋    | 170/300 [04:29<03:29,  1.61s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 57%|█████▋    | 171/300 [04:31<03:26,  1.60s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 57%|█████▋    | 172/300 [04:33<03:22,  1.58s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 58%|█████▊    | 173/300 [04:34<03:18,  1.56s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 58%|█████▊    | 174/300 [04:36<03:18,  1.57s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 58%|█████▊    | 175/300 [04:37<03:22,  1.62s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 59%|█████▊    | 176/300 [04:39<03:20,  1.62s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 59%|█████▉    | 177/300 [04:41<03:14,  1.59s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 59%|█████▉    | 178/300 [04:42<03:16,  1.61s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 60%|█████▉    | 179/300 [04:44<03:13,  1.60s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 60%|██████    | 180/300 [04:45<03:08,  1.57s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 60%|██████    | 181/300 [04:47<03:08,  1.58s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 61%|██████    | 182/300 [04:49<03:11,  1.62s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 61%|██████    | 183/300 [04:50<03:07,  1.61s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 61%|██████▏   | 184/300 [04:52<03:00,  1.56s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 62%|██████▏   | 185/300 [04:53<02:59,  1.56s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 62%|██████▏   | 186/300 [04:55<02:57,  1.56s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 62%|██████▏   | 187/300 [04:56<02:55,  1.56s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 63%|██████▎   | 188/300 [04:58<02:56,  1.58s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 63%|██████▎   | 189/300 [05:00<02:55,  1.58s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 63%|██████▎   | 190/300 [05:01<02:55,  1.59s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 64%|██████▎   | 191/300 [05:03<02:54,  1.60s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 64%|██████▍   | 192/300 [05:04<02:46,  1.54s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 64%|██████▍   | 193/300 [05:06<02:50,  1.59s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 65%|██████▍   | 194/300 [05:07<02:45,  1.56s/it]e
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 65%|██████▌   | 195/300 [05:09<02:48,  1.60s/it]A
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 65%|██████▌   | 196/300 [05:11<02:45,  1.59s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 66%|██████▌   | 197/300 [05:12<02:48,  1.64s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 66%|██████▌   | 198/300 [05:14<02:41,  1.58s/it]B
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 66%|██████▋   | 199/300 [05:15<02:41,  1.59s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 67%|██████▋   | 200/300 [05:17<02:42,  1.63s/it]A
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 67%|██████▋   | 201/300 [05:19<02:39,  1.61s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 67%|██████▋   | 202/300 [05:20<02:36,  1.59s/it]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 68%|██████▊   | 203/300 [05:22<02:34,  1.59s/it]A
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 68%|██████▊   | 204/300 [05:23<02:27,  1.54s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 68%|██████▊   | 205/300 [05:25<02:28,  1.57s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 69%|██████▊   | 206/300 [05:27<02:31,  1.61s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 69%|██████▉   | 207/300 [05:28<02:28,  1.60s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 69%|██████▉   | 208/300 [05:30<02:26,  1.59s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 70%|██████▉   | 209/300 [05:31<02:24,  1.58s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 70%|███████   | 210/300 [05:33<02:25,  1.62s/it]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 70%|███████   | 211/300 [05:35<02:22,  1.60s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 71%|███████   | 212/300 [05:36<02:23,  1.63s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 71%|███████   | 213/300 [05:38<02:21,  1.63s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 71%|███████▏  | 214/300 [05:40<02:25,  1.69s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 72%|███████▏  | 215/300 [05:41<02:25,  1.71s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 72%|███████▏  | 216/300 [05:43<02:22,  1.69s/it]e
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 72%|███████▏  | 217/300 [05:45<02:13,  1.60s/it]B
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 73%|███████▎  | 218/300 [05:46<02:09,  1.58s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:01<?, ?it/s]
+ 73%|███████▎  | 219/300 [05:47<01:56,  1.44s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 73%|███████▎  | 220/300 [05:48<01:37,  1.22s/it]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 74%|███████▎  | 221/300 [05:49<01:26,  1.09s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 74%|███████▍  | 222/300 [05:50<01:19,  1.02s/it]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 74%|███████▍  | 223/300 [05:50<01:12,  1.06it/s]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 75%|███████▍  | 224/300 [05:51<01:06,  1.14it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 75%|███████▌  | 225/300 [05:52<01:05,  1.14it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 75%|███████▌  | 226/300 [05:53<01:02,  1.18it/s]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 76%|███████▌  | 227/300 [05:53<01:00,  1.22it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 76%|███████▌  | 228/300 [05:54<00:59,  1.20it/s]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 76%|███████▋  | 229/300 [05:55<00:57,  1.23it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 77%|███████▋  | 230/300 [05:56<00:59,  1.18it/s]A
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 77%|███████▋  | 231/300 [05:57<00:59,  1.16it/s]e
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 77%|███████▋  | 232/300 [05:58<00:55,  1.23it/s]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 78%|███████▊  | 233/300 [05:58<00:55,  1.20it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 78%|███████▊  | 234/300 [05:59<00:56,  1.17it/s]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 78%|███████▊  | 235/300 [06:00<00:53,  1.20it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 79%|███████▊  | 236/300 [06:01<00:51,  1.25it/s]e
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 79%|███████▉  | 237/300 [06:02<00:49,  1.26it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 79%|███████▉  | 238/300 [06:03<00:51,  1.19it/s]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 80%|███████▉  | 239/300 [06:03<00:51,  1.18it/s]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 80%|████████  | 240/300 [06:04<00:48,  1.23it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 80%|████████  | 241/300 [06:05<00:46,  1.27it/s]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 81%|████████  | 242/300 [06:06<00:44,  1.29it/s]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 81%|████████  | 243/300 [06:07<00:45,  1.26it/s]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 81%|████████▏ | 244/300 [06:07<00:43,  1.28it/s]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 82%|████████▏ | 245/300 [06:08<00:43,  1.25it/s]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 82%|████████▏ | 246/300 [06:09<00:42,  1.28it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 82%|████████▏ | 247/300 [06:10<00:41,  1.28it/s]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 83%|████████▎ | 248/300 [06:10<00:40,  1.28it/s]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 83%|████████▎ | 249/300 [06:11<00:40,  1.26it/s]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 83%|████████▎ | 250/300 [06:12<00:39,  1.27it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 84%|████████▎ | 251/300 [06:13<00:40,  1.21it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 84%|████████▍ | 252/300 [06:14<00:38,  1.24it/s]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 84%|████████▍ | 253/300 [06:14<00:36,  1.29it/s]e
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 85%|████████▍ | 254/300 [06:15<00:34,  1.31it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 85%|████████▌ | 255/300 [06:16<00:36,  1.24it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 85%|████████▌ | 256/300 [06:17<00:36,  1.20it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 86%|████████▌ | 257/300 [06:18<00:35,  1.20it/s]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 86%|████████▌ | 258/300 [06:19<00:35,  1.18it/s]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 86%|████████▋ | 259/300 [06:19<00:33,  1.21it/s]e
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 87%|████████▋ | 260/300 [06:20<00:32,  1.23it/s]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 87%|████████▋ | 261/300 [06:21<00:30,  1.27it/s]e
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 87%|████████▋ | 262/300 [06:22<00:30,  1.25it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 88%|████████▊ | 263/300 [06:23<00:29,  1.26it/s]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 88%|████████▊ | 264/300 [06:23<00:27,  1.29it/s]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 88%|████████▊ | 265/300 [06:24<00:26,  1.30it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 89%|████████▊ | 266/300 [06:25<00:25,  1.31it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 89%|████████▉ | 267/300 [06:26<00:25,  1.31it/s]e
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 89%|████████▉ | 268/300 [06:26<00:24,  1.29it/s]e
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 90%|████████▉ | 269/300 [06:27<00:24,  1.27it/s]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 90%|█████████ | 270/300 [06:28<00:23,  1.28it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 90%|█████████ | 271/300 [06:29<00:23,  1.26it/s]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 91%|█████████ | 272/300 [06:29<00:21,  1.30it/s]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 91%|█████████ | 273/300 [06:30<00:20,  1.31it/s]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 91%|█████████▏| 274/300 [06:31<00:20,  1.25it/s]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 92%|█████████▏| 275/300 [06:32<00:19,  1.27it/s]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 92%|█████████▏| 276/300 [06:33<00:19,  1.22it/s]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 92%|█████████▏| 277/300 [06:34<00:19,  1.20it/s]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 93%|█████████▎| 278/300 [06:34<00:18,  1.20it/s]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 93%|█████████▎| 279/300 [06:35<00:17,  1.21it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 93%|█████████▎| 280/300 [06:36<00:16,  1.22it/s]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 94%|█████████▎| 281/300 [06:37<00:15,  1.19it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 94%|█████████▍| 282/300 [06:38<00:14,  1.25it/s]e
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 94%|█████████▍| 283/300 [06:38<00:13,  1.27it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 95%|█████████▍| 284/300 [06:39<00:12,  1.26it/s]C
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 95%|█████████▌| 285/300 [06:40<00:11,  1.30it/s]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 95%|█████████▌| 286/300 [06:41<00:10,  1.30it/s]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 96%|█████████▌| 287/300 [06:41<00:10,  1.29it/s]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 96%|█████████▌| 288/300 [06:42<00:09,  1.31it/s]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 96%|█████████▋| 289/300 [06:43<00:08,  1.27it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 97%|█████████▋| 290/300 [06:44<00:07,  1.27it/s]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 97%|█████████▋| 291/300 [06:45<00:06,  1.31it/s]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 97%|█████████▋| 292/300 [06:45<00:06,  1.32it/s]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 98%|█████████▊| 293/300 [06:46<00:05,  1.25it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 98%|█████████▊| 294/300 [06:47<00:04,  1.27it/s]d
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 98%|█████████▊| 295/300 [06:48<00:03,  1.29it/s]e
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 99%|█████████▊| 296/300 [06:49<00:03,  1.21it/s]B
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 99%|█████████▉| 297/300 [06:49<00:02,  1.27it/s]b
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+ 99%|█████████▉| 298/300 [06:50<00:01,  1.28it/s]a
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+100%|█████████▉| 299/300 [06:51<00:00,  1.22it/s]c
+
+  0%|          | 0/4 [00:00<?, ?it/s][A  0%|          | 0/4 [00:00<?, ?it/s]
+100%|██████████| 300/300 [06:52<00:00,  1.24it/s]100%|██████████| 300/300 [06:52<00:00,  1.37s/it]
+a

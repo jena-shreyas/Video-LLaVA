@@ -35,7 +35,7 @@ def parse_args():
     parser.add_argument('--cache_dir', help='', required=True)
     parser.add_argument('--video_dir', help='Directory containing video files.', required=True)
     parser.add_argument('--gt_file_question', help='Path to the ground truth file containing question.', required=True)
-    parser.add_argument('--gt_file_answers', help='Path to the ground truth file containing answers.', required=True)
+    # parser.add_argument('--gt_file_answers', help='Path to the ground truth file containing answers.', required=True)
     parser.add_argument('--output_dir', help='Directory to save the model results JSON.', required=True)
     parser.add_argument('--output_name', help='Name of the file for storing results JSON.', required=True)
     parser.add_argument("--num_chunks", type=int, default=1)
@@ -117,8 +117,8 @@ def run_inference(args):
     #     gt_answers = json.load(file)
 
     gt_questions = json.load(open(args.gt_file_question, "r"))
-    gt_questions = get_chunk(gt_questions, args.num_chunks, args.chunk_idx)
-    gt_answers = json.load(open(args.gt_file_answers, "r"))
+    data = get_chunk(gt_questions, args.num_chunks, args.chunk_idx)
+    # gt_answers = json.load(open(args.gt_file_answers, "r"))
     # gt_answers = get_chunk(gt_answers, args.num_chunks, args.chunk_idx)
 
     answers_file = os.path.join(args.output_dir, f"{args.output_name}.json")
@@ -136,11 +136,11 @@ def run_inference(args):
 
     # Iterate over each sample in the ground truth file
     index = 0
-    for sample in tqdm(gt_questions):
-        video_name = sample['video_name']
-        question = sample['question']
-        id = sample['question_id']
-        answer = gt_answers[index]['answer']
+    for sample in tqdm(data):
+        video_name = sample['video']
+        question = sample['conversations'][0]['value']
+        id = sample['qid']
+        answer = sample[f"a{sample['answer']}"]
         index += 1
 
         sample_set = {'id': id, 'question': question, 'answer': answer}
@@ -150,20 +150,20 @@ def run_inference(args):
             temp_path = os.path.join(args.video_dir, f"{video_name}{fmt}")
             if os.path.exists(temp_path):
                 video_path = temp_path
-                # try:
+                try:
                 # Run inference on the video and add the output to the list
-                output = get_model_output(model, processor['video'], tokenizer, video_path, question, args)
-                sample_set['pred'] = output
-                output_list.append(sample_set)
-                # except Exception as e:
-                #     print(f"Error processing video file '{video_name}': {e}")
+                    output = get_model_output(model, processor['video'], tokenizer, video_path, question, args)
+                    sample_set['pred'] = output
+                    output_list.append(sample_set)
+                except Exception as e:
+                    print(f"Error processing video file '{video_name}': {e}")
                 ans_file.write(json.dumps(sample_set) + "\n")
                 break
 
     ans_file.close()
     # Save the output list to a JSON file
-    # with open(os.path.join(args.output_dir, f"{args.output_name}.json"), 'w') as file:
-    #     json.dump(output_list, file)
+    with open(os.path.join(args.output_dir, f"{args.output_name}.json"), 'w') as file:
+        json.dump(output_list, file)
 
 
 if __name__ == "__main__":

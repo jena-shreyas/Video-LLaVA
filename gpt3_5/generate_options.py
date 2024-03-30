@@ -137,16 +137,20 @@ def generate_options(data: List[Dict],
               
               {qn_answers}
             '''
-    
-      chat_completion = openai.Completion.create(
-        engine="gpt35tdec23",
-        prompt=prompt,
-        temperature=1,
-        max_tokens=330,
-        top_p=0.5,
-        frequency_penalty=0,
-        presence_penalty=0,
-        stop=None)
+
+      try:
+        chat_completion = openai.Completion.create(
+          engine="gpt35tdec23",
+          prompt=prompt,
+          temperature=1,
+          max_tokens=330,
+          top_p=0.5,
+          frequency_penalty=0,
+          presence_penalty=0,
+          stop=None)
+      except:
+        print("Prompt violates OpenAI guidelines")  
+        continue
 
       output = chat_completion["choices"][0]["text"]
       parsed_options = parse_outputs(output, num_options)
@@ -181,29 +185,8 @@ def generate_options(data: List[Dict],
 if __name__ == "__main__":
   filename = sys.argv[1]      # original/data_original.json_
   dirname = osp.dirname(filename)
-  output_filename = osp.join(dirname, osp.basename(filename).split('.')[0] + "_gpt3_5.json")
+  output_filename = osp.basename(filename).split('.')[0] + "_gpt3_5.json"
   with open(osp.join(DATA_DIR, ANNOT_DIR, filename), 'r') as f:
     data : List = json.load(f)
 
-  generate_options(data, output_filename)
-
-
-
-
-
-
-#   text = "   a. <OPT> [person_1] would be very happy. </OPT> <MET> The video summary does not provide any information that would suggest that cutting into someone would make them happy. So, generate a wrong option by adding an opposite emotion, i.e., happy. </MET> \
-#              b. <OPT> [person_1] would be very angry. </OPT> <MET> The video summary does not provide any information that would suggest that cutting into someone would make them angry. So, generate a wrong option by adding an unrelated emotion, i.e., angry. </MET> \
-#              c. <OPT> [person_1] would have to swim to the shore. </OPT>\
-#              d. <OPT> [person_1] would have to get off the boat and find a new one. </OPT> <MET> The video summary mentions that the scene is set on a boat. So, generate a wrong option by adding an unrelated event, i.e., finding a new boat. </MET> \
-#           "
-
-#  # <MET> The video summary mentions that the scene is set on a boat. So, generate a wrong option by adding an unrelated event, i.e., swimming to the shore. </MET> 
-  
-# # d. <OPT> [person_1] would have to get off the boat and find a new one. </OPT> <MET> The video summary mentions that the scene is set on a boat. So, generate a wrong option by adding an unrelated event, i.e., finding a new boat. </MET> \
-  
-#   options = parse_outputs(text, 5)
-#   if options is not None:
-#     for option, method in options:
-#       print("Option :", option, " | Method :", method)
-  
+  generate_options(data, output_filename)  

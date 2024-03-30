@@ -1,14 +1,13 @@
+FILENAME=$1
 
-
-CKPT_NAME="videollava-7b-lora"
-model_path="checkpoints/${CKPT_NAME}"
+CKPT_NAME="videollava-7b"
+model_path="LanguageBind/Video-LLaVA-7B"
 cache_dir="./cache_dir"
 GPT_Zero_Shot_QA="data/causalvidqa"
 video_dir="${GPT_Zero_Shot_QA}/videos"
-gt_file_question="${GPT_Zero_Shot_QA}/annotations/original/test_q.json"
-gt_file_answers="${GPT_Zero_Shot_QA}/annotations/original/test_a.json"
+gt_file_question="${GPT_Zero_Shot_QA}/annotations/data_${FILENAME}.json"
 date=$(date +"%d_%m_%Y_%H_%M_%S")
-output_dir="results/eval/${CKPT_NAME}/${date}"
+output_dir="results/eval/${CKPT_NAME}/causalvidqa/predictions/${FILENAME}"
 
 
 gpu_list="${CUDA_VISIBLE_DEVICES:-0}"
@@ -23,11 +22,9 @@ for IDX in $(seq 0 $((CHUNKS-1))); do
       --cache_dir ${cache_dir} \
       --video_dir ${video_dir} \
       --gt_file_question ${gt_file_question} \
-      --gt_file_answers ${gt_file_answers} \
       --output_dir ${output_dir} \
       --output_name ${CHUNKS}_${IDX} \
       --num_chunks $CHUNKS \
-      --model_base "LanguageBind/Video-LLaVA-7B" \
       --chunk_idx $IDX &
 done
 

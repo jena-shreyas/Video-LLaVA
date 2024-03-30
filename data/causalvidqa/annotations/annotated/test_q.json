@@ -1,0 +1,1502 @@
+[
+    {
+        "video_name": "gLvfaI8FEr8_000001_000011",
+        "question_id": "gLvfaI8FEr8_000001_000011_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What tool does [person_1] hold in his hand?\nOptions:\n\na. It seems like a saw.\nb. It seems like a hammer.\nc. It seems like a knife.\nd. It seems like an hatchet.\ne. It seems like a sickle.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "3CWxCLr3Xbk_000011_000021",
+        "question_id": "3CWxCLr3Xbk_000011_000021_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What happens if [person_1]'s hammer is missed?\nOptions:\n\na. [person_1]'s swing will be perfect and hit the nail.\nb. [person_1] will catch the hammer before it falls.\nc. [person_1] will have excellent aim and hit the target.\nd. [person_1] may hit [person_1]'s hand and get injured.\ne. [person_1] will be wearing gloves to protect their hand.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "HgCKPN3Y9Cg_000705_000715",
+        "question_id": "HgCKPN3Y9Cg_000705_000715_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_3] raise his hands?\nOptions:\n\na. [person_3] instructs everyone to start working.\nb. [person_3] instructs everyone to gather.\nc. [person_3] inspires everyone to work harder and not give up.\nd. [person_3] disbands everyone.\ne. [person_3] delegates more responsibilities to the group.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "zO-6g1r5fKQ_000001_000011",
+        "question_id": "zO-6g1r5fKQ_000001_000011_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_1] looking at the hoop?\nOptions:\n\na. [person_1] wants to make sure he's holding the hoop straight up.\nb. [person_1] wants to fly his toy plane through the hoop.\nc. [person_1] wants to watch the cat jump through the hoop.\nd. [person_1] is looking at the ballerina do hula hooping.\ne. Perhaps [person_1] wants to concentrate on hula hooping.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "UW1mNVsTdCs_000000_000010",
+        "question_id": "UW1mNVsTdCs_000000_000010_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What would happen if [person_2] tried to join [person_1] on the pavement a few seconds later?\nOptions:\n\na. [person_2] would slip on the road since it was wet.\nb. [person_2] would trip over the elevated pavement and fall.\nc. [person_2] would join [person_1] without tripping as the pavement wasn't elevated there.\nd. [person_2] would fall into the pothole.\ne. [person_2] would collide with the incoming car.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "pywHytueU1s_000031_000041",
+        "question_id": "pywHytueU1s_000031_000041_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where is the bird?\nOptions:\n\na. The bird is sitting on the pavement near [person_1].\nb. The bird is sitting on the ground beside the pavement where [person_1] stands.\nc. The bird is in sitting on the head of [person_1].\nd. The bird is in the hands of [person_1].\ne. The bird is sitting on the shoulders of [person_1].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "b4FIQL0xioQ_000347_000357",
+        "question_id": "b4FIQL0xioQ_000347_000357_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What color are the pants of [person_4]?\nOptions:\n\na. They are definitely not white.\nb. Black\nc. White\nd. The description of [person_4]'s colorless attire is incorrect, they are wearing colored pants.\ne. The pants that [person_4] is wearing are not white, they are a different color.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "FA4yAEBX74w_000008_000018",
+        "question_id": "FA4yAEBX74w_000008_000018_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will [person_2] do next?\nOptions:\n\na. [person_2] will fight with [person_1].\nb. [person_2] will try to find some foods.\nc. [person_2] will sit on the chair.\nd. [person_2] will climb on the bed.\ne. [person_2] will keep the cup on the table.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "8KZJ1qHNBXE_000003_000013",
+        "question_id": "8KZJ1qHNBXE_000003_000013_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What shape are the two objects hanging on [person_1] head?\nOptions:\n\na. The two objects are shaped like horns.\nb. The two objects are shaped like hearts.\nc. The two objects are ear-shaped.\nd. The two objects are the heart shape.\ne. The two objects are the skull shape.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "0NIzLI3uk-A_000142_000152",
+        "question_id": "0NIzLI3uk-A_000142_000152_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will [person_1] do if [person_2] doesn't pour wine?\nOptions:\n\na. [person_1] will directly drink from the jug of wine.\nb. [person_1] will drink from the bottle of water on the table instead.\nc. [person_2] will drink from the can of juice on the table instead.\nd. [person_1] may go to pour the wine.\ne. [person_1] may go to pour the water.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "a3rCWEs8VIY_000210_000220",
+        "question_id": "a3rCWEs8VIY_000210_000220_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is the person on the right going to do?\nOptions:\n\na. The person on the right may ride away on his bicycle.\nb. The person on the right may fix his flat bicycle tire.\nc. The person on the right may pick up the ball lying on the floor.\nd. The person on the right may offer to hold [person_2]'s bag.\ne. The person on the right may offer to pick up [person_2]'s helmet lying on the ground.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "kg2fptiN68s_000049_000059",
+        "question_id": "kg2fptiN68s_000049_000059_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What color is the [horse_4]?\nOptions:\n\na. [horse_4] is not white.\nb. It's brown.\nc. It's striped with alternating colors of black and white.\nd. It's white.\ne. [horse_4] is black.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "HgCKPN3Y9Cg_000705_000715",
+        "question_id": "HgCKPN3Y9Cg_000705_000715_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] will ask [person_3] about the signal he made.\nb. [person_1] will stay where he is and keep talking to [person_2].\nc. [person_2] is bound to discuss with [person_1].\nd. [person_1] will go to [person_3] and strike up a conversation.\ne. [person_2] will move to the right of the room.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "cmRK2QaIy_k_000152_000162",
+        "question_id": "cmRK2QaIy_k_000152_000162_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where would [person_2] have put the microphone?\nOptions:\n\na. [person_2] will not put it on the microphone stand and will keep practicing.\nb. [person_2] will not put it on the microphone stand and will continue watching.\nc. [person_2] will not put it on the microphone stand and will announce the winners.\nd. [person_2] will probably put it on the microphone stand.\ne. [person_2] will intentionally knock over the microphone stand, preventing it from being used.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "mW-i0QS9aBk_000002_000012",
+        "question_id": "mW-i0QS9aBk_000002_000012_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] is going to hold [person_1] in place.\nb. [person_1] is going to take [person_2] to the dolphin.\nc. [person_1] is going to leave [person_2] and go watch the animal herself.\nd. [person_1] is going to take [person_2] to see the turtle.\ne. [person_1] is going to take [person_2] to see the baby seal.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "pywHytueU1s_000031_000041",
+        "question_id": "pywHytueU1s_000031_000041_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if it rains?\nOptions:\n\na. [person_1] will use the umbrella in his hands to cover himself from the rain.\nb. [person_1] will wear a raincoat and continue playing cricket with his friends.\nc. [person_1] will take shelter under the bridge.\nd. [person_1] will come back home.\ne. [person_1] will continue to play football.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "ZQezF8sgljg_000073_000083",
+        "question_id": "ZQezF8sgljg_000073_000083_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_7] so happy?\nOptions:\n\na. Because [person_7] is playing with her toys.\nb. Because [person_7] is enjoying learning how to paint.\nc. Because [person_7] is doing what she likes.\nd. [person_7] is enjoying playing rock-paper-scissors with her siblings.\ne. [person_7] is eating her favourite cookie.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "2HcmuER9nmQ_000001_000011",
+        "question_id": "2HcmuER9nmQ_000001_000011_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [person_1]'s neck twisted incautiously?\nOptions:\n\na. [person_1] will relax on the bed close by.\nb. [person_1] will take rest on the sofa nearby.\nc. [person_1] should seek medical help if the pain is severe.\nd. [person_1] should pull the neck in the opposite direction to try and correct the twist.\ne. [person_1] should ignore the twist and continue exercising.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "WVPXUlLk8wM_000020_000030",
+        "question_id": "WVPXUlLk8wM_000020_000030_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_1] smiling?\nOptions:\n\na. Because there is a funny cartoon show playing on the TV.\nb. Because her younger brother looks funny with the makeup she applied on him.\nc. Because she is enjoying learning to play the mouth organ.\nd. Because she is enjoying learning to play the flute.\ne. Because she is enjoying learning to play the guitar.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Qw4l-tlk-ro_000059_000069",
+        "question_id": "Qw4l-tlk-ro_000059_000069_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_1] dancing?\nOptions:\n\na. [person_1] is enjoying with her friends at the party.\nb. [person_1] is dancing at her wedding.\nc. [person_1] is giving a dance performance in front of an audience.\nd. [person_1] does it to prepare for competition.\ne. [person_1] is learning how to dance with her friend.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "YIwbUpzWsT4_000010_000020",
+        "question_id": "YIwbUpzWsT4_000010_000020_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] wearing?\nOptions:\n\na. [person_1] is wearing swimming goggles.\nb. [person_1] is wearing an orange floating jacket.\nc. [person_1] is wearing a swimming cap and a swimsuit.\nd. [person_1] is wearing a woollen sweater.\ne. [person_1] is wearing a bath robe.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "3CWxCLr3Xbk_000011_000021",
+        "question_id": "3CWxCLr3Xbk_000011_000021_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is the table shaking?\nOptions:\n\na. Because an earthquake has occurred.\nb. Because [person_1] is vigorously mixing the cake batter.\nc. Because [person_1] is chiseling rocks hard.\nd. Because [person_1] is hammering a pin to the table.\ne. Because [person_1] is banging the table with his fist.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "mW-i0QS9aBk_000002_000012",
+        "question_id": "mW-i0QS9aBk_000002_000012_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [person_1] let go of [person_2]?\nOptions:\n\na. [person_2] would swim to the dolphin herself without any help from [person_1].\nb. [person_2] would climb back to the shore.\nc. [person_2] would swim to see the turtle herself.\nd. [person_2] would fall into the water.\ne. [person_2] would swim to the baby whale herself.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "cmRK2QaIy_k_000152_000162",
+        "question_id": "cmRK2QaIy_k_000152_000162_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: If the power went off, what can [person_2] still do?\nOptions:\n\na. [person_2] can play the drums kept on stage.\nb. [person_2] can play the piano kept on stage.\nc. [person_2] can play the guitar kept on stage.\nd. [person_2] can play the keyboard kept on stage.\ne. [person_2] can play the tabla kept on stage.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Nw6vib7zHpA_000007_000017",
+        "question_id": "Nw6vib7zHpA_000007_000017_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_1] make a cup of juice?\nOptions:\n\na. Because [person_1] wants her child to drink the juice.\nb. Because [person_1] wants to have a healthy drink before exercise.\nc. Because [person_1] needs energy while running the marathon.\nd. [person_1] wants his child to drink the juice.\ne. [person_1] is trying out the bottle of juice she bought from the market yesterday.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "b4FIQL0xioQ_000347_000357",
+        "question_id": "b4FIQL0xioQ_000347_000357_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if the lights turn off?\nOptions:\n\na. [person_4] will continue to clear the snow despite the darkness.\nb. [person_4] will look for the matchstick box on the table nearby.\nc. [person_4] may choose to find another place to sing songs.\nd. [person_4] may choose to find another place to dance.\ne. [person_4] will light the torch in his hand.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "0NIzLI3uk-A_000142_000152",
+        "question_id": "0NIzLI3uk-A_000142_000152_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_1] raise his glass?\nOptions:\n\na. Because [person_1] wants to propose a toast to the newly wed couple.\nb. Because [person_1] has finished his drink.\nc. Because [person_1] does not want to drink what [person_2] is offering.\nd. Because [person_1] is asking for more drink.\ne. Because [person_1] wants to drink with [person_2].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "7ME6b0f3iL0_000026_000036",
+        "question_id": "7ME6b0f3iL0_000026_000036_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if the power goes off?\nOptions:\n\na. Then [person_1] will look out for the matchstick box on the adjacent table.\nb. [person_1] will reach out for the light on the adjacent table.\nc. [person_1] will bang her hand against the door.\nd. [person_1] will trip on the adjacent table.\ne. [person_1] will damage the bowl while fumbling in the dark.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "We2rldGllrg_000100_000110",
+        "question_id": "We2rldGllrg_000100_000110_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_1] wear a vest?\nOptions:\n\na. It may be because the indoor temperature is relatively low.\nb. The indoor temperature is too low for wearing a jacket.\nc. The indoor temperature is too low for wearing a sweater.\nd. It may be because the indoor temperature is relatively high.\ne. [person_1] is wearing comfortable clothes for her workout.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "UW1mNVsTdCs_000000_000010",
+        "question_id": "UW1mNVsTdCs_000000_000010_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: where is [car_1] on the street?\nOptions:\n\na. [car_1] is parked on the left side of the street.\nb. [car_1] is parked close to the left pavement.\nc. [car_1] is parked close to the traffic lights.\nd. [car_1] is parked close to the electric pole.\ne. [car_1] is parked on the right side of the street , on the turn.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "8KZJ1qHNBXE_000003_000013",
+        "question_id": "8KZJ1qHNBXE_000003_000013_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_1] wearing the skull object on his head?\nOptions:\n\na. Because it is a traditional head garment suited to the occasion.\nb. Because it's not a skull object but a helmet, ensuring safety.\nc. Because it obstructs vision, making it unsafe to wear.\nd. Because it is a fun thing to wear.\ne. Because it's too heavy to be worn, causing discomfort.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "b4FIQL0xioQ_000347_000357",
+        "question_id": "b4FIQL0xioQ_000347_000357_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_3] going to do?\nOptions:\n\na. [person_3] may walk past the homeless person begging for help.\nb. [person_3] will try out the thing [person_4] is selling.\nc. [person_3] may give some money to [person_1].\nd. [person_3] will snatch money from [person_1].\ne. [person_3] may give some money to the singer.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "7ME6b0f3iL0_000026_000036",
+        "question_id": "7ME6b0f3iL0_000026_000036_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will [person_2] do next?\nOptions:\n\na. [person_2] will stop doing the pottery and destroy the clay.\nb. [person_2] will abandon the pottery wheel and walk away.\nc. [person_2] will throw a fit and smash the pottery project.\nd. [person_2] will add water to the pottery to make it too soft to work with.\ne. [person_2]'ll continue doing the pottery.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "xZ9zmoP07Ek_000013_000023",
+        "question_id": "xZ9zmoP07Ek_000013_000023_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_3] going to do?\nOptions:\n\na. [person_3] is going to sit on the black couch.\nb. [person_3] is going to sit on the blue couch.\nc. [person_3] is going to sit on the white couch.\nd. [person_3] is going to sit on the red couch.\ne. [person_3] is going to sit on the brown couch.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "a3rCWEs8VIY_000210_000220",
+        "question_id": "a3rCWEs8VIY_000210_000220_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_1] point at [person_2]?\nOptions:\n\na. To prove [person_1]'s admiration for [person_2].\nb. Because [person_1] finds [person_2] amusing.\nc. [person_1] is arguing with [person_2].\nd. To show [person_1]'s agreement with [person_2].\ne. Because [person_1] trusts [person_2] with an important task.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "xZ9zmoP07Ek_000013_000023",
+        "question_id": "xZ9zmoP07Ek_000013_000023_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What would have happened if [person_3] couldn't have held [person_1] in time while letting [person_1] stood on the hand of [person_2]?\nOptions:\n\na. [person_1] could have had a bad fall.\nb. [person_2] wouldn't have fallen even if [person_1] let go.\nc. [person_1] would have been able to safely release their grip and [person_2] would not fall.\nd. [person_1] would have smoothly transitioned to another pose or movement pattern, maintaining balance for both individuals.\ne. [person_1] would have mentally prepared to let go, maintaining focus and stability for [person_2].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "2HcmuER9nmQ_000001_000011",
+        "question_id": "2HcmuER9nmQ_000001_000011_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will [person_1] do next?\nOptions:\n\na. [person_1] will straighten both legs.\nb. [person_1] will keep both legs rigid.\nc. [person_1] will bend one of the legs.\nd. [person_1] will stretch both legs out straight.\ne. [person_1] will lift both legs off the ground.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "We2rldGllrg_000100_000110",
+        "question_id": "We2rldGllrg_000100_000110_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if it rains outside?\nOptions:\n\na. The shoes that [person_1] is wearing might smell bad.\nb. [person_1] might not go for a walk outdoors.\nc. The room wouldn't get wet as the windows are closed.\nd. [person_1] might go for a swim with her friends.\ne. Heavy rain may cause the roller coaster to open during the storm for maintenance and safety reasons.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "mW-i0QS9aBk_000002_000012",
+        "question_id": "mW-i0QS9aBk_000002_000012_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_2] looks like?\nOptions:\n\na. [person_2] is wearing a grey life jacket.\nb. [person_2] is wearing a blue life jacket.\nc. [person_2] is not wearing any jacket or vest.\nd. [person_2] is wearing a red life jacket.\ne. [person_2] is wearing a green raincoat.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "9TWYfNKfCDs_000071_000081",
+        "question_id": "9TWYfNKfCDs_000071_000081_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_2] throwing the water balls on [person_3]?\nOptions:\n\na. [person_2] insists on pouring water on [person_3] as a form of punishment.\nb. [person_3] has asked [person_2] not to throw water balls at her.\nc. [person_2] is attempting to extinguish a fire on [person_3].\nd. They are playing a game of throwing water ball on each other.\ne. [person_3] is trying to sell water balls and [person_2] keeps stealing them to throw instead.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "pywHytueU1s_000031_000041",
+        "question_id": "pywHytueU1s_000031_000041_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_1] standing outside?\nOptions:\n\na. [person_1] is holding the puppy.\nb. [person_1] is enjoying watching the fish in the pond.\nc. [person_1] is holding the cat.\nd. [person_1] has been sent out of class.\ne. [person_1] is holding the bird.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "kg2fptiN68s_000049_000059",
+        "question_id": "kg2fptiN68s_000049_000059_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_1] riding around on [horse_4]?\nOptions:\n\na. Maybe [person_1] is preparing for a sword fight performance.\nb. [person_1] is preparing for a game of polo with his friends.\nc. [person_1] is just riding on [horse_4] without any purpose.\nd. [person_1] has forcefully taken [horse_4] without permission.\ne. Maybe [person_1] is learning horseback riding.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "kKOykgWaHj0_000158_000168",
+        "question_id": "kKOykgWaHj0_000158_000168_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: How many people are there?\nOptions:\n\na. There are more than five people.\nb. There are two people.\nc. There are three people.\nd. There are four people.\ne. There are five people.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "fUNxGGTiVCM_000018_000028",
+        "question_id": "fUNxGGTiVCM_000018_000028_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] will keep peeling the guava.\nb. [person_1] will keep peeling the apple.\nc. [person_1] will keep peeling the mango.\nd. [person_1] will keep peeling the orange.\ne. [person_1] will keep peeling the potato.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "We2rldGllrg_000100_000110",
+        "question_id": "We2rldGllrg_000100_000110_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will [person_1] do?\nOptions:\n\na. Maybe [person_1] is staying home.\nb. [person_1] will not go outside.\nc. Maybe [person_1] is going out to play.\nd. [person_1] is working.\ne. [person_1] is likely taking a nap.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "3CWxCLr3Xbk_000011_000021",
+        "question_id": "3CWxCLr3Xbk_000011_000021_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will the stone become?\nOptions:\n\na. The stone will be used as a paperweight.\nb. The shape of the stone will be chiseled by [person_1] into the shape he wants.\nc. The heavy stone will be used to hold the supports of the bamboo bridge in place.\nd. The stone will increase in size after being chiseled.\ne. The stone will corrode on coming in contact with the air.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "fUNxGGTiVCM_000018_000028",
+        "question_id": "fUNxGGTiVCM_000018_000028_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What does [person_1] wear in his hand?\nOptions:\n\na. [person_1] wears a bracelet.\nb. [person_1] wears a necklace.\nc. [person_1] wears gloves.\nd. [person_1] wears a band.\ne. [person_1] wears a watch.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Ky9azX5WHDs_000376_000386",
+        "question_id": "Ky9azX5WHDs_000376_000386_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: How does [person_3] drink beer in the bottle in his hand?\nOptions:\n\na. [person_3] covers the opening of the bottle with his hand.\nb. [person_3] turns the bottle upside down and drinks from the neck.\nc. [person_3] drinks through a tube on the bottle.\nd. [person_3] holds the bottle by the label and tilts it to drink.\ne. [person_3] shakes the bottle before drinking.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Yhu2Lm1Z0Zg_000029_000039",
+        "question_id": "Yhu2Lm1Z0Zg_000029_000039_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What happens if the wind blows fallen leaves onto the road at this time?\nOptions:\n\na. [person_1] will need to blow the leaves into the pit near the other side of the road.\nb. [person_1] will need to move the leaves in the bin nearby.\nc. The road will not be covered by the leaves.\nd. [person_1] will need to blow leaves off from the road.\ne. [person_1]'s schedule will not be delayed.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Yhu2Lm1Z0Zg_000029_000039",
+        "question_id": "Yhu2Lm1Z0Zg_000029_000039_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: How does [person_1] clean the fallen leaves?\nOptions:\n\na. He uses a broom to sweep leaves.\nb. He uses a blower to clear leaves.\nc. He uses a cutter to clear the dead leaves.\nd. He uses a vacuum cleaner to clear leaves.\ne. He uses a lawn mower to clear leaves.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "3CWxCLr3Xbk_000011_000021",
+        "question_id": "3CWxCLr3Xbk_000011_000021_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] wearing on his head?\nOptions:\n\na. [person_1] is wearing a black cap.\nb. [person_1] is wearing a pair of glasses.\nc. [person_1] is wearing a hat.\nd. [person_1] is wearing goggles.\ne. [person_1] is wearing a turban.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "U3Ed4pBIbbk_000040_000050",
+        "question_id": "U3Ed4pBIbbk_000040_000050_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] may go on driving the car.\nb. [person_1] is going to fly a kite.\nc. [person_1] is going to cook dinner.\nd. [person_1] is going to paint a picture.\ne. [person_1] may go on flying the airplane.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "ZQezF8sgljg_000073_000083",
+        "question_id": "ZQezF8sgljg_000073_000083_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What's [dining table_1] for?\nOptions:\n\na. They make donuts on [dining table_1].\nb. They make pastries on [dining table_1].\nc. They make sausages on [dining table_1].\nd. They make cookies on [dining table_1].\ne. They make tacos on [dining table_1].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "fUNxGGTiVCM_000018_000028",
+        "question_id": "fUNxGGTiVCM_000018_000028_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_1] put the apple on the table?\nOptions:\n\na. [person_1] needs to hold the apple in place for dicing.\nb. [person_1] holds the apple in both hands.\nc. [person_1] puts the apple in the fruit basket on the table.\nd. [person_1] needs to hold the apple in place for peeling.\ne. [person_1] needs to hold the apple in place for chopping.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Qw4l-tlk-ro_000059_000069",
+        "question_id": "Qw4l-tlk-ro_000059_000069_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What does [person_1] tend to do?\nOptions:\n\na. [person_1] tends to sing while pumping gas into the car.\nb. [person_1] tends to misplace the gas pump nozzle.\nc. [person_1] tends to take a stretch while pumping gas into the car.\nd. [person_1] tends to dance while pumping gas into the car.\ne. [person_1] tends to pay for the gas while pumping it into the car.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "pywHytueU1s_000031_000041",
+        "question_id": "pywHytueU1s_000031_000041_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] may keep holding the cat.\nb. [person_1] may keep holding the puppy.\nc. [person_1] may keep holding the bird.\nd. [person_1] may keep holding the little chick.\ne. [person_1] may keep holding the hen.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "46BJgiKGl_c_000000_000010",
+        "question_id": "46BJgiKGl_c_000000_000010_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] doing?\nOptions:\n\na. [person_1] is inflating [sport ball_1].\nb. [person_1] is deflating [sport ball_1].\nc. [person_1] is bursting [sport ball_1].\nd. [person_1] is kicking [sport ball_1] away.\ne. [person_1] is putting a hole in [sport ball_1].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Ky9azX5WHDs_000376_000386",
+        "question_id": "Ky9azX5WHDs_000376_000386_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_4] going to do?\nOptions:\n\na. [person_4] is going to drink orange juice in the same way as [person_3] does.\nb. [person_4] is going to pour out the beer.\nc. [person_4] is going to drink water in the same way as [person_3] does.\nd. [person_4] is going to drink beer in the same way as [person_3] does.\ne. [person_4] is going to drink lemonade in the same way as [person_3] does.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "o3BJ2JmWLTc_000044_000054",
+        "question_id": "o3BJ2JmWLTc_000044_000054_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What are they that on [truck_2]?\nOptions:\n\na. They are water tanks.\nb. They are petrol drums.\nc. They are beer containers.\nd. They are gas tanks.\ne. They are juice containers.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "9TWYfNKfCDs_000071_000081",
+        "question_id": "9TWYfNKfCDs_000071_000081_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where are people playing in the video?\nOptions:\n\na. They are playing in a muddy field.\nb. They are playing in a small grassy pitch.\nc. They are playing in a lush meadow with flowers.\nd. They are playing in a sand filled park.\ne. They are playing in a grassy backyard.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "WVPXUlLk8wM_000020_000030",
+        "question_id": "WVPXUlLk8wM_000020_000030_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where is the television?\nOptions:\n\na. The television is in front of [person_1].\nb. The [person_1] is in front of the television.\nc. The [person_1] is to the right of the television.\nd. The television is to the left of [person_1].\ne. The [person_1] is adjacent to the television.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "UW1mNVsTdCs_000000_000010",
+        "question_id": "UW1mNVsTdCs_000000_000010_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: what is [person_1] going to do?\nOptions:\n\na. [person_1] will not dismount [bicycle_1] and instead continue to pedal.\nb. [person_1] will dismount [bicycle_1] and assist [person_1].\nc. [person_1] will dismount [bicycle_1] and assist [person_2].\nd. [person_1] will collide with the pole on the pavement.\ne. [person_1] will dismount [bicycle_1] and assist [car_1].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Qw4l-tlk-ro_000059_000069",
+        "question_id": "Qw4l-tlk-ro_000059_000069_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What would happen if [person_1] danced hard?\nOptions:\n\na. [person_1] would gain more energy.\nb. People in the party would cheer her up.\nc. [person_1] wouldn't be able to play.\nd. [person_1]'s wouldn't be able to sing.\ne. [person_1]'s wouldn't be able to read.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "xx4npVGdGB4_000123_000133",
+        "question_id": "xx4npVGdGB4_000123_000133_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What instrument is [person_3] playing?\nOptions:\n\na. It is a traditional pipe organ.\nb. It is a piano.\nc. It is an acoustic guitar.\nd. It is a violin.\ne. It is a synthesizer.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "HgCKPN3Y9Cg_000705_000715",
+        "question_id": "HgCKPN3Y9Cg_000705_000715_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if the lights go off?\nOptions:\n\na. [person_3] will look out for the matchsticks box on the table nearby.\nb. [person_1] will look out for the nearest exit.\nc. [person_1] will look out for the candle on the table nearby.\nd. [person_2] will look out for the candle on the table nearby.\ne. [person_3] will look out for the candle on the table nearby.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "mW-i0QS9aBk_000002_000012",
+        "question_id": "mW-i0QS9aBk_000002_000012_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_2] get into the water?\nOptions:\n\na. Because [person_2] wants to touch the swimming turtle.\nb. Because [person_2] wants to touch the swimming baby seal.\nc. Because [person_2] wants to touch the swimming dolphin.\nd. Because [person_2] wants to touch the swimming fish.\ne. Because [person_2] wants to touch the swimming platypus.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "fUNxGGTiVCM_000018_000028",
+        "question_id": "fUNxGGTiVCM_000018_000028_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will occur if the fruit is not held on the table?\nOptions:\n\na. It might be more difficult to peel the apple.\nb. It might be more difficult to peel the guava.\nc. It might take less time to peel the orange.\nd. It might less time to peel the guava.\ne. It might be easier to peel the melon.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "lVM6-d0zQhE_000022_000032",
+        "question_id": "lVM6-d0zQhE_000022_000032_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What pattern is the floor?\nOptions:\n\na. It has blue tiles.\nb. It has no designs on the tiles.\nc. It has checkered designs on the tiles.\nd. It has black tiles.\ne. It has floral designs on the tiles.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Qw4l-tlk-ro_000059_000069",
+        "question_id": "Qw4l-tlk-ro_000059_000069_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What kind of shirt is [person_1] wearing?\nOptions:\n\na. [person_1] is wearing a long-sleeved shirt.\nb. [person\\_1] is wearing a sweater.\nc. [person_1] is wearing a crop top.\nd. [person\\_1] is wearing a coat or jacket.\ne. [person\\_1] is wearing a tuxedo shirt.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "zO-6g1r5fKQ_000001_000011",
+        "question_id": "zO-6g1r5fKQ_000001_000011_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [person_1] lacks concentration?\nOptions:\n\na. The hoop may fly away.\nb. The hoop may levitate.\nc. The hoop may become lighter.\nd. The hoop may become larger.\ne. The hoop may drop.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "9t_37F60-Y4_000007_000017",
+        "question_id": "9t_37F60-Y4_000007_000017_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] is going to put the baseball bat aside.\nb. [person_1] is going to spin around and raise the baton.\nc. [person_1] is going to spin around and raise the sword.\nd. [person_1] is going to spin around and raise the baseball bat.\ne. [person_1] is going to sheathe the sword.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "kg2fptiN68s_000049_000059",
+        "question_id": "kg2fptiN68s_000049_000059_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if the grass was replaced with sand?\nOptions:\n\na. [horse_4] would have a hard time taking steps forward.\nb. [horse_4] would have a hard time standing in position.\nc. [horse_4] would have no problems walking on sand since its feet are adapted to it.\nd. [horse_4] would become dizzy and fall to the ground.\ne. [person_1] would fall down from [horse_4].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "PMx6U_9nmb4_000067_000077",
+        "question_id": "PMx6U_9nmb4_000067_000077_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] wants to pull [person_2]'s hair.\nb. [person_1] wants to go to [bed_1] to play with [person_2].\nc. [person_1] wants to play rock-paper-scissors with [person_2].\nd. [person_1] wants to have a beer with [person_2].\ne. [person_1] wants to play cards with [person_2] on [bed_1].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "zO-6g1r5fKQ_000001_000011",
+        "question_id": "zO-6g1r5fKQ_000001_000011_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do next?\nOptions:\n\na. [person_1] will stop hula hooping and pick up the football instead.\nb. [person_1] will stop hula hooping and pick up the stick instead.\nc. [person_1] is going to keep doing hula hooping.\nd. [person_1] will exchange the hula hoop for the teddy bear.\ne. [person_1] will exchange the hula hoop for the ball.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "WVPXUlLk8wM_000020_000030",
+        "question_id": "WVPXUlLk8wM_000020_000030_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [person_1] tries to play the flute in empty space?\nOptions:\n\na. [person_1] will blow air into the flute but there will be no sound.\nb. [person_1] will discard the flute and play the guitar, which can be played in empty space.\nc. [person_1] will discard the flute and play the violin, which can be played in empty space.\nd. [person_1] will discard the flute for a new one.\ne. [person_1] will not be able to blow air into the flute.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "PMx6U_9nmb4_000067_000077",
+        "question_id": "PMx6U_9nmb4_000067_000077_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why do [person_1] and [person_2] look so happy?\nOptions:\n\na. Because [person_2] and [person_1] are dancing.\nb. Because [person_2] and [person_1] are enjoying playing a game of cards.\nc. Because [person_2] and [person_1] are singing.\nd. Because [person_2] and [person_1] are enjoying playing football.\ne. Because [person_2] and [person_1] are talking.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "PMx6U_9nmb4_000067_000077",
+        "question_id": "PMx6U_9nmb4_000067_000077_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What happens if [person_1] falls from [bed_1]?\nOptions:\n\na. [person_1] will walk to the nearest hospital.\nb. [person_1] might reach out for a pain reliever to ease the pain.\nc. [person_1] might throw a verbal tantrum at [person_2].\nd. [person_1] might cry for help.\ne. [person_1] might use his walking stick to stand up.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "9TWYfNKfCDs_000071_000081",
+        "question_id": "9TWYfNKfCDs_000071_000081_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] is going to play hide and seek with [person_3].\nb. [person_1] is going to throw the balls on [person_3].\nc. [person_1] is going to play rock-paper-scissors with [person_3].\nd. [person_1] is going to play musical chair with [person_3].\ne. [person_1] is going to play baseball with [person_3].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "9t_37F60-Y4_000007_000017",
+        "question_id": "9t_37F60-Y4_000007_000017_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why are [person_1] and [person_2] holding swords?\nOptions:\n\na. Because [person_1] and [person_2] are having a sword-balancing act.\nb. [person_1] and [person_2] are putting the swords in their sheaths.\nc. [person_1] and [person_2] are practising their sword making skills.\nd. [person_1] and [person_2] are decorating their sword-hilt designs with beads.\ne. [person_1] and [person_2] are performing a sword-fighting demonstration for an audience.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "9TWYfNKfCDs_000071_000081",
+        "question_id": "9TWYfNKfCDs_000071_000081_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [person_1] falls on the ground?\nOptions:\n\na. [person_1] will stand up immediately without falling.\nb. [person_1] might need someone's help to stand up again.\nc. [person_1] is floating on water and will not touch the ground.\nd. [person_1] is wearing a bouncy suit that will prevent them from falling.\ne. [person_1] is holding onto something sturdy that prevents them from falling.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "U3Ed4pBIbbk_000040_000050",
+        "question_id": "U3Ed4pBIbbk_000040_000050_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if the sun is too bright?\nOptions:\n\na. [person_1] must be brightened.\nb. The room will be darkened to counteract the sun's brightness.\nc. [person_1] is required to work without any means of shielding their eyes from the sun.\nd. [person_1] may put on his sunglasses.\ne. [person_1] is unable to access sunglasses in order to protect their eyes from the bright sun.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "g85OdlEOBb0_000003_000013",
+        "question_id": "g85OdlEOBb0_000003_000013_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What are [person_1] and [person_2] going to do ?\nOptions:\n\na. [person_1] and [person_2] are going to continue their performances.\nb. [person_1] and [person_2] are going to stop their performance.\nc. [person_1] and [person_2] are going to argue.\nd. [person_1] and [person_2] are going to leave the stage.\ne. [person_1] and [person_2] are going to ignore each other.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "FA4yAEBX74w_000008_000018",
+        "question_id": "FA4yAEBX74w_000008_000018_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What color is the wall?\nOptions:\n\na. It is white.\nb. It is blue.\nc. It is yellow.\nd. It is green.\ne. It is red.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "kg2fptiN68s_000049_000059",
+        "question_id": "kg2fptiN68s_000049_000059_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] is going to join the hockey match.\nb. [person_1] is going to join the lacrosse match.\nc. [person_1] is going to join the horse racing competition.\nd. [person_1] is going to join the polo match.\ne. [person_1] is going to join the football match.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Ky9azX5WHDs_000376_000386",
+        "question_id": "Ky9azX5WHDs_000376_000386_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [person_3] does not show how to drink beer in the bottle?\nOptions:\n\na. [person_1] and [person_2] may not know how to drink beer in bottles.\nb. [person_2] and [person_3] may not know how to drink beer in bottles.\nc. [person_2] and [person_4] may not know how to drink beer in bottles.\nd. [person_4] and [person_3] may not know how to drink beer in bottles.\ne. [person_4] and [person_1] may not know how to drink beer in bottles.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "xZ9zmoP07Ek_000013_000023",
+        "question_id": "xZ9zmoP07Ek_000013_000023_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: How is this room ?\nOptions:\n\na. It has a hanger for clothes.\nb. It has a brown carpet.\nc. It has a grey colored floor.\nd. It has green colored walls.\ne. It does not have a rack for clothes.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Nw6vib7zHpA_000007_000017",
+        "question_id": "Nw6vib7zHpA_000007_000017_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What color clothes does [person_1] wear?\nOptions:\n\na. [person_1] wears red clothes.\nb. [person_1] wears blue clothes.\nc. [person_1] wears green clothes.\nd. [person_1] wears yellow clothes.\ne. [person_1] wears orange clothes.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "cmRK2QaIy_k_000152_000162",
+        "question_id": "cmRK2QaIy_k_000152_000162_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why are there lights behind [person_1] and [person_2]?\nOptions:\n\na. Because [person_1] and [person_2] are in an airplane.\nb. Because [person_1] and [person_2] are in an operation theatre.\nc. Because the sun is setting.\nd. Because [person_1] and [person_2] are on stage.\ne. Because [person_1] and [person_2] are underwater and there are no lights illuminating them.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "b4FIQL0xioQ_000347_000357",
+        "question_id": "b4FIQL0xioQ_000347_000357_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_1] walk slowly?\nOptions:\n\na. Somebody else is walking just in front of him.\nb. He is watching the performance.\nc. He is carrying heavy bags.\nd. There is a dog blocking his path.\ne. He is being chased.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "7ME6b0f3iL0_000026_000036",
+        "question_id": "7ME6b0f3iL0_000026_000036_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_2] keep turning?\nOptions:\n\na. Because [person_2] is doing push ups.\nb. Because [person_2] is trying to hide her pottery from others.\nc. Because [person_2] is practising her ballet routine.\nd. Because [person_2] is checking her pottery through this way.\ne. Because [person_2] is practising flexibility exercises for her ballet routine.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "We2rldGllrg_000100_000110",
+        "question_id": "We2rldGllrg_000100_000110_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is full of the bookshelf behind [person_1]?\nOptions:\n\na. They are books.\nb. They are toys.\nc. They are lamps.\nd. They are pens.\ne. They are clothes.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Yhu2Lm1Z0Zg_000029_000039",
+        "question_id": "Yhu2Lm1Z0Zg_000029_000039_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What does [person_1] wear?\nOptions:\n\na. [person_1] is wearing a tuxedo.\nb. [person_1] is wearing a swimsuit.\nc. [person_1] is wearing an evening gown.\nd. [person_1] is wearing a jacket.\ne. [person_1] is wearing a tank top.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "FA4yAEBX74w_000008_000018",
+        "question_id": "FA4yAEBX74w_000008_000018_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What would happen if [person_1] dropped his cup?\nOptions:\n\na. The contents of the cup would remain suspended mid-air.\nb. The cup would keep floating mid-air.\nc. The contents of the cup would spill on the floor.\nd. The cup would fly upwards when dropped.\ne. The cup would fly away horizontally when dropped.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "9t_37F60-Y4_000007_000017",
+        "question_id": "9t_37F60-Y4_000007_000017_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What would happen if [person_2] cut into [person_1]?\nOptions:\n\na. [person_2] might not be hurt since he's wearing armour.\nb. [person_2] might not be hurt since he's wearing a jacket.\nc. [person_2] might be hurt since the sword is made of feathers.\nd. [person_2] might be hurt since he's not wearing armour.\ne. [person_2] might be hurt since the sword is made of cotton.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "FA4yAEBX74w_000008_000018",
+        "question_id": "FA4yAEBX74w_000008_000018_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_2] licking the cup?\nOptions:\n\na. [person_2] is actually licking [person_2]'s cup and not his own cup.\nb. [person_2] is trying to clean the cup with his nose while licking.\nc. [person_2] is trying to clean the cup with his fingers while licking.\nd. [person_2] is licking the cup because he wants to finish its contents.\ne. [person_2] is licking the cup because there is no other way to clean a cup.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "WVPXUlLk8wM_000020_000030",
+        "question_id": "WVPXUlLk8wM_000020_000030_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] will sleep on the adjacent bed.\nb. [person_1] will throw the apple across the room.\nc. [person_1] will toss the papers in the air.\nd. [person_1] will smash the glass with a hammer.\ne. [person_1] will sit on [chair_1] and watch television.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "xZ9zmoP07Ek_000013_000023",
+        "question_id": "xZ9zmoP07Ek_000013_000023_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_3] standing here ?\nOptions:\n\na. [person_3] is holding his baby.\nb. [person_3] is folding the towel.\nc. [person_3] is baking a cake.\nd. [person_3] is scratching his head in confusion.\ne. [person_3] is holding an umbrella.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "a3rCWEs8VIY_000210_000220",
+        "question_id": "a3rCWEs8VIY_000210_000220_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [person_1] and [person_2] have a fight?\nOptions:\n\na. The person on the right, seeing the conflict worsen, may ride away in his jeep.\nb. The person on the right, seeing the conflict worsen, may ride away in his car.\nc. The person on the right, seeing the conflict worsen, may ride away on his motorbike.\nd. The person on the right, seeing the conflict worsen, may ride away on his cycle.\ne. The police van on the road will stop near them and the officer will try to pacify the situation.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Ky9azX5WHDs_000376_000386",
+        "question_id": "Ky9azX5WHDs_000376_000386_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where are the [cake_1] and the [cup_1]?\nOptions:\n\na. The [cake_1] and the [cup_1] are near the [bottle_1].\nb. The [cake_1] and the [cup_1] are on the shelf.\nc. The [cake_1] and the [cup_1] are in the mixer.\nd. The [cake_1] and the [cup_1] are in the fridge.\ne. The [cake_1] and the [cup_1] are in the oven.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "0NIzLI3uk-A_000142_000152",
+        "question_id": "0NIzLI3uk-A_000142_000152_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_2] going to do?\nOptions:\n\na. [person_2] will drink wine from the jug.\nb. [person_2] is going to drink the wine in the cup.\nc. [person_2] will pour the wine into the jug.\nd. [person_2] will drink wine from the jug full of beer.\ne. [person_2] will drink wine straight from the barrel of wine.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "HFgIXxJyGmg_000021_000031",
+        "question_id": "HFgIXxJyGmg_000021_000031_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_2] dance here?\nOptions:\n\na. Because she is enjoying travelling by jet ski.\nb. Because she is enjoying travelling by taxi.\nc. Because she is enjoying travelling by boat.\nd. Because she is enjoying travelling by bus.\ne. Because she is enjoying travelling by car.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "TRofgnYBv4A_000205_000215",
+        "question_id": "TRofgnYBv4A_000205_000215_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_1] use the paint roller?\nOptions:\n\na. Because he wants to paint the table.\nb. Because he wants to paint the chair.\nc. Because he wants to paint the wall.\nd. Because he wants to paint the picture.\ne. Because he wants to paint the car.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "qoOntNwuUo8_000109_000119",
+        "question_id": "qoOntNwuUo8_000109_000119_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if the milk in [bottle_2] has gone bad?\nOptions:\n\na. [person_3] can cook using the milk from [bottle_1].\nb. [person_3] can cook using the milk from [bottle_3].\nc. [person_3] can cook using new milk from elsewhere.\nd. [person_3] can cook using bad milk from elsewhere.\ne. [person_3] can cook using the milk from [bottle_2]. \n\nAnswer: \n"
+    },
+    {
+        "video_name": "ooYCWmfzq4U_000034_000044",
+        "question_id": "ooYCWmfzq4U_000034_000044_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is on the ground?\nOptions:\n\na. A guitar.\nb. A suitcase.\nc. A carpet.\nd. A mattress.\ne. A tablecloth.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "HHQFsFD_Cgk_000126_000136",
+        "question_id": "HHQFsFD_Cgk_000126_000136_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_3] going to do?\nOptions:\n\na. [person_3] is going to join the others for lacrosse.\nb. [person_3] is going for a swim with others.\nc. [person_3] is going to join the others for polo.\nd. [person_3] is going for a game of football with others.\ne. [person_3] is going to give orders to others.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Yhu2Lm1Z0Zg_000029_000039",
+        "question_id": "Yhu2Lm1Z0Zg_000029_000039_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Which area will [person_1] clean next\uff1f\nOptions:\n\na. The corner of the room.\nb. The space on the side of the road.\nc. The road.\nd. The pavement.\ne. The backyard.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "FAXjXcxEhL8_000026_000036",
+        "question_id": "FAXjXcxEhL8_000026_000036_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What color is the shirt [person_1] wearing?\nOptions:\n\na. It is dark red.\nb. It is light yellow.\nc. It is pale orange.\nd. It is bluish white.\ne. It is deep brown.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "HFgIXxJyGmg_000021_000031",
+        "question_id": "HFgIXxJyGmg_000021_000031_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] is going to try poker.\nb. [person_1] is going to try a dance.\nc. [person_1] is going to try painting.\nd. [person_1] is going to try cooking.\ne. [person_1] is going to try football.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "8v3f5nuWE1s_000056_000066",
+        "question_id": "8v3f5nuWE1s_000056_000066_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What color is [person_1]'s shirt?\nOptions:\n\na. Bluish Green\nb. Yellowish Red\nc. Dark Grey\nd. Pale Orange\ne. Black\n\nAnswer: \n"
+    },
+    {
+        "video_name": "kKOykgWaHj0_000158_000168",
+        "question_id": "kKOykgWaHj0_000158_000168_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What if [person_1] danced a wrong move?\nOptions:\n\na. [person_5] and [person_6] might tease him.\nb. [person_4] and [person_6] might tease him.\nc. [person_3] and [person_4] might tease him.\nd. [person_3] and [person_5] might tease him.\ne. [person_2] and [person_6] might tease him.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "6AMERQyeg0U_000015_000025",
+        "question_id": "6AMERQyeg0U_000015_000025_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will [person_1] do to [person_2] after [person_2] eating the cake?\nOptions:\n\na. [person_1] will ask [person_3] to give [person_2] a gift.\nb. [person_1] will ask [person_4] to give [person_2] a gift.\nc. [person_1] will give [person_2] a gift.\nd. [person_2] will give [person_1] a gift.\ne. [person_1] will give [person_3] a gift.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "6AMERQyeg0U_000015_000025",
+        "question_id": "6AMERQyeg0U_000015_000025_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_2] doing now?\nOptions:\n\na. [person_2] is wearing a jacket.\nb. [person_2] is putting on his crown.\nc. [person_2] is licking his fingers.\nd. [person_2] is tying his shoelaces.\ne. [person_2] is playing tennis.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "kKOykgWaHj0_000158_000168",
+        "question_id": "kKOykgWaHj0_000158_000168_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will [person_2] do next?\nOptions:\n\na. [person_2] will move towards [person_5].\nb. [person_2] will move away from [person_5].\nc. [person_2] will move towards [person_1].\nd. [person_2] will move towards [person_3].\ne. [person_2] will move towards [person_4].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "xx4npVGdGB4_000123_000133",
+        "question_id": "xx4npVGdGB4_000123_000133_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will these [person_1] do next?\nOptions:\n\na. [person_1] will disturb the music show glass ball.\nb. [person_1] will continue to follow the music show glass ball.\nc. [person_1] will turn off the music and leave.\nd. [person_1] will ask [person_4] to play the drums.\ne. [person_1] will ask [person_4] to play the keyboard.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "2E0sg8vzZdU_000111_000121",
+        "question_id": "2E0sg8vzZdU_000111_000121_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will the [person_1] do next?\nOptions:\n\na. The [person_1] will clean the cow.\nb. The [person_1] will clean the sheep.\nc. The [person_1] will clean the goat.\nd. The [person_1] will clean the horse.\ne. The [person_1] will clean the dog.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "6AMERQyeg0U_000015_000025",
+        "question_id": "6AMERQyeg0U_000015_000025_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_2] do that?\nOptions:\n\na. Because [person_2] wants to play chess.\nb. Because [person_2] wants to sleep.\nc. Because [person_2] wants to eat.\nd. Because [person_2] wants to dance.\ne. Because [person_2] wants to play the piano.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "EAhWa4Vr2X4_000026_000036",
+        "question_id": "EAhWa4Vr2X4_000026_000036_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why are there two girls standing on the ladder?\nOptions:\n\na. Because the two girls are trying to prevent blowing snow on the road.\nb. Because the two girls are trying to clean the chimney.\nc. Because the two girls are trying to bring down the books from the attic.\nd. Because the two girls are trying to clear snow from the roof.\ne. Because the two girls are hanging up the decorations on the Christmas tree.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "TRofgnYBv4A_000205_000215",
+        "question_id": "TRofgnYBv4A_000205_000215_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [person_1] incautiously painted the wrong color?\nOptions:\n\na. [person_1] will mix the right color of the paint and apply on the car.\nb. [person_1] will mix the right color of the paint and apply on the picture.\nc. [person_1] will mix the right color of the paint and apply on the truck.\nd. [person_1] will mix the right color of the paint and apply on the bus.\ne. [person_1] will mix the right color of the paint and apply on the jeep.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Nw6vib7zHpA_000007_000017",
+        "question_id": "Nw6vib7zHpA_000007_000017_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if the juicer breaks?\nOptions:\n\na. [person_1] will drink juice from [bottle_3] kept on the table.\nb. [person_1] will drink juice from [bottle_1] kept on the table.\nc. The person will look for juice in the black-colored fridge.\nd. The person will look for juice in the white-colored fridge.\ne. [person_1] will drink juice from [bottle_2] kept on the table.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "HHQFsFD_Cgk_000126_000136",
+        "question_id": "HHQFsFD_Cgk_000126_000136_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_2] hold a gun in his hand?\nOptions:\n\na. Because [person_2] is a soldier and being attacked by [person_1].\nb. Because [person_2] is a soldier and being attacked by [person_3].\nc. Because [person_2] is a soldier and holding it as a duty.\nd. Because [person_2] is a soldier and holding it for his workout.\ne. Because [person_2] is a soldier and being attacked by [person_2].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "46BJgiKGl_c_000000_000010",
+        "question_id": "46BJgiKGl_c_000000_000010_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_1] keeping [sports ball_1] by his hand?\nOptions:\n\na. [person_1] is holding [sports ball_1] to inflate it.\nb. [person_1] is holding [sports ball_1] out of [person_2]'s reach.\nc.  [person_1] is holding [sports ball_1] as part of an exercise routine.\nd. [person_1] is holding [sports ball_1] for [person_2] to practise boxing.\ne. [person_1] is holding [sports ball_1] out of [person_3]'s reach.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "nvvq_-RuSWs_000005_000015",
+        "question_id": "nvvq_-RuSWs_000005_000015_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] touching?\nOptions:\n\na. [person_1] is touching an orange.\nb. [person_1] is touching an apple.\nc. [person_1] is touching a kiwi.\nd. [person_1] is touching a strawberry.\ne. [person_1] is touching a pineapple.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "o3BJ2JmWLTc_000044_000054",
+        "question_id": "o3BJ2JmWLTc_000044_000054_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does the driver drive [truck_1]?\nOptions:\n\na. To help the staff reach office on time.\nb. To help students reach school on time.\nc. To help unload the gas tanks.\nd. To help the office staff reach school on time.\ne. To help the students reach office on time.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "VKnGnbkVNhA_000071_000081",
+        "question_id": "VKnGnbkVNhA_000071_000081_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What would happen if [person_1] weren't blindfolded?\nOptions:\n\na. [person_1] would not need to guess the type of animal he is holding.\nb. [person_1] would not need to guess the gift-wrapped birthday present lying in front of him.\nc. [person_1] would not need to guess what food [person_1] is eating.\nd. [person_1] would not need to guess what sport [person_1] is playing.\ne. [person_1] would not need to guess what [person_2] bought for his birthday.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "lVM6-d0zQhE_000022_000032",
+        "question_id": "lVM6-d0zQhE_000022_000032_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will [person_8] do if [person_1] performs fantastically great?\nOptions:\n\na. [person_8] will cheer for [person_5].\nb. [person_8] will cheer for [person_6].\nc. [person_8] will cheer for [person_1].\nd. [person_8] will cheer for [person_3].\ne. [person_8] will cheer for [person_4].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "9j56a25X0KI_000016_000026",
+        "question_id": "9j56a25X0KI_000016_000026_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_1] squatting?\nOptions:\n\na. Because [person_1] is experiencing stomach pain.\nb. Because the center of gravity is more stable.\nc. Because [person_1] wants to increase the risk of falling.\nd. Because [person_1] is trying to destabilize their base.\ne. Because [person_1] has back pain and squatting aggravates it.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "gLvfaI8FEr8_000001_000011",
+        "question_id": "gLvfaI8FEr8_000001_000011_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if the hatchet is falling down from [person_1]?\nOptions:\n\na. [person_1] might be hurt since the hatchet might fall on his shoulders.\nb. [person_1] might be hurt since the hatchet might fall on his head.\nc. [person_1] might be hurt since the hatchet might fall on his feet.\nd. [person_1] might be hurt since the hatchet might fall on his back.\ne. [person_1] might be hurt since the hatchet might fall on his neck.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "kKOykgWaHj0_000158_000168",
+        "question_id": "kKOykgWaHj0_000158_000168_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why do all of them dance so fast?\nOptions:\n\na. Because they are dancing as instructed by [person_5].\nb. Because they are dancing as instructed by [person_6].\nc. Because they are dancing as part of a choir.\nd. Because they are dancing as part of a performance.\ne. Because they are dancing as part of an orchestra.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "oN75gAHeygg_000011_000021",
+        "question_id": "oN75gAHeygg_000011_000021_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happens if [person_1] falls?\nOptions:\n\na. [person_1] may be helped by [person_3].\nb. [person_1] may be helped by [person_4].\nc. [person_1] may be helped by [person_2].\nd. [person_1] may be helped by [person_5].\ne. [person_1] may be helped by [person_6].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "_6VB0neu50w_000363_000373",
+        "question_id": "_6VB0neu50w_000363_000373_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_1] stir fry in [bowl_1] with a shovel?\nOptions:\n\na. Because [person_1] wants the food in [bowl_2] to be mixed with [bowl_1].\nb. Because [person_1] wants the food in [bowl_2] to be cooked properly.\nc. Because [person_1] wants the food in [bowl_3] to be cooked properly.\nd. Because [person_1] wants the food in [bowl_1] to be cooked properly.\ne. Because [person_1] wants the food in [bowl_1] to be mixed with [bowl_2].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "HFgIXxJyGmg_000021_000031",
+        "question_id": "HFgIXxJyGmg_000021_000031_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where are [person_1] and [person_2]?\nOptions:\n\na. They are on the beach.\nb. They are on the boat.\nc. They are in a tennis court.\nd. They are in a cab.\ne. They are on the streets.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "EiEsXaRebXU_000027_000037",
+        "question_id": "EiEsXaRebXU_000027_000037_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_1] skateboard very fast?\nOptions:\n\na. [person_1] is skating uphill, which increases speed.\nb. [person_1] is skating downhill, which increases speed.\nc. [person_3] is skating downhill, which increases speed.\nd. [person_3] is skating uphill, which increases speed.\ne. [person_2] is skating uphill, which increases speed.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "46BJgiKGl_c_000000_000010",
+        "question_id": "46BJgiKGl_c_000000_000010_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] is going to use [sports ball_1] for playing rugby.\nb. [person_1] is going to use [sports ball_1] for playing golf.\nc. [person_1] is going to inflate [sports ball_1] for playing.\nd. [person_1] is going to use [sports ball_1] for playing baseball.\ne. [person_1] is going to inflate [sports ball_1] for playing taekwondo.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "FAXjXcxEhL8_000026_000036",
+        "question_id": "FAXjXcxEhL8_000026_000036_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will [person_1] do next?\nOptions:\n\na. [person_1] will start talking to [person_2]..\nb. [person_1] will keep standing.\nc. [person_1] will keep sitting.\nd. [person_1] will continue jogging.\ne. [person_1] will ask [person_2] for help.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "VKnGnbkVNhA_000071_000081",
+        "question_id": "VKnGnbkVNhA_000071_000081_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] will keep eating the burger.\nb. [person_1] will keep drinking beer.\nc. [person_1] will keep eating the sandwich.\nd. [person_1] will keep drinking juice.\ne. [person_1] will keep eating the cookie.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "2E0sg8vzZdU_000111_000121",
+        "question_id": "2E0sg8vzZdU_000111_000121_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does the [person_1] want to dry the dog?\nOptions:\n\na. Because the dog just finished eating.\nb. Because the dog just finished swimming in [swimming pool_1].\nc. Because the dog just had a bath.\nd. Because the dog just stepped out of [jacuzzi_1].\ne. Because the dog just woke up from a nap.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "sXaNQYrb_Gc_000001_000011",
+        "question_id": "sXaNQYrb_Gc_000001_000011_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What would have happened if [person_4] hadn't fallen on the high jump pad?\nOptions:\n\na. [person_4] might be given aid from the medical team sitting nearby, dressed in red.\nb. [person_4] might be given aid from the medical team in a hospital.\nc. [person_4] might be given aid from the medical team sitting nearby, dressed in blue.\nd. [person_4] might be given aid from the medical team sitting nearby, dressed in pink.\ne. [person_4] might be given aid from the medical team sitting nearby, dressed in orange.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "ZQezF8sgljg_000073_000083",
+        "question_id": "ZQezF8sgljg_000073_000083_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will the people at the table do?\nOptions:\n\na. They will keep eating.\nb. They will keep cooking.\nc. They will keep playing cards.\nd. They will continue to clear the plates from the table.\ne. They will keep dancing.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "_6VB0neu50w_000363_000373",
+        "question_id": "_6VB0neu50w_000363_000373_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What if the stick suddenly breaks?\nOptions:\n\na. [person_1] will lose balance and fall.\nb. [person_1] will not be able to perform the pole vault.\nc. [person_1] will not be able to play polo.\nd. [person_1] will not be able to clear leaves from the street.\ne. [person_1] will not be able to cook.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "EiEsXaRebXU_000027_000037",
+        "question_id": "EiEsXaRebXU_000027_000037_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where are they?\nOptions:\n\na. They are in a lawn.\nb. They are in a forest.\nc. They are in a restaurant.\nd. They are in a dance practice room.\ne. They are in a gym.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "h9jIdgjU_mM_000012_000022",
+        "question_id": "h9jIdgjU_mM_000012_000022_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_1] wearing a life jacket?\nOptions:\n\na. [person_1] is swimming so she wears a life jacket for safety.\nb. [person_1] is scuba diving so she wears a life jacket for safety.\nc. [person_1] is parasailing so she wears a life jacket for safety.\nd. [person_1] is snorkeling so she wears a life jacket for safety.\ne. [person_1] is paragliding so she wears a life jacket for safety.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "8k5LbCk1Yi8_000033_000043",
+        "question_id": "8k5LbCk1Yi8_000033_000043_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1]'s job?\nOptions:\n\na. [person_1] is a masseuse.\nb. [person_1] is a fashion stylist.\nc. [person_1] is a professor.\nd. [person_1] is a cook.\ne. [person_1] is a doctor.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "qoOntNwuUo8_000109_000119",
+        "question_id": "qoOntNwuUo8_000109_000119_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_2] look at the bowl?\nOptions:\n\na. Because [person_2] wants to see if it is put in the oven properly.\nb. Because [person_2] wants to learn how to wash clothes.\nc. Because [person_2] wants to see [person_3] wash dishes.\nd. Because [person_2] wants to know how to mix seasoning correctly.\ne. Because [person_2] wants to see how much food [person_3] is serving for her.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "F9GU1RptBK4_000058_000068",
+        "question_id": "F9GU1RptBK4_000058_000068_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_1] holding the magazine?\nOptions:\n\na. [person_1] is trying to show something written in the magazine to [person_2].\nb. [person_1] is trying to open the magazine to see what is written in the pages.\nc. [person_1] has finished reading the magazine and is going to dispose of it.\nd. [person_1] is scattering the pages of the magazine in the air.\ne. [person_1] is using the magazine as a makeshift shield against playful attacks by [person_2].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "zE7PSjOoErs_000010_000020",
+        "question_id": "zE7PSjOoErs_000010_000020_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What color are the shoes [person_1] is wearing?\nOptions:\n\na. White, blue and yellow.\nb. Red , white and black.\nc. Green, blue and yellow.\nd. White, orange and green.\ne. White and purple.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "HsfRQ3o1SaA_000011_000021",
+        "question_id": "HsfRQ3o1SaA_000011_000021_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] is going to keep dancing.\nb. [person_1] is going to keep doing squats.\nc. [person_1] is going to keep fighting with [person_2].\nd. [person_1] is going to keep playing basketball.\ne. [person_1] is going to keep cooking.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "o3BJ2JmWLTc_000044_000054",
+        "question_id": "o3BJ2JmWLTc_000044_000054_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will the driver of [truck_1] do?\nOptions:\n\na. The driver will return with the items and put it back on [truck_2].\nb. The driver will crash [truck_1] into the car in front.\nc. The driver will park [truck_1] just near the lamp post.\nd. The diver will drive [truck_1] to the warehouse.\ne. The driver will park [truck_1] and go on foot to the destination.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "gLvfaI8FEr8_000001_000011",
+        "question_id": "gLvfaI8FEr8_000001_000011_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_2] going to do?\nOptions:\n\na. [person_2] is going for a swim.\nb. [person_2] is going to ask for beer.\nc. [person_2] is going to park the truck beside the pavement.\nd. [person_2] is going to ride the horse.\ne. [person_2] is going to keep reading the book.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "TRofgnYBv4A_000205_000215",
+        "question_id": "TRofgnYBv4A_000205_000215_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is the color of [person_1]'s shirt?\nOptions:\n\na. It is yellow.\nb. It is red.\nc. It is orange.\nd. It is black.\ne. It is white.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "FAXjXcxEhL8_000026_000036",
+        "question_id": "FAXjXcxEhL8_000026_000036_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_1] have the pencil in her hand?\nOptions:\n\na. [person_1] is sharpening the pencil.\nb. [person_1] is drawing a cartoon.\nc. [person_s1] is writing her homework.\nd. [person_1] is twirling the pencil between her fingers idly.\ne. [person_1] is using the pencil to tap along to a song.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "EAhWa4Vr2X4_000026_000036",
+        "question_id": "EAhWa4Vr2X4_000026_000036_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What if the person under the ladder accidentally skew the ladder?\nOptions:\n\na. It would make the ladder more stable and secure for the person on it.\nb. The weight of the person accidentally skewing the ladder could make it stronger and less likely to wobble.\nc. The person under the ladder could use it as an opportunity to take a break and rest before continuing the task at hand.\nd. The people on the ladder may get hurt since there is no one to catch them when they fall.\ne. The skewed ladder would allow for easier access to high shelves, making the task more efficient.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "VKnGnbkVNhA_000071_000081",
+        "question_id": "VKnGnbkVNhA_000071_000081_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_1] blindfolded?\nOptions:\n\na. [person_1] is being held hostage by [person_2].\nb. [person_1] is guessing what is in the present.\nc. [person_1] is guessing what [person_1] is eating.\nd. [person_1] is guessing the object he is holding from its shape.\ne. [person_1] is playing a musical instrument.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "oN75gAHeygg_000011_000021",
+        "question_id": "oN75gAHeygg_000011_000021_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_2] doing?\nOptions:\n\na. [person_2] is cooking food and filming.\nb. [person_2] is driving in his car and filming.\nc. [person_2] is skateboarding and filming.\nd. [person_2] is parasailing and filming.\ne. [person_2] is ziplining and filming.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "8KZJ1qHNBXE_000003_000013",
+        "question_id": "8KZJ1qHNBXE_000003_000013_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] is going to keep playing the accordion.\nb. [person_1] is going to keep playing the piano.\nc. [person_1] is going to keep playing the flute.\nd. [person_1] is going to keep playing the mouth organ.\ne. [person_1] is going to keep shouting.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "9j56a25X0KI_000016_000026",
+        "question_id": "9j56a25X0KI_000016_000026_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What does [person_1] wear on the head?\nOptions:\n\na. A cap.\nb. A scarf.\nc. Glasses.\nd. A helmet.\ne. A head band.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "HsfRQ3o1SaA_000011_000021",
+        "question_id": "HsfRQ3o1SaA_000011_000021_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_1] dancing tap?\nOptions:\n\na. [person_1] is dancing it for fun.\nb. [person_1] is dancing it as a performance.\nc. [person_1] is dancing as an obligation.\nd. [person_1] is dancing it as a competition.\ne. [person_1] is dancing it to hide something.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "YIwbUpzWsT4_000010_000020",
+        "question_id": "YIwbUpzWsT4_000010_000020_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_2] going to do?\nOptions:\n\na. [person_2] is going to swim breaststroke in the forward direction.\nb. [person_2] is going to swim butterfly stroke in the forward direction.\nc. [person_2] is going to push himself and swim backstroke.\nd. [person_2] is going to swim side stroke in the forward direction.\ne. [person_2] is going to swim the front crawl stroke instead of backstroke.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "F9GU1RptBK4_000058_000068",
+        "question_id": "F9GU1RptBK4_000058_000068_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] is going to sleep on the couch.\nb. [person_1] is  going to open all the presents.\nc. [person_1] is going to keep folding clothes.\nd. [person_1] is going to read the newspaper.\ne. [person_1] is going to play basketball.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Ng0-FcUQm-w_000033_000043",
+        "question_id": "Ng0-FcUQm-w_000033_000043_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What kind of tool is [person_1] using?\nOptions:\n\na. It is a screwdriver.\nb. It is a bottle opener.\nc. It is a spanner.\nd. It is a spade.\ne. It is a saw.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "_6VB0neu50w_000363_000373",
+        "question_id": "_6VB0neu50w_000363_000373_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] may add other food to [bowl_1].\nb. [person_1] may keep washing [bowl_1].\nc. [person_1] may add dishwash liquid to [bowl_1].\nd. [person_1] may wash the [bowl_1] with water.\ne. [person_1] may throw the food from [bowl_1].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "RjlyiwCwplo_000022_000032",
+        "question_id": "RjlyiwCwplo_000022_000032_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: How many people are folding napkins?\nOptions:\n\na. There are two people.\nb. There are four people.\nc. There is one people.\nd. There are five people.\ne. There are three people.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "qoOntNwuUo8_000109_000119",
+        "question_id": "qoOntNwuUo8_000109_000119_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What color is the clothes of [person_1]?\nOptions:\n\na. Black.\nb. Red.\nc. Yellow.\nd. Green.\ne. Blue.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "F9GU1RptBK4_000058_000068",
+        "question_id": "F9GU1RptBK4_000058_000068_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where is a [couch_1]?\nOptions:\n\na. [couch_1] is in front of [person_1].\nb. [person_1] is sitting on [couch_1].\nc. [couch_1] is to the left of [person_1].\nd. [couch_1] is behind [person_1].\ne. [person_1] is holding [couch_1].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "qoOntNwuUo8_000109_000119",
+        "question_id": "qoOntNwuUo8_000109_000119_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_3] going to do?\nOptions:\n\na. [person_3] will put the lid on the bowl.\nb. [person_3] will serve food from the bowl.\nc. [person_3] will wash the bowl.\nd. [person_3] will pour the milk in the [bottle_2] into the bowl.\ne. [person_3] will drain water from the bowl.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "46BJgiKGl_c_000000_000010",
+        "question_id": "46BJgiKGl_c_000000_000010_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What would happen if [sports ball_1] burst?\nOptions:\n\na. [person_1] would look for ways to repair [sports ball_1].\nb. [person_1] would fill air into [sports ball_1] to restore it.\nc. [person_1] would practice catch and throw with [sports ball_1] to restore it.\nd. [person_1] would press [sports ball_1] to restore it.\ne. [person_1] would kick [sports ball_1] to restore it.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "2ZtWcoG8fmQ_000218_000228",
+        "question_id": "2ZtWcoG8fmQ_000218_000228_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What's [person_1] doing?\nOptions:\n\na. [person_1] is baking a cake.\nb. [person_1] is making pottery with red clay.\nc. [person_1] is grabbing the bottle from the table.\nd. [person_1] is cooking dinner.\ne. [person_1] is playing chess.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "xx4npVGdGB4_000123_000133",
+        "question_id": "xx4npVGdGB4_000123_000133_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What happens if these instruments break?\nOptions:\n\na. The [person_3] will be unable to fire the gun properly.\nb. The [person_3] will be unable to complete his geometry assignment.\nc. The [person_3] will be unable to complete the drilling of the oil well.\nd. The [person_3] will be unable to give the musical performance.\ne. The [person_3] will be unable to record observations for his experiment.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "ooYCWmfzq4U_000034_000044",
+        "question_id": "ooYCWmfzq4U_000034_000044_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_4] wearing a hat?\nOptions:\n\na. [person_4] is feeling cold.\nb. [person_4] is afraid of injury in the game.\nc. [person_4] wants to show respect to the veterans.\nd. [person_4] wants to shield herself from the sunlight.\ne. [person_4] is wearing it for a beauty contest.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "HsfRQ3o1SaA_000011_000021",
+        "question_id": "HsfRQ3o1SaA_000011_000021_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if those shoes are too small for [person_1]?\nOptions:\n\na. [person_1] will put them in hot water to increase their size.\nb. [person_1] will loosen the stitches of the shoe with a hammer.\nc. [person_1] will loosen the stitches of the shoe with an axe.\nd. [person_1] won't be able to wear them.\ne. [person_1] will loosen the stitches of the shoe with a saw.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "FdWj9zTGeGk_000205_000215",
+        "question_id": "FdWj9zTGeGk_000205_000215_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where is [bowl_1]?\nOptions:\n\na. [bowl_1] is on the sofa.\nb. [bowl_1] is in the sink.\nc. [bowl_1] is on the table.\nd. [bowl_1] is on the shelf.\ne. [bowl_1] is in the hands of [person_2].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "_6VB0neu50w_000363_000373",
+        "question_id": "_6VB0neu50w_000363_000373_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where is [bowl_1]?\nOptions:\n\na. [bowl_1] is on the table.\nb. [bowl_1] is on the shelf.\nc. [bowl_1] hung on the stick.\nd. [bowl_1] is in the sink.\ne. [bowl_1] is on the sofa.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "6AMERQyeg0U_000015_000025",
+        "question_id": "6AMERQyeg0U_000015_000025_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What would happen if [person_1] suddenly hits [person_2]?\nOptions:\n\na. [person_2] would feel happy.\nb. [person_1] would not feel pain as he is not wearing protection.\nc. [person_2] would feel pain as he is not wearing protection.\nd. [person_2] would feel pain as he is wearing armor.\ne. [person_2] would not feel any pain as he is wearing armor.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "lVM6-d0zQhE_000022_000032",
+        "question_id": "lVM6-d0zQhE_000022_000032_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Who will show the dancing after [person_2]?\nOptions:\n\na. [person_2]\nb. [person_1]\nc. [person_4]\nd. [person_5]\ne. [person_3]\n\nAnswer: \n"
+    },
+    {
+        "video_name": "HFgIXxJyGmg_000021_000031",
+        "question_id": "HFgIXxJyGmg_000021_000031_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What would happen if it rains?\nOptions:\n\na. The plants in the field would get watered.\nb. They need not worry as they are not on deck.\nc. They would need to get to land as there is no cover from the rain.\nd. They have built waterproof shelter around their area.\ne. The plants in the orchard would get watered.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Nw6vib7zHpA_000007_000017",
+        "question_id": "Nw6vib7zHpA_000007_000017_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] is going to make juice.\nb. [person_1] is going to bake a cake.\nc. [person_1] is going to drink beer.\nd. [person_1] is going to eat an apple.\ne. [person_1] is going to cook pasta.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "HHQFsFD_Cgk_000126_000136",
+        "question_id": "HHQFsFD_Cgk_000126_000136_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [person_4] doesn't have a gun?\nOptions:\n\na. [person_4] would not be allowed to participate in the ice skating practice.\nb. [person_4] would not be allowed to join in the football practice.\nc. [person_4] would not be allowed to join in the shooting practice.\nd. [person_4] would not be allowed to join in the squash practice.\ne. [person_4] would not be allowed to participate in the cricket practice.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "RPLYy1Xbwt4_000043_000053",
+        "question_id": "RPLYy1Xbwt4_000043_000053_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_1] there?\nOptions:\n\na. [person_1] is there as a partner.\nb. [person_1] is there to play football.\nc. [person_1] is there to stop the fight.\nd. [person_1] is there to play baseball.\ne. [person_1] is there to perform a dance.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "ooYCWmfzq4U_000034_000044",
+        "question_id": "ooYCWmfzq4U_000034_000044_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_2] going to do?\nOptions:\n\na. [person_2] will shield [person_1] from the attack.\nb. [person_2] will bake a cake for everyone.\nc. [person_2] will play musical chair with others.\nd. [person_2] will attack [person_1] with cards.\ne. [person_2] will serve dinner for everyone.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "o3BJ2JmWLTc_000044_000054",
+        "question_id": "o3BJ2JmWLTc_000044_000054_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if the gas tanks fell down?\nOptions:\n\na. The driver will stay and let the gas tanks assemble themselves back into position.\nb. The drivers will dispose of the gas tanks.\nc. The drivers will empty the gas tanks.\nd. The drivers will try to lift the fallen gas tanks back into place.\ne. The drivers will set fire to the gas tanks.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "RPLYy1Xbwt4_000043_000053",
+        "question_id": "RPLYy1Xbwt4_000043_000053_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [person_1] wants to join in [person_3] and [person_2]?\nOptions:\n\na. [person_2] and [person_3] will allow [person_1] join their game.\nb. [person_2] and [person_3] will allow [person_1] wash clothes.\nc. [person_2] and [person_3] will allow [person_1] with the cooking.\nd. [person_2] and [person_3] will allow [person_1] play cards with them.\ne. [person_2] and [person_3] will allow [person_1] with the house cleaning.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "h9jIdgjU_mM_000012_000022",
+        "question_id": "h9jIdgjU_mM_000012_000022_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will [person_1] do?\nOptions:\n\na. [person_1] will move to the left because of the speed of the boat.\nb. [person_1] will rise up as the parachute is lighter than air.\nc. [person_1] will be pushed away from the boat due to its speed.\nd. [person_1] will be lifted up by the speed of the boat.\ne. [person_1] will land on the water surface.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "YIwbUpzWsT4_000010_000020",
+        "question_id": "YIwbUpzWsT4_000010_000020_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_2] holding the handle?\nOptions:\n\na. [person_2] is preparing to dive in the water from a height.\nb. [person_2] is preparing to swim butterfly stroke.\nc. [person_2] is preparing to swim backstroke.\nd. [person_2] is preparing to swim breaststroke.\ne. [person_2] is preparing to swim side stroke.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "xx4npVGdGB4_000123_000133",
+        "question_id": "xx4npVGdGB4_000123_000133_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why should they get together?\nOptions:\n\na. It's for a drink of beer.\nb. It's for a game of cards.\nc. It's for a concert.\nd. It's for an orchestra.\ne. It's for a cooking contest.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "h9jIdgjU_mM_000012_000022",
+        "question_id": "h9jIdgjU_mM_000012_000022_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [person_1] doesn't wear a life jacket?\nOptions:\n\na. [person_1] may drown when he jumps out of the ship.\nb. [person_1] may drown when he lands on the water in case the parachute breaks.\nc. [person_1] may drown when he does scuba diving.\nd. [person_1] may drown when he jumps out of the ship.\ne. [person_1] may drown when he does snorkeling.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "EiEsXaRebXU_000027_000037",
+        "question_id": "EiEsXaRebXU_000027_000037_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What would happen if it had snow?\nOptions:\n\na. They would clear the snow from the car before taking it for a drive.\nb. The cars seen driving on this road would have to move slowly.\nc. They might have to stop skateboarding as it is dangerous on snowy surfaces.\nd. They might clear the snow from the roof using a rake.\ne. They might have to stop roller skating as it is dangerous on snowy surfaces.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "HsfRQ3o1SaA_000011_000021",
+        "question_id": "HsfRQ3o1SaA_000011_000021_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] wearing?\nOptions:\n\na. [person_1] is wearing sunglasses, tank top and bell-bottom pants.\nb. [person_1] is wearing sunglasses, tank top and jeans shorts.\nc. [person_1] is wearing a heavy winter coat, trousers and leg warmers.\nd. [person_1] is wearing a formal suit and tie.\ne. [person_1] is wearing a raincoat and boots.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "RPLYy1Xbwt4_000043_000053",
+        "question_id": "RPLYy1Xbwt4_000043_000053_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] will continue to write his essay.\nb. [person_1] will continue to drink beer.\nc. [person_1] will pick up the baby and leave.\nd. [person_1] will eat the apple .\ne. [person_1] will continue to watch the others play.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "8KZJ1qHNBXE_000003_000013",
+        "question_id": "8KZJ1qHNBXE_000003_000013_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What would happen if the flute fell on [person_1] foot?\nOptions:\n\na. [person_1] would not feel any pain as he is wearing thick shoes.\nb. The flute would land on [person_1]'s feet and keep spinning vertically forever.\nc. [person_1] would feel pain as he is not wearing shoes.\nd. [person_1] would not feel any pain as the little girl sitting on the sofa would catch it before it feel on his feet.\ne. [person_1] would not feel any pain as humans don't feel anything when things fall on their feet.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "VKnGnbkVNhA_000071_000081",
+        "question_id": "VKnGnbkVNhA_000071_000081_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What colour is the T - shirt [person_1] wearing?\nOptions:\n\na. The T-shirt is red.\nb. The T - shirt is orange.\nc. The T-shirt is pink.\nd. The T - shirt is grey.\ne. The T - shirt is black.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "TRofgnYBv4A_000205_000215",
+        "question_id": "TRofgnYBv4A_000205_000215_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will [person_1] do next?\nOptions:\n\na. [person_1] will deliberately damage the painting.\nb. [person_1] will then check the painting.\nc. [person_1] will finish white washing the walls.\nd. [person_1] will check the painting on the car.\ne. [person_1] will keep swimming in the blue water under the clear sky.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "FAXjXcxEhL8_000026_000036",
+        "question_id": "FAXjXcxEhL8_000026_000036_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if the pencil sharpener breaks?\nOptions:\n\na. [person_1] will use the other pencil sharpener lying on the table.\nb. [person_1] will borrow [person_2]'s pencil sharpener.\nc. [person_1] will use a pen to sharpen the pencil.\nd. [person_1] may need to look for a new pencil sharpener since there aren't any lying on the table.\ne. [person_1] will use an eraser to sharpen the pencil.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "sXaNQYrb_Gc_000001_000011",
+        "question_id": "sXaNQYrb_Gc_000001_000011_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: How is the weather?\nOptions:\n\na. It is raining heavily.\nb. There is a thick fog.\nc. There are thunderstorms.\nd. It is sunny.\ne. It is permanently dark.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "HcXa4jmvWvQ_000022_000032",
+        "question_id": "HcXa4jmvWvQ_000022_000032_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where is [chair_1]?\nOptions:\n\na. [chair_1] is on the left of [person_1].\nb. [chair_1] is on the right of [person_1].\nc. [chair_1] is in front of [person_1].\nd. [chair_1] is behind [person_1].\ne. [chair_1] is above [person_1].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "lVM6-d0zQhE_000022_000032",
+        "question_id": "lVM6-d0zQhE_000022_000032_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why are there so many people?\nOptions:\n\na. The people are watching the play.\nb. The people are watching the debate.\nc. They are watching the fashion show.\nd. They are watching the singing performance.\ne. They are watching the dance competition.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "gLvfaI8FEr8_000001_000011",
+        "question_id": "gLvfaI8FEr8_000001_000011_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_3] pointing his finger to [person_1]?\nOptions:\n\na. Because [person_3] wants to ask his friends to look at [person_1] too.\nb. Because [person_3] wants to tease [person_1] for his awkward dive into the pool.\nc. Because [person_3] wants to accuse [person_1] of breaking the vase.\nd. Because [person_3] wants to tease [person_1] for his awkward walking style.\ne. Because [person_3] wants to accuse [person_1] of eating the cookies.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "oN75gAHeygg_000011_000021",
+        "question_id": "oN75gAHeygg_000011_000021_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_1] wear glasses?\nOptions:\n\na. [person_1] wears glasses to avoid glare while paragliding.\nb. [person_1] wears glasses to avoid glare while mountain biking.\nc. [person_1] wears glasses to avoid glare while skateboarding.\nd. [person_1] wears glasses to prevent water from entering into his eyes while swimming.\ne. [person_1] wears glasses to avoid glare while skiing down the snowy mountain.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "2E0sg8vzZdU_000111_000121",
+        "question_id": "2E0sg8vzZdU_000111_000121_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if there is a snake?\nOptions:\n\na. The snake and mongoose will fight it out.\nb. [person_1] will trap the snake's head using the stick in his hand.\nc. [person_1] will use the dog to fight off the snake.\nd. The eagle seen in the sky will pick up the snake and fly away.\ne. [person_1] will call for help as the snake might be poisonous.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "h9jIdgjU_mM_000012_000022",
+        "question_id": "h9jIdgjU_mM_000012_000022_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where is the [umbrella_1]?\nOptions:\n\na. The [umbrella_1] is in my hand.\nb. The [umbrella_1] is in the sky.\nc. The [umbrella_1] is open and shielding us from the rain.\nd. The [umbrella_1] is hanging upside down to dry.\ne. The [umbrella_1] is being used as a parasol in the sun.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "EAhWa4Vr2X4_000026_000036",
+        "question_id": "EAhWa4Vr2X4_000026_000036_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What was the man doing at the beginning of the video?\nOptions:\n\na. The man is covering his nose with clothes while picking up things from a bin.\nb. The man is covering his nose with clothes to protect himself from the dust storm.\nc. The man is covering his nose with clothes to prevent chemical going into his nose while spraying the flowers.\nd. The man is covering his nose with clothes because of the smell from the rotten fruits.\ne. The man is covering his nose with clothes to prevent the spray from going into his nose while spraying the Christmas tree.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "YIwbUpzWsT4_000010_000020",
+        "question_id": "YIwbUpzWsT4_000010_000020_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if the handle is slippery?\nOptions:\n\na. It will be easier for [person_2] to gain more control over the handle.\nb. It will be hard for [person_2] to get momentum.\nc. The handle being slippery will provide additional stability for [person_2].\nd. [person_2] can use a gloves to improve grip and overcome the slipperiness.\ne. The slippery handle will reduce the amount of force required from [person_2].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "TQtOo5x5ACI_000001_000011",
+        "question_id": "TQtOo5x5ACI_000001_000011_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does the little girl walk towards to the camera?\nOptions:\n\na. The little girl wants to proudly show the trophy she won and is holding in her hands.\nb. The little girl wants to adjust the camera for the family photo.\nc. The little girl wants to make a face in front of the camera.\nd. The little girl wants to pick up the camera to click a picture of the starry night sky.\ne. The little girl wants to switch off the camera as she does not want to be recorded.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "yJcbvIfv4LM_000035_000045",
+        "question_id": "yJcbvIfv4LM_000035_000045_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_1] fold clothes on the [bed_1]?\nOptions:\n\na. Because there is no space on the sofa to fold clothes.\nb. Because there is enough space on the bed to fold clothes.\nc. Because there is no space on the table to fold clothes.\nd. Because there is enough space on the table to fold clothes.\ne. Because there is no space on the bed to fold clothes.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "XmZi7m6AtG8_000004_000014",
+        "question_id": "XmZi7m6AtG8_000004_000014_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What would happen if [person_1] did not have the phone?\nOptions:\n\na. [person_1] would sit on the sofa nearby and eat [cake_1].\nb. [person_1] would smear cake on [person_2]'s face.\nc. [person_1] would sit on the carpet nearby and eat [cake_1].\nd. [person_1] would smear cake on [person_3]'s face.\ne. [person_1] would sit on the chair nearby and eat [cake_1].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "tQJRkysthik_000036_000046",
+        "question_id": "tQJRkysthik_000036_000046_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What color are the napkins ?\nOptions:\n\na. The napkins are pink.\nb. The napkins are green.\nc. The napkins are white.\nd. The napkins are red.\ne. The napkins are blue.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "egckvMAQxoU_000060_000070",
+        "question_id": "egckvMAQxoU_000060_000070_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will [person_1] do next?\nOptions:\n\na. [person_1] might take a nap on the mattress she is sitting on, using the blue cushion as headrest.\nb. [person_1] might take a nap on the sofa she is sitting on, using the green cushion as headrest.\nc. [person_1] might take a nap on the sofa she is sitting on, using the blue cushion as headrest.\nd. [person_1] might take a nap on the mattress she is sitting on, using the green cushion as headrest.\ne. [person_1] might take a nap on the mattress she is sitting on, using the orange cushion as headrest.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "EiEsXaRebXU_000027_000037",
+        "question_id": "EiEsXaRebXU_000027_000037_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will [person_2] do next after the preparation?\nOptions:\n\na. [person_2] will continue to skateboard in the skateboard rink.\nb. [person_2] will continue to ski down the snowy slope.\nc. [person_2] will continue to roller skate down the road.\nd. [person_2] will continue to skateboard down the road.\ne. [person_2] will continue to roller skate in the rink.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Bi7qPU_Kq3I_000068_000078",
+        "question_id": "Bi7qPU_Kq3I_000068_000078_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is the color of [couch_1]?\nOptions:\n\na. It is grey.\nb. It is white.\nc. It is black.\nd. It is brown.\ne. It is orange.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "XmZi7m6AtG8_000004_000014",
+        "question_id": "XmZi7m6AtG8_000004_000014_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] is going to play the guitar kept near the wall.\nb. [person_1] is going to play chess with [person_2].\nc. [person_1] is going to play the keyboard kept near the wall.\nd. [person_1] is going to keep talking on the cell phone.\ne. [person_1] is going to play snookers with [person_2].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "FCoLuObTjf0_000287_000297",
+        "question_id": "FCoLuObTjf0_000287_000297_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What color is the shirt [person_3] wearing?\nOptions:\n\na. It is red.\nb. It is brown.\nc. It is violet.\nd. It is green.\ne. It is yellow.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "zE7PSjOoErs_000010_000020",
+        "question_id": "zE7PSjOoErs_000010_000020_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will the shadow be like if there is heavy clouds?\nOptions:\n\na. The shadow will become sharper and overlap with [person_2]'s shadow.\nb. The shadow will become smaller and overlap with [person_2]'s shadow.\nc. The shadow will become larger and overlap with [person_2]'s shadow.\nd. The shadow will become less prominent but won't overlap with [person_2]'s shadow.\ne. The shadow will become less prominent but won't overlap with [person_2]'s shadow.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "x-T7V-sNlTU_000000_000010",
+        "question_id": "x-T7V-sNlTU_000000_000010_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will [person_1] do?\nOptions:\n\na. [person_1] is going to run in the opposite direction of the player wearing red.\nb. [person_1] is going to continue chasing the opponent wearing a red shirt.\nc. [person_1] is going to continue chasing the opponent wearing a green shirt.\nd. [person_1] is going to stop chasing the opponent wearing a green shirt.\ne. [person_1] is going to run in the opposite direction of the player wearing green.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "SydLL78CPuM_000016_000026",
+        "question_id": "SydLL78CPuM_000016_000026_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where is [person_1]?\nOptions:\n\na. [person_1] is in a small room.\nb. [person_1] is in a cinema hall.\nc. [person_1] is in a garden.\nd. [person_1] is in a tennis court.\ne. [person_1] is in the dining room.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "HcXa4jmvWvQ_000022_000032",
+        "question_id": "HcXa4jmvWvQ_000022_000032_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] is going to practice lifting the barbell.\nb. [person_1] is going to practice lifting the dumbbells.\nc. [person_1] is going to practice doing pushups.\nd. [person_1] is going to practice doing chin ups.\ne. [person_1] is going to continue running on the treadmill.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "zE7PSjOoErs_000010_000020",
+        "question_id": "zE7PSjOoErs_000010_000020_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_2] going to do?\nOptions:\n\na. [person_2] is going to film the whole process of [person_1] swimming.\nb. [person_2] is going to try and snatch the ball from [person_1].\nc. [person_2] is going to film the whole process of [person_1] paragliding.\nd. [person_2] is going to film the whole process of [person_1] dribbling.\ne. [person_2] is going to film the whole process of [person_1] pole dancing.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "TQtOo5x5ACI_000001_000011",
+        "question_id": "TQtOo5x5ACI_000001_000011_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] is going to keep eating the bun.\nb. [person_1] is going to keep drinking juice.\nc. [person_1] is going to assist [person_2] in preparing dinner.\nd. [person_1] is going to keep eating the banana.\ne. [person_1] is going to keep cutting onions.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "SydLL78CPuM_000016_000026",
+        "question_id": "SydLL78CPuM_000016_000026_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_1]'s room so messy?\nOptions:\n\na. Because it is used as a place for storing harvested rice.\nb. Because it is used as a place for storing harvested corn.\nc. Because it is used as a makeshift stable for the horse currently present in [person_1]'s room.\nd. Because there are a lot of people currently hanging out in [person_1]'s room.\ne. Because [person_1] has no time to clean the room.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "1bBSBLB40FU_000002_000012",
+        "question_id": "1bBSBLB40FU_000002_000012_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_1] carry heavy things?\nOptions:\n\na. [person_1] is lifting heavy things because he did a lot of shopping and has to bring them back home.\nb. [person_1] is lifting heavy things to build his physique.\nc. [person_1] is lifting heavy things because he is helping unpack stuff from the truck.\nd. [person_1] is lifting heavy things because he is helping unpack stuff from the car.\ne. [person_1] is lifting heavy things because he is helping unpack stuff from the lorry.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "yJcbvIfv4LM_000035_000045",
+        "question_id": "yJcbvIfv4LM_000035_000045_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What would [person_1] do if there were many unfolded clothes in front of [person_1]?\nOptions:\n\na. [person_1] would put the clean clothes on the bed and fold them neatly.\nb. [person_1] would put the clean clothes on the sofa and fold them neatly.\nc. [person_1] would put the clean clothes in the washing machine.\nd. [person_1] would put the clean clothes in the dryer.\ne. [person_1] would put the clean clothes on the black table and fold them neatly.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "9j56a25X0KI_000016_000026",
+        "question_id": "9j56a25X0KI_000016_000026_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [baseball bat_1] falls down?\nOptions:\n\na. [person_1] might get hurt since the bat is unsupported and very close to him.\nb. [person_1] might not get hurt since the bat is far away from him.\nc. [person_1] might not get hurt since the bat is securely kept in a stand.\nd. [person_1] might get hurt since the bat is to the left of where [person_1] is sitting.\ne. [person_1] might get hurt since the bat is to the right of where [person_1] is sitting.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "UQP8kz5kAKg_000021_000031",
+        "question_id": "UQP8kz5kAKg_000021_000031_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why are there so many people around?\nOptions:\n\na. They want to watch the performance.\nb. They are gathered around the site of the accident.\nc. They are involved in a protest.\nd. They are enjoying the musical concert.\ne. They are all attending a conference.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Ng0-FcUQm-w_000033_000043",
+        "question_id": "Ng0-FcUQm-w_000033_000043_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: How does [person_1] use this tool to open the bottle?\nOptions:\n\na. [person_1] twists the bottle opening part with hands instead of using the tool.\nb. [person_1] uses a screw driver to open the bottle.\nc. [person_1] pries the cork off with a lever instead of screwing.\nd. [person_1] screws the nail into the cork and presses the handles.\ne. [person_1] removes the label before opening the bottle.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "cOktW9SKRBM_000003_000013",
+        "question_id": "cOktW9SKRBM_000003_000013_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where is [person_5]?\nOptions:\n\na. [person_5] is sitting on the race track.\nb. [person_5] is standing far away.\nc. [person_5] is standing on the foot path.\nd. [person_5] is jogging beside [person_2].\ne. [person_5] is running in the opposite direction of [person_2].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "RjlyiwCwplo_000022_000032",
+        "question_id": "RjlyiwCwplo_000022_000032_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_1] , [person_2] and [person_3] fold the napkins?\nOptions:\n\na. [person_1] are folding the napkins on the sofa for practice.\nb. [person_1] are folding the napkins on the floor for practice.\nc. [person_1] are folding the napkins on the table for practice.\nd. [person_1] are folding the napkins on the carpet for practice.\ne. [person_1] are folding the napkins on the bed for practice.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "1bBSBLB40FU_000002_000012",
+        "question_id": "1bBSBLB40FU_000002_000012_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [person_1] carries the leverage up?\nOptions:\n\na. Carrying the leverage will prepare [person_1] to lift heavier weights next time.\nb. Carrying the leverage will allow [person_1] to bring his shopped items home.\nc. Carrying the leverage will allow [person_1] to unpack the boxes from the parked truck.\nd. Carrying the leverage will allow [person_1] to unpack the boxes from the parked lorry.\ne. Carrying the leverage will allow [person_1] to unpack the boxes from the parked car.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "FdWj9zTGeGk_000205_000215",
+        "question_id": "FdWj9zTGeGk_000205_000215_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if a screw is missing?\nOptions:\n\na. The bicycle might be unsafe to use.\nb. The airplane might be unsafe to fly.\nc. The car might be unsafe to drive.\nd. The truck might be unsafe to drive.\ne. The crane might be unsafe to operate.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "zkfYvD1xDJA_000445_000455",
+        "question_id": "zkfYvD1xDJA_000445_000455_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does the [person_1] bend knees?\nOptions:\n\na. [person_1] is practicing squats in the gym.\nb. [person_1] is bending to pick up the soccer ball from the ground.\nc. The [person_1] is playing with the tomato sauce bottle.\nd. [person_1] is trying to touch his toes.\ne. [person_1] is bending to avoid the low wall.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "8k5LbCk1Yi8_000033_000043",
+        "question_id": "8k5LbCk1Yi8_000033_000043_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [person_4] is hungry?\nOptions:\n\na. [person_4] will eat snacks from the box on the table.\nb. [person_4] will drink juice from the jug on the table.\nc. [person_4] will eat the pizza from the fridge in the room.\nd. [person_4] will eat the cake kept on the table in the room.\ne. [person_4] will hurry [person_1] up.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "zE7PSjOoErs_000010_000020",
+        "question_id": "zE7PSjOoErs_000010_000020_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is there a shadow moving?\nOptions:\n\na. The person who causes the shadow is standing still.\nb. The sunlight is moving and changing the length of the shadow.\nc. Because the person who causes the shadow is moving.\nd. The ground is shaking, but the person is not moving.\ne. The shadow is being projected onto a static wall.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "egckvMAQxoU_000060_000070",
+        "question_id": "egckvMAQxoU_000060_000070_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [person_1] finishes knitting the sweater?\nOptions:\n\na. [person_1] will take rest on the grey sofa with the orange cushion.\nb. [person_1] will take rest on the grey sofa with the blue cushion.\nc. [person_1] will take rest on the brown sofa with the red cushion.\nd. [person_1] will take rest on the green sofa with the blue cushion.\ne. [person_1] will take rest on the brown sofa with the blue cushion.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "7rSrkagRE00_000183_000193",
+        "question_id": "7rSrkagRE00_000183_000193_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_1] wearing glasses?\nOptions:\n\na. [person_1] is wearing glasses to see clearly in the bright sun.\nb. [person_1] is wearing glasses to avoid glare while skydiving.\nc. [person_1] is wearing glasses to see clearly while parasailing.\nd. [person_1] is wearing glasses because he has difficulty seeing.\ne. [person_1] is wearing glasses to avoid glare while skateboarding.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "TQtOo5x5ACI_000001_000011",
+        "question_id": "TQtOo5x5ACI_000001_000011_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_2] holding?\nOptions:\n\na. [person_2] is holding [pizza slice_1].\nb. [person_2] is holding [burger_1].\nc. [person_2] is holding [taco_1].\nd. [person_2] is holding [donut_1].\ne. [person_2] is holding [apple_1].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "RwVIfdDV14o_000003_000013",
+        "question_id": "RwVIfdDV14o_000003_000013_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why [person_1] and [person_3] raise their hands?\nOptions:\n\na. [person_1] and [person_3] are giving high - five.\nb. [person_1] and [person_3] both want to answer the question.\nc. [person_1] and [person_3] are holding up blank sheets of paper.\nd. [person_1] and [person_3] both want to object to the proposal.\ne. [person_1] and [person_3] both are surrendering to the police.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "nvvq_-RuSWs_000005_000015",
+        "question_id": "nvvq_-RuSWs_000005_000015_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen to [apple_1]?\nOptions:\n\na. [apple_1] will be put into the juicer.\nb. [apple_1] will probably be picked right after.\nc. [apple_1] will fall on [person_1]'s head.\nd. [apple_1] will be cut into pieces and put into the custard.\ne. [apple_1] will be cut into pieces and put into the fruit salad.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "7rSrkagRE00_000183_000193",
+        "question_id": "7rSrkagRE00_000183_000193_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] will stand against the wall and pose for a photo.\nb. [person_1] would paint the canvas with colors.\nc. [person_1] would ask questions of her students.\nd. [person_1] would wipe the board before letting the students see it.\ne. [person_1] would spray paint the wall to color it.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "tQJRkysthik_000036_000046",
+        "question_id": "tQJRkysthik_000036_000046_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_2] going to do ?\nOptions:\n\na. [person_2] is going to wipe her face with the napkins after eating the lasagna on the table.\nb. [person_2] is going to wipe her face with the napkins after eating the burger on the table.\nc. [person_2] is going to wipe her face with the napkins after eating the taco on the table.\nd. [person_2] is going to wipe her face with the napkins after eating the pizza on the table.\ne. [person_2] is going to enjoy the shape of the napkins after folding them into a pretty design.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "tQJRkysthik_000036_000046",
+        "question_id": "tQJRkysthik_000036_000046_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_2] sitting here ?\nOptions:\n\na. [person_2] is playing chess.\nb. [person_2] is eating a burger.\nc. [person_2] is playing cards.\nd. [person_2] is eating a pizza.\ne. [person_2] is folding napkins.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "FCoLuObTjf0_000287_000297",
+        "question_id": "FCoLuObTjf0_000287_000297_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What would happen if [person_1] breaks the ball?\nOptions:\n\na. [person_1] can press the ball to bring it back into shape.\nb. [person_1] cannot restore the ball since it is damaged.\nc. [person_1] can stretch the ball to bring it back into shape.\nd. [person_1] does not need to restore the ball as it automatically came back to shape.\ne. [person_1] can bounce the ball a couple of times to bring it back into shape.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "EAhWa4Vr2X4_000026_000036",
+        "question_id": "EAhWa4Vr2X4_000026_000036_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: At the end of the video , what will the little girl squatting on the ground do?\nOptions:\n\na. The girl will light up the Christmas tree.\nb. The girl will open the presents under the Christmas tree.\nc. The girl will pose for a picture under the Christmas tree.\nd. The girl will pick up the toffees from the ground.\ne. The girl will play with the Christmas decorations on the ground.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "7rSrkagRE00_000183_000193",
+        "question_id": "7rSrkagRE00_000183_000193_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What happens if [person_1] stops lecturing?\nOptions:\n\na. [person_1] might stop breathing.\nb. [person_1] might lose consciousness.\nc. [person_1] might stand up on the table.\nd. [person_1] might drink water.\ne. [person_1] might call the police.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "RwVIfdDV14o_000003_000013",
+        "question_id": "RwVIfdDV14o_000003_000013_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where are [person_1] and [person_3]?\nOptions:\n\na. [person_1] and [person_3] are in the kitchen.\nb. [person_1] and [person_3] are in the bedroom.\nc. [person_1] and [person_3] are in the backyard\nd. [person_1] and [person_3] are sitting on the sofa.\ne. [person_1] and [person_3] are playing tennis.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "-6rd6BQQM_g_000024_000034",
+        "question_id": "-6rd6BQQM_g_000024_000034_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is another man pressing [dog_1]?\nOptions:\n\na. Because the man finds it amusing to press [dog_1].\nb. Or [dog_1] will move during the bandaging.\nc. Or [dog_1] will not be massaged properly.\nd. Because the man is trying to test [dog_1]'s reflexes.\ne. Or [dog_1] is not injured and doesn't need bandaging.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "9zWYCExzFrk_000071_000081",
+        "question_id": "9zWYCExzFrk_000071_000081_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] doing?\nOptions:\n\na. [person_1] is waving her hands.\nb. [person_1] is hammering on the screw.\nc. [person_1] is spraying water on the flowers.\nd. [person_1] is talking on her cell phone.\ne. [person_1] is fishing.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "6jpdD8dIYR8_000084_000094",
+        "question_id": "6jpdD8dIYR8_000084_000094_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_2] kneeling?\nOptions:\n\na. Because [person_2] is arguing with [person_4].\nb. Because [person_2] is holding [person_4] who is a child.\nc. Because [person_2] is proposing to [person_4].\nd. Because [person_2] is proposing to [person_3].\ne. Because [person_2] is praying.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "XmZi7m6AtG8_000004_000014",
+        "question_id": "XmZi7m6AtG8_000004_000014_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_1] holding his cell phone to his left ear?\nOptions:\n\na. [person_1] is using his cell phone for navigation.\nb. [person_1] is texting with his other hand.\nc. [person_1] is listening to music on his cell phone.\nd. [person_1] is talking to someone on the cell phone.\ne. [person_1] is taking a photo or video.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "8RTeThLNnxQ_000014_000024",
+        "question_id": "8RTeThLNnxQ_000014_000024_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What room is it ?\nOptions:\n\na. It is a bathroom.\nb. It is a garage.\nc. It is a living room.\nd. It is a bedroom.\ne. It is a backyard.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "-6rd6BQQM_g_000024_000034",
+        "question_id": "-6rd6BQQM_g_000024_000034_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is the man on the left going to do?\nOptions:\n\na. The man is going to untie the bandage.\nb. He is going to remove the bandage.\nc. The man is going to cut the bandage.\nd. He is going to sew the bandage.\ne. The man on the left is going to tie the bandage.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "8k5LbCk1Yi8_000033_000043",
+        "question_id": "8k5LbCk1Yi8_000033_000043_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] doing to do?\nOptions:\n\na. [person_1] is going to sleep on the sofa.\nb. [person_1] is going to lay the tables.\nc. [person_1] is going to keep playing chess.\nd. [person_1] is going to cook food and offer it for the customer.\ne. [person_1] is going to fix his car's tire.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Ng0-FcUQm-w_000033_000043",
+        "question_id": "Ng0-FcUQm-w_000033_000043_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will [person_1] do after opening the bottle?\nOptions:\n\na. [person_1] will pour the beer into the glass.\nb. [person_1] will wash the bottle with water.\nc. [person_1] will pour the medicine and drink it.\nd. [person_1] will pour beer into the jug nearby.\ne. [person_1] will pick up more beer from the barrel of beer nearby.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "yJcbvIfv4LM_000035_000045",
+        "question_id": "yJcbvIfv4LM_000035_000045_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] doing?\nOptions:\n\na. [person_1] is making her bed.\nb. [person_1] is playing chess.\nc. [person_1] is tying her shoelaces.\nd. [person_1] is folding the clothes.\ne. [person_1] is baking a cake.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Bi7qPU_Kq3I_000068_000078",
+        "question_id": "Bi7qPU_Kq3I_000068_000078_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_2] putting his hand behind [person_1]?\nOptions:\n\na. [person_2] is trying to push [person_1] forward so that she is clearly visible from the crowd.\nb. [person_2] is trying to help [person_2] navigate through the crowd.\nc. [person_2] is trying to strike a pose for the photo.\nd. [person_2] is taking care of [person_1] in case [person_1] falls behind.\ne. [person_2] is intentionally causing [person_1] to stumble or trip.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "BKG7phjghco_000110_000120",
+        "question_id": "BKG7phjghco_000110_000120_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [person_1] doesn't retrograde?\nOptions:\n\na. [person_3] who is behind [person_1] will move away.\nb. [person_3] who is behind [person_1] will approach.\nc. The balloons that [person_1] is holding will not pop due to [person_3] slowing down.\nd. [person_3] will lose interest in the race.\ne. [person_3] will be overtaken by another racer ahead of [person_1].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "AsDCU8KO9lk_000004_000014",
+        "question_id": "AsDCU8KO9lk_000004_000014_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_1] do many actions?\nOptions:\n\na. [person_1] is a tennis player practicing his forehand.\nb. [person_1] is an adult cleaning up his garage.\nc. [person_1] is an adult exercising his muscles.\nd. [person_1] is a professional performer rehearsing a routine.\ne. [person_1] is a machine operating with precision and efficiency.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "egckvMAQxoU_000060_000070",
+        "question_id": "egckvMAQxoU_000060_000070_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] doing?\nOptions:\n\na. [person_1] is cutting his hair.\nb. [person_1] is making her bed.\nc. [person_1] is playing with dolphins.\nd. [person_1] is walking on the other side of the road.\ne. [person_1] is knitting a sweater.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "sXaNQYrb_Gc_000001_000011",
+        "question_id": "sXaNQYrb_Gc_000001_000011_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will [person_4] do after this jump?\nOptions:\n\na. [person_4] will get ready to try the pole vault again.\nb. [person_4] will get ready to try the long jump again.\nc. [person_4] will get ready to try the gymnastic routine again.\nd. [person_4] will get ready to try the baseball swing again.\ne. [person_4] will get ready to try the high jump again.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "BKG7phjghco_000110_000120",
+        "question_id": "BKG7phjghco_000110_000120_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What color is the [person_1]'s shirt?\nOptions:\n\na. The [person_1]'s shirt is monochrome blue.\nb. The [person_1]'s shirt is checkered.\nc. The [person_1]'s shirt is striped with various colors.\nd. The [person_1]'s shirt is monochrome red.\ne. The [person_1]'s shirt is a gradient of blue and yellow.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "GcYTZ38_uek_000053_000063",
+        "question_id": "GcYTZ38_uek_000053_000063_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: how does [person_1] lift the heavyweight?\nOptions:\n\na. [person_1] grabs the weight with two hands and bends his knees lifting the weight up.\nb. [person_1] raises the weight with one hand in one jerk without bending his knees.\nc. [person_1] raises the weight with one hand in one jerk while bending his knees.\nd. [person_1] raises the weight with both hands without bending his knees.\ne. [person_1] raises the weight with both hands but does not rest it on his shoulder.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "FdWj9zTGeGk_000205_000215",
+        "question_id": "FdWj9zTGeGk_000205_000215_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will [person_1] do next\uff1f\nOptions:\n\na. [person_1] will loosen the screw using a screwdriver.\nb. [person_1] will loosen the nut using the wrench.\nc. [person_1] will put the screw on.\nd. [person_1] will loosen the nut using the screwdriver.\ne. [person_1] will apply oil on the rusty joint.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "GcYTZ38_uek_000053_000063",
+        "question_id": "GcYTZ38_uek_000053_000063_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will [person_1] do after lifting the weight to this position?\nOptions:\n\na. [person_1] will drop the heavyweight immediately.\nb. [person_1] will pass the heavyweight to someone else.\nc. [person_1] will put the heavyweight down and take a break.\nd. [person_1] will lower the heavyweight back to the starting position.\ne. [person_1] will then raise the heavyweight above his head and hold it there.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "1vs7I_Fp_48_000008_000018",
+        "question_id": "1vs7I_Fp_48_000008_000018_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: How do vehicles travel on the road?\nOptions:\n\na. The vehicles wait since the signal is red.\nb. The vehicles stop moving after seeing the elderly lady cross the road.\nc. The vehicles stop moving after seeing the child cross the road.\nd. The vehicles slow down since the signal is orange.\ne. The vehicles move since the signal is green.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "RjlyiwCwplo_000022_000032",
+        "question_id": "RjlyiwCwplo_000022_000032_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What does [person_1] tend to do?\nOptions:\n\na. [person_1] tends to unfold the already folded napkin.\nb. [person_1] tends to drop the napkin and not fold it.\nc. [person_1] tends to continue folding the napkin.\nd. [person_1] tends to crumple the napkin instead of folding it.\ne. [person_1] tends to rip the napkin instead of folding it.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "oAY942mvyDo_000016_000026",
+        "question_id": "oAY942mvyDo_000016_000026_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where is [person_2]?\nOptions:\n\na. [person_2] is in the train compartment.\nb. [person_2] is in the stadium.\nc. [person_2] is beside the lake.\nd. [person_2] is on the sofa.\ne. [person_2] is in the [chair_1].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "6jpdD8dIYR8_000084_000094",
+        "question_id": "6jpdD8dIYR8_000084_000094_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [bird_1] doing?\nOptions:\n\na. [bird_1] is eating food from [person_1].\nb. [bird_1] is feeding her babies.\nc. [bird_1] is sitting on the tree branch.\nd. [bird_1] is going to catch fish from the lake.\ne. [bird_1] is making a nest.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "XmZi7m6AtG8_000004_000014",
+        "question_id": "XmZi7m6AtG8_000004_000014_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What color is the T - shirt that [person_1] is wearing?\nOptions:\n\na. [person_1]'s t - shirt is pink.\nb. [person_1]'s t - shirt is black.\nc. [person_1]'s t - shirt is yellow.\nd. [person_1]'s t - shirt is red.\ne. [person_1]'s t - shirt is blue.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "UQP8kz5kAKg_000021_000031",
+        "question_id": "UQP8kz5kAKg_000021_000031_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_2]'s occupation?\nOptions:\n\na. [person_2] is a stuntman.\nb. [person_2] is a fireman.\nc. [person_2] is a circus performer.\nd. [person_2] is a mechanic.\ne. [person_2] is an actor.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Ng0-FcUQm-w_000033_000043",
+        "question_id": "Ng0-FcUQm-w_000033_000043_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What would happen if [person_1] used a spoon?\nOptions:\n\na. [person_1] would not open it successfully.\nb. [person_1] would be able to serve food from the dish easily.\nc. [person_1] would be able to eat food from the plate easily.\nd. [person_1] would be able to mix the cake dough easily.\ne. [person_1] would be able to mix sugar in water easily.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "4J-JjLC9IO4_000100_000110",
+        "question_id": "4J-JjLC9IO4_000100_000110_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What kind of pants is [person_1] wearing?\nOptions:\n\na. [person_1] is wearing jeans.\nb. [person_1] is wearing trousers with a belt.\nc. [person_1] is wearing overalls with large pockets.\nd. [person_1] is wearing leggings or tights.\ne. [person_1] is wearing shorts.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "2ZtWcoG8fmQ_000218_000228",
+        "question_id": "2ZtWcoG8fmQ_000218_000228_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What if the water in [bowl_1] is used up?\nOptions:\n\na. [person_1] will not be able to water the plants if there is no water.\nb. [person_1] will not be able to wash the clothes if there is no water.\nc. [person_1] will not be able to take a shower if there is no water.\nd. [person_1] will not be able to wash his car if there is no water.\ne. [person_1] may not be able to mould the vase if there is no water.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "x-T7V-sNlTU_000000_000010",
+        "question_id": "x-T7V-sNlTU_000000_000010_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why are there so many people sitting on the grandstand?\nOptions:\n\na. They are here to watch the opera performance.\nb. They are here to watch the dance performance.\nc. They are here to watch the live orchestra.\nd. They are here to watch the leader give her speech.\ne. They are here to watch the sports match.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "6jpdD8dIYR8_000084_000094",
+        "question_id": "6jpdD8dIYR8_000084_000094_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [person_6] falls to the ground?\nOptions:\n\na. The ducks will move towards [person_6].\nb. The lion will attack [person_6].\nc. The pigeons will be scared and fly away.\nd. The puppies will be scared and run away.\ne. The crocodile will attack [person_6].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "ryGm1Sb2ff8_000079_000089",
+        "question_id": "ryGm1Sb2ff8_000079_000089_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: How many lights are there on the microscope?\nOptions:\n\na. Three.\nb. Two.\nc. Four.\nd. One.\ne. Five.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "7rSrkagRE00_000183_000193",
+        "question_id": "7rSrkagRE00_000183_000193_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What's [person_1]'s hair like?\nOptions:\n\na. White and straight.\nb. Black and rolled.\nc. Blonde and curly.\nd. Red and short.\ne. Grey and braided.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "RwVIfdDV14o_000003_000013",
+        "question_id": "RwVIfdDV14o_000003_000013_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [person_1] and [person_3] don't do a good job?\nOptions:\n\na. [person_4] will rebuke [person_1] and [person_3] for not doing the job properly.\nb. [person_1] and [person_3] will stop giving high - five.\nc. [person_6] will rebuke [person_1] and [person_3] for not doing the job properly.\nd. [person_5] will rebuke [person_1] and [person_3] for not doing the job properly.\ne. [person_1] and [person_3] will stop fighting with each other.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "2ZtWcoG8fmQ_000218_000228",
+        "question_id": "2ZtWcoG8fmQ_000218_000228_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will [person_1] do next?\nOptions:\n\na. [person_1] will continue to wash the dishes.\nb. [person_1] will continue to practice squats.\nc. [person_1] will continue to drink water.\nd. [person_1] will continue to mould the vase.\ne. [person_1] will continue to water the plants.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "x-T7V-sNlTU_000000_000010",
+        "question_id": "x-T7V-sNlTU_000000_000010_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What would happen if the time were up?\nOptions:\n\na. The team with the least numbers of players disqualified would win the match.\nb. The team which eliminated all of its opponent players before the time ends would win the match.\nc. The team with the most numbers of baskets scored would win the match.\nd. The team with the least goals would lose the match.\ne. The team with the most number of rounds won would win the match.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "8v3f5nuWE1s_000056_000066",
+        "question_id": "8v3f5nuWE1s_000056_000066_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_2] going to do?\nOptions:\n\na. [person_2] is going to stay and engage in conversation.\nb. [person_2] is going to follow [person_1].\nc. [person_2] is going to leave.\nd. [person_2] is going to argue with [person_1].\ne. [person_2] is going to join hands with [person_1].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "GcYTZ38_uek_000053_000063",
+        "question_id": "GcYTZ38_uek_000053_000063_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What would happen if the heavyweight fell off the bar while [person_1] was lifting the weight?\nOptions:\n\na. The heavyweight would remain suspended in mid-air.\nb. [person_1] might get hurt since one of the weights falling might cause the rod to fall on [person_1]'s feet.\nc. The heavyweight would fly off parallel to the length of the rod.\nd. The heavyweight would fly off vertically upwards due to gravity.\ne. [person_1] might not get hurt since he is not practicing on a hard surface.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "HcXa4jmvWvQ_000022_000032",
+        "question_id": "HcXa4jmvWvQ_000022_000032_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_1] raising and lowering the lifts?\nOptions:\n\na. [person_1] wants to support [person_2] lift weights.\nb. [person_1] wants to improve his arms' muscles.\nc. [person_1] wants to support [person_5] lift weights.\nd. [person_1] wants to support [person_3] lift weights.\ne. [person_1] wants to support [person_4] lift weights.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "yJcbvIfv4LM_000035_000045",
+        "question_id": "yJcbvIfv4LM_000035_000045_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] is going to make the bed.\nb. [person_1] is going to prepare dinner.\nc. [person_1] is going to bake a cake.\nd. [person_1] is going to fold the clothes.\ne. [person_1] is going to set the table.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "HcXa4jmvWvQ_000022_000032",
+        "question_id": "HcXa4jmvWvQ_000022_000032_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What would happen if [person_1] felt tired?\nOptions:\n\na. [person_1] might sit on the [char_1] and rest his muscles.\nb. [person_1] would drink some juice from the nearby fridge to re-energize himself.\nc. [person_1] would ask [person_2] to give him some water from the nearby fridge.\nd. [person_1] would take a power nap on the adjacent bed.\ne. [person_1] would drink some juice from the nearby cooler to re-energize himself.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Bi7qPU_Kq3I_000068_000078",
+        "question_id": "Bi7qPU_Kq3I_000068_000078_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_1] going to do?\nOptions:\n\na. [person_1] is going to play cards with [person_2].\nb. [person_1] is going to do push ups on the floor.\nc. [person_1] is going to sit on [chair_1].\nd. [person_1] is going to lay down and play with [person_2] on the carpet.\ne. [person_1] is going to lie down on [bed_1].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "nvvq_-RuSWs_000005_000015",
+        "question_id": "nvvq_-RuSWs_000005_000015_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_1] touching an apple?\nOptions:\n\na. [person_1] wants to pluck it from the tree branch.\nb. [person_1] wants to slice it into pieces to put in the juicer.\nc. [person_1] wants to compare the size of this apple with the orange in his hand.\nd. [person_1] wants to observe the apple more clearly with the magnifying glass in his hand.\ne. [person_1] wants to put slices of apple into the custard bowl in his hand.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "2ZtWcoG8fmQ_000218_000228",
+        "question_id": "2ZtWcoG8fmQ_000218_000228_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why does [person_1] put his hand in?\nOptions:\n\na. Because she wants to pick up a ball from the bag.\nb. Because she wants to pick out her dress from the pile of clothes.\nc. Because she wants to pick up a hundred dollar note from her pocket.\nd. Because she wants to pick up a dime from her pocket to pay the cashier.\ne. Because she wants to give shape to the interior of the vase she is moulding.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "-6rd6BQQM_g_000024_000034",
+        "question_id": "-6rd6BQQM_g_000024_000034_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [dog_1] falls down from the bed?\nOptions:\n\na. [dog_1]'s head which is being bandaged might be injured.\nb. [dog_1]'s leg which is being bandaged might be injured.\nc. [dog_1] may avoid the fall by grasping the bed with its hands.\nd. [dog_1]'s coat may break the fall and prevent severe injury.\ne. [dog_1]'s tail which is being bandaged might be injured.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "zkfYvD1xDJA_000445_000455",
+        "question_id": "zkfYvD1xDJA_000445_000455_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if the [person_1] tilts forward when bending knees?\nOptions:\n\na. [person_1] can be caught by [person_2] standing behind to save him from falling.\nb. [person_1] would not fall as he would be supporting his body on the sofa in front of him.\nc. The [person_1] might topple over and collide with the kitchen slab in front of him.\nd. [person_1] would not fall as he would be supporting his body on the couch in front of him.\ne. The [person_1] might topple over and collide with the car in front of him.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "UQP8kz5kAKg_000021_000031",
+        "question_id": "UQP8kz5kAKg_000021_000031_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What does [person_2] do?\nOptions:\n\na. [person_2] is giving a speech.\nb. [person_2] is swimming.\nc. [person_2] is playing football.\nd. [person_2] is dancing.\ne. [person_2] is giving a performance.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "9j56a25X0KI_000016_000026",
+        "question_id": "9j56a25X0KI_000016_000026_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where might [person_1] be?\nOptions:\n\na. [person_1] might be in a classroom.\nb. [person_1] might be in a playground.\nc. [person_1] might be in a beach.\nd. [person_1] might be in a forest.\ne. [person_1] might be in an airplane.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "8v3f5nuWE1s_000056_000066",
+        "question_id": "8v3f5nuWE1s_000056_000066_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [person_1] falls down from the chair but [person_1] uses [person_1]'s left arm to keep [person_1]'s body from hitting on the ground?\nOptions:\n\na. [person_2]'s abdomen will get a secondary injury.\nb. [person_2]'s head will get a secondary injury.\nc. [person_2]'s chest will get a secondary injury.\nd. [person_1]'s arm will get a secondary injury.\ne. [person_2]'s leg will get a secondary injury.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "AsDCU8KO9lk_000004_000014",
+        "question_id": "AsDCU8KO9lk_000004_000014_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where is [truck_1]?\nOptions:\n\na. [truck_1] is in front of [person_1].\nb. [truck_1] is to the right of [person_1].\nc. [truck_1] is behind [person_1].\nd. [truck_1] is to the left of [person_1].\ne. [truck_1] is under the ground.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "6jpdD8dIYR8_000084_000094",
+        "question_id": "6jpdD8dIYR8_000084_000094_predictive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is [person_4] going to do?\nOptions:\n\na. [person_4] is going to reach forward and touch the dolphin.\nb. [person_4] is going to pick up one of the kittens.\nc. [person_4] is going to sit down and touch the baby deer.\nd. [person_4] is going to pick up one of the puppies.\ne. [person_4] is going to sit down and touch the bird.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "Bi7qPU_Kq3I_000068_000078",
+        "question_id": "Bi7qPU_Kq3I_000068_000078_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [person_1] falls behind while walking?\nOptions:\n\na. [person_2], who is to the right of him, will hold him back and protect him.\nb. [person_2], who is in front of him, will hold him back and protect him.\nc. [person_2], who is to the left from him, will hold him back and protect him.\nd. [person_2], who is above him, will hold him back and protect him.\ne. [person_2], who is far away from him, will hold him back and protect him.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "1bBSBLB40FU_000002_000012",
+        "question_id": "1bBSBLB40FU_000002_000012_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where is [car_1]?\nOptions:\n\na. [car_1] is in front of [person_1].\nb. [car_1] is to the left of [person_1].\nc. [car_1] is above [person_1].\nd. [car_1] is to the right of [person_1].\ne. [car_1] is behind [person_1].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "SAnpnkZj724_000000_000010",
+        "question_id": "SAnpnkZj724_000000_000010_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where is [knife_1]?\nOptions:\n\na. It is on the table under [person_1].\nb. It is on the table above [person_1].\nc. It is inside the juicer held by [person_1]\nd. It is on the table to the left of [person_1].\ne. It is on the table to the right of [person_1].\n\nAnswer: \n"
+    },
+    {
+        "video_name": "FdWj9zTGeGk_000205_000215",
+        "question_id": "FdWj9zTGeGk_000205_000215_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is the room so small?\nOptions:\n\na. Because it is a garage.\nb. Because it is a playground.\nc. Because it is an attic.\nd. Because it is a bathroom.\ne. Because it is a studio.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "8k5LbCk1Yi8_000033_000043",
+        "question_id": "8k5LbCk1Yi8_000033_000043_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Why is [person_2] standing there?\nOptions:\n\na. [person_2] is watching [person_1] play tennis.\nb. [person_2] is watching [person_1] light a fire.\nc. [person_2] is waiting in line behind [person_1] for the washroom.\nd. [person_2] is watching [person_1] teach the class.\ne. [person_2] is waiting for her meal.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "egckvMAQxoU_000060_000070",
+        "question_id": "egckvMAQxoU_000060_000070_explanatory",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: How does [person_1] knit?\nOptions:\n\na. [person_1] uses a sewing pin.\nb. [person_1] uses her hands only.\nc. [person_1] uses a pen for knitting.\nd. [person_1] uses a pencil for knitting.\ne. [person_1] uses a knitting needle.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "SydLL78CPuM_000016_000026",
+        "question_id": "SydLL78CPuM_000016_000026_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will happen if [person_1] just focuses on working instead of [person_1]'s health?\nOptions:\n\na. [person_1] would be reprimanded by [person_2] to take care of himself.\nb. [person_1] would not be reprimanded since there is no one nearby, but he might have to skip lunch.\nc. [person_1] would be reprimanded by [person_3] to take care of himself.\nd. [person_1] would be reprimanded by [person_5] to take care of himself.\ne. [person_1] would be reprimanded by [person_4] to take care of himself.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "-6rd6BQQM_g_000024_000034",
+        "question_id": "-6rd6BQQM_g_000024_000034_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What is the man on the left doing?\nOptions:\n\na. The man on the left is taking [dog_1] out for a walk.\nb. The man on the left is bandaging [dog_1].\nc. The man on the left is giving [dog_1] food to eat.\nd. The man on the left throws a ball for [dog_1] to fetch back.\ne. The man on the left gives a bone to [dog_1] to lick.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "zkfYvD1xDJA_000445_000455",
+        "question_id": "zkfYvD1xDJA_000445_000455_descriptive",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: Where is the [refrigerator_1]?\nOptions:\n\na. The [refrigerator_1] is above [person_1].\nb. The [refrigerator_1] is adjacent to [person_1].\nc. The [refrigerator_1] is behind [person_1].\nd. The [refrigerator_1] is in front of [person_1].\ne. The [refrigerator_1] is in a different room to which [person_1] is currently in.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "nvvq_-RuSWs_000005_000015",
+        "question_id": "nvvq_-RuSWs_000005_000015_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What would happen if [person_1] did not roll the apple a few times before picking it?\nOptions:\n\na. The apple would not be affected in any way.\nb. The apple would roll more smoothly and evenly if it was not rolled before picking.\nc. The apple's texture and quality would change.\nd. The apple would be easier to pick from the branch.\ne. The apple would remain suspended in mid-air.\n\nAnswer: \n"
+    },
+    {
+        "video_name": "RjlyiwCwplo_000022_000032",
+        "question_id": "RjlyiwCwplo_000022_000032_counterfactual",
+        "question": "Answer the question with the option's letter from the given choices directly.\n\nQuestion: What will [person_1] do if without [person_2] and [person_3]?\nOptions:\n\na. [person_1] will keep swimming in the pool by himself.\nb. [person_1] will play football by himself.\nc. [person_2] will keep jogging by himself.\nd. [person_2] will fold a single napkin for himself.\ne. [person_2] will play chess using the chessboard on the table by himself.\n\nAnswer: \n"
+    }
+]
